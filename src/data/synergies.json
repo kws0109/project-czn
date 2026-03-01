@@ -1,0 +1,162 @@
+[
+  {
+    "id": "syn-void-2",
+    "name": "Void Resonance",
+    "nameKo": "공허 공명",
+    "type": "attribute",
+    "required": { "value": "Void", "count": 2 },
+    "bonus": { "stat": "attack", "value": 10, "description": "공허 속성 2인 이상: 공격력 10% 증가" }
+  },
+  {
+    "id": "syn-void-3",
+    "name": "Void Domination",
+    "nameKo": "공허 지배",
+    "type": "attribute",
+    "required": { "value": "Void", "count": 3 },
+    "bonus": { "stat": "attack", "value": 20, "description": "공허 속성 3인: 공격력 20% 증가" }
+  },
+  {
+    "id": "syn-justice-2",
+    "name": "Justice Unity",
+    "nameKo": "정의 결속",
+    "type": "attribute",
+    "required": { "value": "Justice", "count": 2 },
+    "bonus": { "stat": "defense", "value": 15, "description": "정의 속성 2인 이상: 방어력 15% 증가" }
+  },
+  {
+    "id": "syn-order-2",
+    "name": "Order Discipline",
+    "nameKo": "질서 규율",
+    "type": "attribute",
+    "required": { "value": "Order", "count": 2 },
+    "bonus": { "stat": "health", "value": 12, "description": "질서 속성 2인 이상: HP 12% 증가" }
+  },
+  {
+    "id": "syn-instinct-2",
+    "name": "Instinct Fury",
+    "nameKo": "본능 격노",
+    "type": "attribute",
+    "required": { "value": "Instinct", "count": 2 },
+    "bonus": { "stat": "critChance", "value": 8, "description": "본능 속성 2인 이상: 치명타 확률 8% 증가" }
+  },
+  {
+    "id": "syn-instinct-3",
+    "name": "Instinct Rampage",
+    "nameKo": "본능 폭주",
+    "type": "attribute",
+    "required": { "value": "Instinct", "count": 3 },
+    "bonus": { "stat": "critChance", "value": 15, "description": "본능 속성 3인: 치명타 확률 15% 증가" }
+  },
+  {
+    "id": "syn-passion-2",
+    "name": "Passion Blaze",
+    "nameKo": "열정 불꽃",
+    "type": "attribute",
+    "required": { "value": "Passion", "count": 2 },
+    "bonus": { "stat": "critDamage", "value": 20, "description": "열정 속성 2인 이상: 치명타 데미지 20% 증가" }
+  },
+  {
+    "id": "syn-passion-3",
+    "name": "Passion Inferno",
+    "nameKo": "열정 화염",
+    "type": "attribute",
+    "required": { "value": "Passion", "count": 3 },
+    "bonus": { "stat": "critDamage", "value": 35, "description": "열정 속성 3인: 치명타 데미지 35% 증가" }
+  },
+  {
+    "id": "syn-hunter-2",
+    "name": "Hunter's Pack",
+    "nameKo": "사냥꾼 무리",
+    "type": "class",
+    "required": { "value": "Hunter", "count": 2 },
+    "bonus": { "stat": "critChance", "value": 10, "description": "헌터 2인 이상: 치명타 확률 10% 증가" }
+  },
+  {
+    "id": "syn-striker-2",
+    "name": "Striker Formation",
+    "nameKo": "스트라이커 대형",
+    "type": "class",
+    "required": { "value": "Striker", "count": 2 },
+    "bonus": { "stat": "attack", "value": 12, "description": "스트라이커 2인 이상: 공격력 12% 증가" }
+  },
+  {
+    "id": "syn-vanguard-2",
+    "name": "Vanguard Wall",
+    "nameKo": "뱅가드 방벽",
+    "type": "class",
+    "required": { "value": "Vanguard", "count": 2 },
+    "bonus": { "stat": "defense", "value": 15, "description": "뱅가드 2인 이상: 방어력 15% 증가" }
+  },
+  {
+    "id": "syn-ranger-2",
+    "name": "Ranger Precision",
+    "nameKo": "레인저 정밀",
+    "type": "class",
+    "required": { "value": "Ranger", "count": 2 },
+    "bonus": { "stat": "attack", "value": 10, "description": "레인저 2인 이상: 공격력 10% 증가" }
+  },
+  {
+    "id": "syn-controller-2",
+    "name": "Controller Synapse",
+    "nameKo": "컨트롤러 시냅스",
+    "type": "class",
+    "required": { "value": "Controller", "count": 2 },
+    "bonus": { "stat": "health", "value": 12, "description": "컨트롤러 2인 이상: HP 12% 증가" }
+  },
+  {
+    "id": "syn-psionic-2",
+    "name": "Psionic Link",
+    "nameKo": "사이오닉 연결",
+    "type": "class",
+    "required": { "value": "Psionic", "count": 2 },
+    "bonus": { "stat": "attack", "value": 10, "description": "사이오닉 2인 이상: 공격력 10% 증가" }
+  },
+  {
+    "id": "syn-terrascion-2",
+    "name": "Terrascion Bond",
+    "nameKo": "테라시온 유대",
+    "type": "faction",
+    "required": { "value": "Terrascion", "count": 2 },
+    "bonus": { "stat": "attack", "value": 8, "description": "테라시온 2인 이상: 공격력 8% 증가" }
+  },
+  {
+    "id": "syn-terrascion-3",
+    "name": "Terrascion Alliance",
+    "nameKo": "테라시온 동맹",
+    "type": "faction",
+    "required": { "value": "Terrascion", "count": 3 },
+    "bonus": { "stat": "attack", "value": 15, "description": "테라시온 3인: 공격력 15% 증가" }
+  },
+  {
+    "id": "syn-stella-2",
+    "name": "Stella Fellowship",
+    "nameKo": "스텔라 동료",
+    "type": "faction",
+    "required": { "value": "Stella Familia", "count": 2 },
+    "bonus": { "stat": "health", "value": 10, "description": "스텔라 파밀리아 2인 이상: HP 10% 증가" }
+  },
+  {
+    "id": "syn-ironrain-2",
+    "name": "Ironrain Discipline",
+    "nameKo": "아이언레인 규율",
+    "type": "faction",
+    "required": { "value": "Ironrain", "count": 2 },
+    "bonus": { "stat": "defense", "value": 10, "description": "아이언레인 2인 이상: 방어력 10% 증가" }
+  },
+  {
+    "id": "syn-peltion-2",
+    "name": "Peltion Tactics",
+    "nameKo": "펠티온 전술",
+    "type": "faction",
+    "required": { "value": "Peltion", "count": 2 },
+    "bonus": { "stat": "critChance", "value": 8, "description": "펠티온 2인 이상: 치명타 확률 8% 증가" }
+  },
+  {
+    "id": "syn-wanderer-2",
+    "name": "Wanderer's Freedom",
+    "nameKo": "방랑자의 자유",
+    "type": "faction",
+    "required": { "value": "Wanderer", "count": 2 },
+    "bonus": { "stat": "attack", "value": 10, "description": "방랑자 2인 이상: 공격력 10% 증가" }
+  }
+]

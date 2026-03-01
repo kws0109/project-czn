@@ -1,0 +1,1007 @@
+[
+  {
+    "id": "renoa",
+    "name": "Renoa",
+    "nameKo": "레노아",
+    "rarity": 5,
+    "class": "Hunter",
+    "attribute": "Void",
+    "faction": "Terrascion",
+    "imageUrl": "https://www.prydwen.gg/static/d8632173ae4750ac502aa6c0f9fd9d85/2547a/renoa_card.webp",
+    "stats": {
+      "attack": {
+        "base": 82,
+        "max": 492
+      },
+      "defense": {
+        "base": 26,
+        "max": 155
+      },
+      "health": {
+        "base": 67,
+        "max": 399
+      },
+      "critChance": 10,
+      "critDamage": 12
+    },
+    "cardIds": [
+      "renoa-card-1",
+      "renoa-card-2",
+      "renoa-card-3",
+      "renoa-card-4",
+      "renoa-card-5",
+      "renoa-card-6",
+      "renoa-card-7"
+    ]
+  },
+  {
+    "id": "nine",
+    "name": "Nine",
+    "nameKo": "나인",
+    "rarity": 5,
+    "class": "Vanguard",
+    "attribute": "Order",
+    "faction": "Wanderer",
+    "imageUrl": "https://www.prydwen.gg/static/808bd7ca202ae419a430384f05893a1c/2547a/nine_c.webp",
+    "stats": {
+      "attack": {
+        "base": 68,
+        "max": 407
+      },
+      "defense": {
+        "base": 30,
+        "max": 178
+      },
+      "health": {
+        "base": 69,
+        "max": 411
+      },
+      "critChance": 10,
+      "critDamage": 12
+    },
+    "cardIds": [
+      "nine-card-1",
+      "nine-card-2",
+      "nine-card-3",
+      "nine-card-4",
+      "nine-card-5",
+      "nine-card-6",
+      "nine-card-7"
+    ],
+    "traits": [
+      "defBasedDamage"
+    ]
+  },
+  {
+    "id": "mika",
+    "name": "Mika",
+    "nameKo": "미카",
+    "rarity": 4,
+    "class": "Controller",
+    "attribute": "Justice",
+    "faction": "Terrascion",
+    "imageUrl": "https://www.prydwen.gg/static/e638d89e02d785c77b78aa7852696dd1/2547a/mika_card.webp",
+    "stats": {
+      "attack": {
+        "base": 67,
+        "max": 402
+      },
+      "defense": {
+        "base": 29,
+        "max": 176
+      },
+      "health": {
+        "base": 65,
+        "max": 388
+      },
+      "critChance": 10,
+      "critDamage": 12
+    },
+    "cardIds": [
+      "mika-card-1",
+      "mika-card-2",
+      "mika-card-3",
+      "mika-card-4",
+      "mika-card-5",
+      "mika-card-6",
+      "mika-card-7"
+    ]
+  },
+  {
+    "id": "chizuru",
+    "name": "Chizuru",
+    "nameKo": "치즈루",
+    "rarity": 5,
+    "class": "Psionic",
+    "attribute": "Void",
+    "faction": "Peltion",
+    "imageUrl": "https://www.prydwen.gg/static/a69c85f9255dedce185b23645e8bdf01/2547a/chi_card.webp",
+    "stats": {
+      "attack": {
+        "base": 74,
+        "max": 443
+      },
+      "defense": {
+        "base": 28,
+        "max": 169
+      },
+      "health": {
+        "base": 59,
+        "max": 356
+      },
+      "critChance": 10,
+      "critDamage": 12
+    },
+    "cardIds": [
+      "chizuru-card-1",
+      "chizuru-card-2",
+      "chizuru-card-3",
+      "chizuru-card-4",
+      "chizuru-card-5",
+      "chizuru-card-6",
+      "chizuru-card-7"
+    ]
+  },
+  {
+    "id": "haru",
+    "name": "Haru",
+    "nameKo": "하루",
+    "rarity": 5,
+    "class": "Striker",
+    "attribute": "Justice",
+    "faction": "Terrascion",
+    "imageUrl": "https://www.prydwen.gg/static/5ce2378ea36903d2e731bf738fb3dbd7/2547a/haru_card.webp",
+    "stats": {
+      "attack": {
+        "base": 78,
+        "max": 467
+      },
+      "defense": {
+        "base": 26,
+        "max": 155
+      },
+      "health": {
+        "base": 63,
+        "max": 376
+      },
+      "critChance": 10,
+      "critDamage": 12
+    },
+    "cardIds": [
+      "haru-card-1",
+      "haru-card-2",
+      "haru-card-3",
+      "haru-card-4",
+      "haru-card-5",
+      "haru-card-6",
+      "haru-card-7",
+      "haru-card-8"
+    ]
+  },
+  {
+    "id": "hugo",
+    "name": "Hugo",
+    "nameKo": "휴고",
+    "rarity": 5,
+    "class": "Ranger",
+    "attribute": "Order",
+    "faction": "Stella Familia",
+    "imageUrl": "https://www.prydwen.gg/static/07b2532be8dbdf9a736b8332c884e71d/2547a/hugo_card.webp",
+    "stats": {
+      "attack": {
+        "base": 84,
+        "max": 506
+      },
+      "defense": {
+        "base": 24,
+        "max": 146
+      },
+      "health": {
+        "base": 64,
+        "max": 381
+      },
+      "critChance": 10,
+      "critDamage": 12
+    },
+    "cardIds": [
+      "hugo-card-1",
+      "hugo-card-2",
+      "hugo-card-3",
+      "hugo-card-4",
+      "hugo-card-5",
+      "hugo-card-6",
+      "hugo-card-7"
+    ]
+  },
+  {
+    "id": "kayron",
+    "name": "Kayron",
+    "nameKo": "카이론",
+    "rarity": 5,
+    "class": "Psionic",
+    "attribute": "Void",
+    "faction": "Wanderer",
+    "imageUrl": "https://www.prydwen.gg/static/98d6dca948f82dab9abfd86ff892d11b/2547a/kayron_card.webp",
+    "stats": {
+      "attack": {
+        "base": 74,
+        "max": 444
+      },
+      "defense": {
+        "base": 28,
+        "max": 169
+      },
+      "health": {
+        "base": 71,
+        "max": 426
+      },
+      "critChance": 10,
+      "critDamage": 12
+    },
+    "cardIds": [
+      "kayron-card-1",
+      "kayron-card-2",
+      "kayron-card-3",
+      "kayron-card-4",
+      "kayron-card-5",
+      "kayron-card-6",
+      "kayron-card-7"
+    ]
+  },
+  {
+    "id": "khalipe",
+    "name": "Khalipe",
+    "nameKo": "칼리페",
+    "rarity": 5,
+    "class": "Vanguard",
+    "attribute": "Instinct",
+    "faction": "Stella Familia",
+    "imageUrl": "https://www.prydwen.gg/static/720b046888956ef2dcd37cb5d58f0ade/2547a/khalip_card.webp",
+    "stats": {
+      "attack": {
+        "base": 68,
+        "max": 408
+      },
+      "defense": {
+        "base": 31,
+        "max": 183
+      },
+      "health": {
+        "base": 82,
+        "max": 493
+      },
+      "critChance": 10,
+      "critDamage": 12
+    },
+    "cardIds": [
+      "khalipe-card-1",
+      "khalipe-card-2",
+      "khalipe-card-3",
+      "khalipe-card-4",
+      "khalipe-card-5",
+      "khalipe-card-6",
+      "khalipe-card-7"
+    ],
+    "traits": [
+      "defBasedDamage"
+    ]
+  },
+  {
+    "id": "luke",
+    "name": "Luke",
+    "nameKo": "루크",
+    "rarity": 5,
+    "class": "Hunter",
+    "attribute": "Order",
+    "faction": "Ironrain",
+    "imageUrl": "https://www.prydwen.gg/static/3c298dd9dc2b8e6ddf137e74dd152726/2547a/luka_card.webp",
+    "stats": {
+      "attack": {
+        "base": 82,
+        "max": 492
+      },
+      "defense": {
+        "base": 26,
+        "max": 155
+      },
+      "health": {
+        "base": 67,
+        "max": 399
+      },
+      "critChance": 10,
+      "critDamage": 12
+    },
+    "cardIds": [
+      "luke-card-1",
+      "luke-card-2",
+      "luke-card-3",
+      "luke-card-4",
+      "luke-card-5",
+      "luke-card-6"
+    ]
+  },
+  {
+    "id": "magna",
+    "name": "Magna",
+    "nameKo": "마그나",
+    "rarity": 5,
+    "class": "Vanguard",
+    "attribute": "Justice",
+    "faction": "Stella Familia",
+    "imageUrl": "https://www.prydwen.gg/static/ebcf22b1984abb7d075a084b20ac1099/2547a/magna_card.webp",
+    "stats": {
+      "attack": {
+        "base": 68,
+        "max": 408
+      },
+      "defense": {
+        "base": 31,
+        "max": 183
+      },
+      "health": {
+        "base": 82,
+        "max": 493
+      },
+      "critChance": 10,
+      "critDamage": 12
+    },
+    "cardIds": [
+      "magna-card-1",
+      "magna-card-2",
+      "magna-card-3",
+      "magna-card-4",
+      "magna-card-5",
+      "magna-card-6",
+      "magna-card-7"
+    ],
+    "traits": [
+      "defBasedDamage"
+    ]
+  },
+  {
+    "id": "mei-lin",
+    "name": "Mei Lin",
+    "nameKo": "메이린",
+    "rarity": 5,
+    "class": "Striker",
+    "attribute": "Passion",
+    "faction": "Terrascion",
+    "imageUrl": "https://www.prydwen.gg/static/4dc2dc4a26a229ae743a4a1a5851f35f/2547a/Meilin_card.webp",
+    "stats": {
+      "attack": {
+        "base": 78,
+        "max": 468
+      },
+      "defense": {
+        "base": 26,
+        "max": 155
+      },
+      "health": {
+        "base": 74,
+        "max": 446
+      },
+      "critChance": 10,
+      "critDamage": 12
+    },
+    "cardIds": [
+      "mei-lin-card-1",
+      "mei-lin-card-2",
+      "mei-lin-card-3",
+      "mei-lin-card-4",
+      "mei-lin-card-5",
+      "mei-lin-card-6",
+      "mei-lin-card-7"
+    ]
+  },
+  {
+    "id": "narja",
+    "name": "Narja",
+    "nameKo": "나르자",
+    "rarity": 5,
+    "class": "Controller",
+    "attribute": "Instinct",
+    "faction": "Peltion",
+    "imageUrl": "https://www.prydwen.gg/static/2206f28a2eaf03776a6338d9159522e1/2547a/narja_card.webp",
+    "stats": {
+      "attack": {
+        "base": 70,
+        "max": 419
+      },
+      "defense": {
+        "base": 33,
+        "max": 197
+      },
+      "health": {
+        "base": 56,
+        "max": 336
+      },
+      "critChance": 10,
+      "critDamage": 12
+    },
+    "cardIds": [
+      "narja-card-1",
+      "narja-card-2",
+      "narja-card-3",
+      "narja-card-4",
+      "narja-card-5",
+      "narja-card-6",
+      "narja-card-7"
+    ],
+    "traits": [
+      "defBasedDamage"
+    ]
+  },
+  {
+    "id": "orlea",
+    "name": "Orlea",
+    "nameKo": "올레아",
+    "rarity": 5,
+    "class": "Controller",
+    "attribute": "Instinct",
+    "faction": "The Holy Crusaders",
+    "imageUrl": "https://www.prydwen.gg/static/57f82d28d86ce80fb0096ecda18208b6/2547a/orlea_card.webp",
+    "stats": {
+      "attack": {
+        "base": 70,
+        "max": 420
+      },
+      "defense": {
+        "base": 33,
+        "max": 197
+      },
+      "health": {
+        "base": 68,
+        "max": 406
+      },
+      "critChance": 10,
+      "critDamage": 12
+    },
+    "cardIds": [
+      "orlea-card-1",
+      "orlea-card-2",
+      "orlea-card-3",
+      "orlea-card-4",
+      "orlea-card-5",
+      "orlea-card-6",
+      "orlea-card-7"
+    ]
+  },
+  {
+    "id": "rin",
+    "name": "Rin",
+    "nameKo": "린",
+    "rarity": 5,
+    "class": "Striker",
+    "attribute": "Void",
+    "faction": "Wanderer",
+    "imageUrl": "https://www.prydwen.gg/static/994c8e3ef3fa1fafbae0ad6256aeda3d/2547a/rin_card.webp",
+    "stats": {
+      "attack": {
+        "base": 78,
+        "max": 468
+      },
+      "defense": {
+        "base": 26,
+        "max": 155
+      },
+      "health": {
+        "base": 74,
+        "max": 446
+      },
+      "critChance": 10,
+      "critDamage": 12
+    },
+    "cardIds": [
+      "rin-card-1",
+      "rin-card-2",
+      "rin-card-3",
+      "rin-card-4",
+      "rin-card-5",
+      "rin-card-6",
+      "rin-card-7",
+      "rin-card-8",
+      "rin-card-9"
+    ]
+  },
+  {
+    "id": "sereniel",
+    "name": "Sereniel",
+    "nameKo": "세레니엘",
+    "rarity": 5,
+    "class": "Hunter",
+    "attribute": "Instinct",
+    "faction": "Terrascion",
+    "imageUrl": "https://www.prydwen.gg/static/02902efa39cc1c179d25f7362580ec12/2547a/sere_card.webp",
+    "stats": {
+      "attack": {
+        "base": 82,
+        "max": 491
+      },
+      "defense": {
+        "base": 26,
+        "max": 156
+      },
+      "health": {
+        "base": 40,
+        "max": 239
+      },
+      "critChance": 10,
+      "critDamage": 12
+    },
+    "cardIds": [
+      "sereniel-card-1",
+      "sereniel-card-2",
+      "sereniel-card-3",
+      "sereniel-card-4",
+      "sereniel-card-5",
+      "sereniel-card-6",
+      "sereniel-card-7"
+    ]
+  },
+  {
+    "id": "tiphera",
+    "name": "Tiphera",
+    "nameKo": "티페라",
+    "rarity": 5,
+    "class": "Controller",
+    "attribute": "Order",
+    "faction": "Wanderer",
+    "imageUrl": "https://www.prydwen.gg/static/b24bd880a73446629d723b940dcbe3ba/2547a/tiphera_c.webp",
+    "stats": {
+      "attack": {
+        "base": 70,
+        "max": 420
+      },
+      "defense": {
+        "base": 31,
+        "max": 186
+      },
+      "health": {
+        "base": 67,
+        "max": 400
+      },
+      "critChance": 10,
+      "critDamage": 12
+    },
+    "cardIds": [
+      "tiphera-card-1",
+      "tiphera-card-2",
+      "tiphera-card-3",
+      "tiphera-card-4",
+      "tiphera-card-5",
+      "tiphera-card-6",
+      "tiphera-card-7"
+    ],
+    "traits": [
+      "defBasedDamage"
+    ]
+  },
+  {
+    "id": "veronica",
+    "name": "Veronica",
+    "nameKo": "베로니카",
+    "rarity": 5,
+    "class": "Ranger",
+    "attribute": "Passion",
+    "faction": "Stella Familia",
+    "imageUrl": "https://www.prydwen.gg/static/7e073ee7c0d3b652adbf6b9e4042cfc5/2547a/veronica_card.webp",
+    "stats": {
+      "attack": {
+        "base": 86,
+        "max": 516
+      },
+      "defense": {
+        "base": 24,
+        "max": 141
+      },
+      "health": {
+        "base": 63,
+        "max": 378
+      },
+      "critChance": 10,
+      "critDamage": 12
+    },
+    "cardIds": [
+      "veronica-card-1",
+      "veronica-card-2",
+      "veronica-card-3",
+      "veronica-card-4",
+      "veronica-card-5",
+      "veronica-card-6",
+      "veronica-card-7"
+    ]
+  },
+  {
+    "id": "yuki",
+    "name": "Yuki",
+    "nameKo": "유키",
+    "rarity": 5,
+    "class": "Striker",
+    "attribute": "Order",
+    "faction": "Terrascion",
+    "imageUrl": "https://www.prydwen.gg/static/81fc05339c0d7b65a78e2b09cae5c8a2/2547a/yuki_card.webp",
+    "stats": {
+      "attack": {
+        "base": 78,
+        "max": 467
+      },
+      "defense": {
+        "base": 26,
+        "max": 155
+      },
+      "health": {
+        "base": 63,
+        "max": 376
+      },
+      "critChance": 10,
+      "critDamage": 12
+    },
+    "cardIds": [
+      "yuki-card-1",
+      "yuki-card-2",
+      "yuki-card-3",
+      "yuki-card-4",
+      "yuki-card-5",
+      "yuki-card-6",
+      "yuki-card-7",
+      "yuki-card-8"
+    ]
+  },
+  {
+    "id": "amir",
+    "name": "Amir",
+    "nameKo": "아미르",
+    "rarity": 4,
+    "class": "Vanguard",
+    "attribute": "Order",
+    "faction": "Terrascion",
+    "imageUrl": "https://www.prydwen.gg/static/0b745fa8a9476625b0a51f9e276bc97e/2547a/amir_card.webp",
+    "stats": {
+      "attack": {
+        "base": 64,
+        "max": 383
+      },
+      "defense": {
+        "base": 29,
+        "max": 172
+      },
+      "health": {
+        "base": 77,
+        "max": 461
+      },
+      "critChance": 10,
+      "critDamage": 12
+    },
+    "cardIds": [
+      "amir-card-1",
+      "amir-card-2",
+      "amir-card-3",
+      "amir-card-4",
+      "amir-card-5",
+      "amir-card-6",
+      "amir-card-7"
+    ],
+    "traits": [
+      "defBasedDamage"
+    ]
+  },
+  {
+    "id": "beryl",
+    "name": "Beryl",
+    "nameKo": "베릴",
+    "rarity": 4,
+    "class": "Ranger",
+    "attribute": "Justice",
+    "faction": "Ironrain",
+    "imageUrl": "https://www.prydwen.gg/static/111ba568859809cd244413b9bcbf2fec/2547a/beryl_card.webp",
+    "stats": {
+      "attack": {
+        "base": 81,
+        "max": 483
+      },
+      "defense": {
+        "base": 23,
+        "max": 138
+      },
+      "health": {
+        "base": 61,
+        "max": 363
+      },
+      "critChance": 10,
+      "critDamage": 12
+    },
+    "cardIds": [
+      "beryl-card-1",
+      "beryl-card-2",
+      "beryl-card-3",
+      "beryl-card-4",
+      "beryl-card-5",
+      "beryl-card-6",
+      "beryl-card-7",
+      "beryl-card-8"
+    ]
+  },
+  {
+    "id": "cassius",
+    "name": "Cassius",
+    "nameKo": "카시우스",
+    "rarity": 4,
+    "class": "Controller",
+    "attribute": "Instinct",
+    "faction": "Peltion",
+    "imageUrl": "https://www.prydwen.gg/static/5cd2cdcf1a2ed8bb772fe77030209ebb/2547a/cassius_card.webp",
+    "stats": {
+      "attack": {
+        "base": 66,
+        "max": 393
+      },
+      "defense": {
+        "base": 31,
+        "max": 186
+      },
+      "health": {
+        "base": 64,
+        "max": 383
+      },
+      "critChance": 10,
+      "critDamage": 12
+    },
+    "cardIds": [
+      "cassius-card-1",
+      "cassius-card-2",
+      "cassius-card-3",
+      "cassius-card-4",
+      "cassius-card-5",
+      "cassius-card-6",
+      "cassius-card-7"
+    ]
+  },
+  {
+    "id": "lucas",
+    "name": "Lucas",
+    "nameKo": "루카스",
+    "rarity": 4,
+    "class": "Hunter",
+    "attribute": "Passion",
+    "faction": "Ironrain",
+    "imageUrl": "https://www.prydwen.gg/static/8797f9468837971aee438b986a91181c/2547a/lucas_card.webp",
+    "stats": {
+      "attack": {
+        "base": 77,
+        "max": 461
+      },
+      "defense": {
+        "base": 25,
+        "max": 147
+      },
+      "health": {
+        "base": 63,
+        "max": 375
+      },
+      "critChance": 10,
+      "critDamage": 12
+    },
+    "cardIds": [
+      "lucas-card-1",
+      "lucas-card-2",
+      "lucas-card-3",
+      "lucas-card-4",
+      "lucas-card-5",
+      "lucas-card-6"
+    ]
+  },
+  {
+    "id": "maribell",
+    "name": "Maribell",
+    "nameKo": "마리벨",
+    "rarity": 4,
+    "class": "Vanguard",
+    "attribute": "Passion",
+    "faction": "Ironrain",
+    "imageUrl": "https://www.prydwen.gg/static/10ffe95d47a3517a1b12a4f87789a3c5/2547a/maribell_card.webp",
+    "stats": {
+      "attack": {
+        "base": 64,
+        "max": 383
+      },
+      "defense": {
+        "base": 29,
+        "max": 172
+      },
+      "health": {
+        "base": 77,
+        "max": 461
+      },
+      "critChance": 10,
+      "critDamage": 12
+    },
+    "cardIds": [
+      "maribell-card-1",
+      "maribell-card-2",
+      "maribell-card-3",
+      "maribell-card-4",
+      "maribell-card-5",
+      "maribell-card-6",
+      "maribell-card-7",
+      "maribell-card-8"
+    ],
+    "traits": [
+      "defBasedDamage"
+    ]
+  },
+  {
+    "id": "nia",
+    "name": "Nia",
+    "nameKo": "니아",
+    "rarity": 4,
+    "class": "Controller",
+    "attribute": "Instinct",
+    "faction": "Terrascion",
+    "imageUrl": "https://www.prydwen.gg/static/b3536392cc19b3f0c4740f957a5e1d3b/2547a/nia_card.webp",
+    "stats": {
+      "attack": {
+        "base": 66,
+        "max": 393
+      },
+      "defense": {
+        "base": 31,
+        "max": 186
+      },
+      "health": {
+        "base": 64,
+        "max": 383
+      },
+      "critChance": 10,
+      "critDamage": 12
+    },
+    "cardIds": [
+      "nia-card-1",
+      "nia-card-2",
+      "nia-card-3",
+      "nia-card-4",
+      "nia-card-5",
+      "nia-card-6",
+      "nia-card-7"
+    ]
+  },
+  {
+    "id": "owen",
+    "name": "Owen",
+    "nameKo": "오웬",
+    "rarity": 4,
+    "class": "Striker",
+    "attribute": "Passion",
+    "faction": "Terrascion",
+    "imageUrl": "https://www.prydwen.gg/static/875efc383ffbaf08a20e8280e37293a4/2547a/owen_card.webp",
+    "stats": {
+      "attack": {
+        "base": 73,
+        "max": 439
+      },
+      "defense": {
+        "base": 25,
+        "max": 147
+      },
+      "health": {
+        "base": 70,
+        "max": 418
+      },
+      "critChance": 10,
+      "critDamage": 12
+    },
+    "cardIds": [
+      "owen-card-1",
+      "owen-card-2",
+      "owen-card-3",
+      "owen-card-4",
+      "owen-card-5",
+      "owen-card-6",
+      "owen-card-7"
+    ]
+  },
+  {
+    "id": "rei",
+    "name": "Rei",
+    "nameKo": "레이",
+    "rarity": 4,
+    "class": "Controller",
+    "attribute": "Void",
+    "faction": "Terrascion",
+    "imageUrl": "https://www.prydwen.gg/static/f71f964cba5947f4c46752fc93e2fd2c/2547a/rei_card.webp",
+    "stats": {
+      "attack": {
+        "base": 66,
+        "max": 393
+      },
+      "defense": {
+        "base": 31,
+        "max": 186
+      },
+      "health": {
+        "base": 64,
+        "max": 383
+      },
+      "critChance": 10,
+      "critDamage": 12
+    },
+    "cardIds": [
+      "rei-card-1",
+      "rei-card-2",
+      "rei-card-3",
+      "rei-card-4",
+      "rei-card-5",
+      "rei-card-6",
+      "rei-card-7"
+    ]
+  },
+  {
+    "id": "selena",
+    "name": "Selena",
+    "nameKo": "셀레나",
+    "rarity": 4,
+    "class": "Ranger",
+    "attribute": "Passion",
+    "faction": "Stella Familia",
+    "imageUrl": "https://www.prydwen.gg/static/e02bfbc7dbe796816d305089304826e4/2547a/selene_card.webp",
+    "stats": {
+      "attack": {
+        "base": 81,
+        "max": 483
+      },
+      "defense": {
+        "base": 23,
+        "max": 138
+      },
+      "health": {
+        "base": 61,
+        "max": 363
+      },
+      "critChance": 10,
+      "critDamage": 12
+    },
+    "cardIds": [
+      "selena-card-1",
+      "selena-card-2",
+      "selena-card-3",
+      "selena-card-4",
+      "selena-card-5",
+      "selena-card-6",
+      "selena-card-7"
+    ]
+  },
+  {
+    "id": "tressa",
+    "name": "Tressa",
+    "nameKo": "트레사",
+    "rarity": 4,
+    "class": "Psionic",
+    "attribute": "Void",
+    "faction": "Terrascion",
+    "imageUrl": "https://www.prydwen.gg/static/466b69fe2d1e91d4fed0a1b2d8f49af9/2547a/Tressa_card.webp",
+    "stats": {
+      "attack": {
+        "base": 69,
+        "max": 415
+      },
+      "defense": {
+        "base": 26,
+        "max": 158
+      },
+      "health": {
+        "base": 67,
+        "max": 403
+      },
+      "critChance": 10,
+      "critDamage": 12
+    },
+    "cardIds": [
+      "tressa-card-1",
+      "tressa-card-2",
+      "tressa-card-3",
+      "tressa-card-4",
+      "tressa-card-5",
+      "tressa-card-6",
+      "tressa-card-7"
+    ]
+  }
+]

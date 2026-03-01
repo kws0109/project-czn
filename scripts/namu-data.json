@@ -1,0 +1,24 @@
+{
+  "renoa": {
+    "portrait": "https://i.namu.wiki/i/tj-b6gCFpT34Qu5AbcGcSRRvX3p6NXOtpxes7Sh3j9LbZrDuT1LhrdwZPCWIwTZ0Lif1PhxIiabfuGMw-em2Bg.webp",
+    "cardImages": [
+      {"alt": "카제나 레노아 일반카드 1", "src": "https://i.namu.wiki/i/YI9M281xQ7IlnFXEZ0PwXA1P-amGnnz2NaRnOPdiDQYvwduh6nPdyY04tG4sW3wrf0QMJ6EqhilCDtuud5R8nivPtiRjy6zZfy6eoXJntc6TJTWL0QSFid3CsecjfJIo3_pDVCQcSV9XwO9avzX26w.webp"},
+      {"alt": "카제나 레노아 일반카드 2", "src": "https://i.namu.wiki/i/w0mW94X9odyn8UcpyXXLg2iCPoAtyg6HVVTub_fl0zGPZ6EwIeHI3s0ZtwT3xLCnBPUDJ2eXAk6Mh-oShhoq0u5kLi9C2EouWGRvEXHUK9aUB9qZ6wIt83H4d3RGi6_TFehjWuFV7iG56-gaKM952g.webp"},
+      {"alt": "카제나 레노아 고유카드 1", "src": "https://i.namu.wiki/i/huTYzOh1dtBMVhETCl3jFDYUT8ZlwWO5NXB2kCfGR8kvxG8HP54Fp9kUqnSFB5KVq_JgnPhHxEfoGlKEdhUOrIRjMrNAQBAw37UwuJP9zeaHZXn7EJ1ETYdwM-pLFQN2HK4C6jC1EcaSAt6nSNTjrw.webp"},
+      {"alt": "카제나 레노아 고유카드 2", "src": "https://i.namu.wiki/i/-sUNdFtm8RMtVKzPTVHcVcOtwSdIuWO8EzNgiYdd6exthYJBX5L5C6vOmaMeIEgZHYi3W4NZ0Lf0MC99CgpRjMN0RKcbtFPkr4oHel1UHENSrla-ELRID3xB_ruq4_8n1LXHI3lSTBNXqg9zaE6Uug.webp"},
+      {"alt": "카제나 레노아 고유카드 3", "src": "https://i.namu.wiki/i/3CqhS-l3CU4FU3E8trNHA-bGUyd0uOe1Ij2fPq2sKY_nOa0OYZM_RmxJEb59on_w1h5pmm6W9ZQAkxg9ENh5IVibeSG2tVb7esSMTAj_ow28rWAiBM3y9gZe6L-7ilV2z362qMN8U3AArtBoPGPHPA.webp"},
+      {"alt": "카제나 레노아 고유카드 4", "src": "https://i.namu.wiki/i/j2PiWabvEqpM7Ut7rlr9xpNQ6TP59dfej67k3xkmjt21HMSQBZrT5J1sqQ7M7E993eAN7JHzh_0nv9WyW6qlrVVAIP3WDrZwfIwGOodevKwzRnMlqtbUzcd11EAMfmOh2IYaDGsMlEll99zklAypCw.webp"},
+      {"alt": "카제나 레노아 고유카드 5", "src": "https://i.namu.wiki/i/YnYwIBIqcPSfthR3CqBJ73bbLzTbEMWlrtcbEWsfLr_Xw6_wHs-9Ch8ErWMxMAqVpEhlVtD3_lA7HqaKAQdF98Ox4QqQt6J9jpdFoI_4AzMSAQq3aVnP1-psNksOOZrwCHauyqnK6TblPcR3bdRrDA.webp"}
+    ],
+    "cards": [
+      {"name": "섬멸 사격", "category": "Starting", "apCost": 1, "type": "Attack", "tags": [], "description": "피해 100%", "effects": [{"type": "damage", "value": 100, "hits": 1}]},
+      {"name": "검은 장막", "category": "Starting", "apCost": 1, "type": "Skill", "tags": [], "description": "실드 100%", "effects": [{"type": "shield", "value": 100}]},
+      {"name": "비탄의 메아리", "category": "Epiphany", "apCost": 1, "type": "Attack", "tags": [], "description": "피해 140% 진혼의 탄환 1장 생성", "effects": [{"type": "damage", "value": 140, "hits": 1}]},
+      {"name": "즉결 심판", "category": "Epiphany", "apCost": 1, "type": "Attack", "tags": [], "description": "피해 180% 핸드에 진혼의 탄환이 있다면 1장 버리고 피해량 +100%", "effects": [{"type": "damage", "value": 180, "hits": 1}]},
+      {"name": "칠흑의 송시", "category": "Epiphany", "apCost": 1, "type": "Attack", "tags": [], "description": "피해 50% x 3 핸드의 진혼의 탄환 수만큼 피해량 +20%", "effects": [{"type": "damage", "value": 50, "hits": 3}]},
+      {"name": "운명을 삼킨 꽃", "category": "Epiphany", "apCost": 0, "type": "Skill", "tags": [], "description": "핸드의 카드 2장까지 버리기 그 수만큼 진혼의 탄환 생성", "effects": []},
+      {"name": "결사의 일격", "category": "Epiphany", "apCost": 1, "type": "Attack", "tags": ["보존"], "description": "[보존] 피해 150% 진혼의 탄환 모두 버리기, 그 수만큼 피해량 +50%", "effects": [{"type": "damage", "value": 150, "hits": 1}]}
+    ],
+    "stats": {"attack": 491, "defense": 155, "health": 329, "critChance": 3, "critDamage": 125}
+  }
+}

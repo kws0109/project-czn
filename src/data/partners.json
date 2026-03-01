@@ -1,0 +1,47 @@
+[
+  {
+    "id": "partner-void-support",
+    "name": "Shadow Familiar",
+    "nameKo": "그림자 사역마",
+    "passives": [
+      { "description": "공허 속성 캐릭터의 공격력 10% 증가", "stat": "attack", "value": 10, "condition": "attribute:Void" }
+    ],
+    "egoSkill": {
+      "name": "Void Collapse",
+      "description": "적 전체에게 공격력의 200% 피해",
+      "effects": [
+        { "type": "damage", "value": 200, "hits": 1, "target": "all" }
+      ]
+    }
+  },
+  {
+    "id": "partner-order-support",
+    "name": "Guardian Shade",
+    "nameKo": "수호의 그림자",
+    "passives": [
+      { "description": "질서 속성 캐릭터의 방어력 12% 증가", "stat": "defense", "value": 12, "condition": "attribute:Order" }
+    ],
+    "egoSkill": {
+      "name": "Order's Decree",
+      "description": "아군 전체 방어력 20% 증가 2턴",
+      "effects": [
+        { "type": "buff", "value": 20, "target": "all", "duration": 2, "stat": "defense" }
+      ]
+    }
+  },
+  {
+    "id": "partner-justice-support",
+    "name": "Holy Wisp",
+    "nameKo": "성스러운 도깨비불",
+    "passives": [
+      { "description": "정의 속성 캐릭터의 치유량 15% 증가", "stat": "healing", "value": 15, "condition": "attribute:Justice" }
+    ],
+    "egoSkill": {
+      "name": "Purifying Light",
+      "description": "아군 전체 HP 150% 회복",
+      "effects": [
+        { "type": "heal", "value": 150, "target": "all" }
+      ]
+    }
+  }
+]

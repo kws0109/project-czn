@@ -1,0 +1,3319 @@
+[
+  {
+    "id": "renoa-card-1",
+    "name": "섬멸 사격",
+    "nameKo": "섬멸 사격",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "피해 100%",
+    "imageUrl": "https://i.namu.wiki/i/YI9M281xQ7IlnFXEZ0PwXA1P-amGnnz2NaRnOPdiDQYvwduh6nPdyY04tG4sW3wrf0QMJ6EqhilCDtuud5R8nivPtiRjy6zZfy6eoXJntc6TJTWL0QSFid3CsecjfJIo3_pDVCQcSV9XwO9avzX26w.webp"
+  },
+  {
+    "id": "renoa-card-2",
+    "name": "검은 장막",
+    "nameKo": "검은 장막",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "실드 100% 5.2. 고유 카드",
+    "imageUrl": "https://i.namu.wiki/i/w0mW94X9odyn8UcpyXXLg2iCPoAtyg6HVVTub_fl0zGPZ6EwIeHI3s0ZtwT3xLCnBPUDJ2eXAk6Mh-oShhoq0u5kLi9C2EouWGRvEXHUK9aUB9qZ6wIt83H4d3RGi6_TFehjWuFV7iG56-gaKM952g.webp"
+  },
+  {
+    "id": "renoa-card-3",
+    "name": "비탄의 메아리",
+    "nameKo": "비탄의 메아리",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 140
+      }
+    ],
+    "tags": [],
+    "description": "피해 140% 진혼의 탄환 1장 생성",
+    "imageUrl": "https://i.namu.wiki/i/huTYzOh1dtBMVhETCl3jFDYUT8ZlwWO5NXB2kCfGR8kvxG8HP54Fp9kUqnSFB5KVq_JgnPhHxEfoGlKEdhUOrIRjMrNAQBAw37UwuJP9zeaHZXn7EJ1ETYdwM-pLFQN2HK4C6jC1EcaSAt6nSNTjrw.webp"
+  },
+  {
+    "id": "renoa-card-4",
+    "name": "즉결 심판",
+    "nameKo": "즉결 심판",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 180
+      }
+    ],
+    "tags": [],
+    "description": "피해 180% 핸드에 진혼의 탄환이 있다면 1장 버리고 피해량 +100%",
+    "imageUrl": "https://i.namu.wiki/i/-sUNdFtm8RMtVKzPTVHcVcOtwSdIuWO8EzNgiYdd6exthYJBX5L5C6vOmaMeIEgZHYi3W4NZ0Lf0MC99CgpRjMN0RKcbtFPkr4oHel1UHENSrla-ELRID3xB_ruq4_8n1LXHI3lSTBNXqg9zaE6Uug.webp"
+  },
+  {
+    "id": "renoa-card-5",
+    "name": "칠흑의 송시",
+    "nameKo": "칠흑의 송시",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 50,
+        "hits": 3
+      }
+    ],
+    "tags": [],
+    "description": "피해 50% x 3 핸드의 진혼의 탄환 수만큼 피해량 +20%",
+    "imageUrl": "https://i.namu.wiki/i/3CqhS-l3CU4FU3E8trNHA-bGUyd0uOe1Ij2fPq2sKY_nOa0OYZM_RmxJEb59on_w1h5pmm6W9ZQAkxg9ENh5IVibeSG2tVb7esSMTAj_ow28rWAiBM3y9gZe6L-7ilV2z362qMN8U3AArtBoPGPHPA.webp"
+  },
+  {
+    "id": "renoa-card-6",
+    "name": "운명을 삼킨 꽃",
+    "nameKo": "운명을 삼킨 꽃",
+    "category": "Epiphany",
+    "apCost": 0,
+    "type": "Skill",
+    "effects": [],
+    "tags": [],
+    "description": "핸드의 카드 2장까지 버리기 그 수만큼 진혼의 탄환 생성",
+    "imageUrl": "https://i.namu.wiki/i/j2PiWabvEqpM7Ut7rlr9xpNQ6TP59dfej67k3xkmjt21HMSQBZrT5J1sqQ7M7E993eAN7JHzh_0nv9WyW6qlrVVAIP3WDrZwfIwGOodevKwzRnMlqtbUzcd11EAMfmOh2IYaDGsMlEll99zklAypCw.webp"
+  },
+  {
+    "id": "renoa-card-7",
+    "name": "결사의 일격",
+    "nameKo": "결사의 일격",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 150
+      }
+    ],
+    "tags": [
+      "보존"
+    ],
+    "description": "피해 150% 진혼의 탄환 모두 버리기, 그 수만큼 피해량 +50% 5.3. 탄환 카드",
+    "imageUrl": "https://i.namu.wiki/i/YnYwIBIqcPSfthR3CqBJ73bbLzTbEMWlrtcbEWsfLr_Xw6_wHs-9Ch8ErWMxMAqVpEhlVtD3_lA7HqaKAQdF98Ox4QqQt6J9jpdFoI_4AzMSAQq3aVnP1-psNksOOZrwCHauyqnK6TblPcR3bdRrDA.webp"
+  },
+  {
+    "id": "nine-card-1",
+    "name": "참격",
+    "nameKo": "참격",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "방어 기반 피해 100%",
+    "imageUrl": "https://i.namu.wiki/i/7FbMKWDtoLgBTnE-WNLizmGkvhMQxMLWX73KF_OlZdZSnfBBnXqWxCzcFt387QfE68ifBZlHSfvta-YmIIMog5p5NiqJqc5xfpWthfU13_FNChDdsp5kv2ilfVFSAA3A-RL820uy5PDMFXIwLgx2iQ.webp"
+  },
+  {
+    "id": "nine-card-2",
+    "name": "칼등 막기",
+    "nameKo": "칼등 막기",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "실드 100%",
+    "imageUrl": "https://i.namu.wiki/i/zYw1O7aOkpQ38gcjpWtBEMP2N-ghJts8JwTPuUiIR4L5urZv1TPezB-hL0Ph9P63IrecS5Dx1d-XsWJNu8BsCiU1_DIPxwiEh0qvK1U_j10f8ycJrPgKV7TQSohUXTCm_cSM_hUlL3_kL1zE_EYz0Q.webp"
+  },
+  {
+    "id": "nine-card-3",
+    "name": "파쇄",
+    "nameKo": "파쇄",
+    "category": "Epiphany",
+    "apCost": 3,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 350
+      }
+    ],
+    "tags": [
+      "유일",
+      "개전",
+      "소멸",
+      "증발"
+    ],
+    "description": "방어 기반 피해 350% 소각 : 파쇄 Lv. 1 1장 생성",
+    "imageUrl": "https://i.namu.wiki/i/XHGIhJ60pml52c0Z8QwWsiVQepbIZXppzGvkbueZEhim88a8uJRuJL7AF6D3zvDz1AW7xfeCBTRmG_QoOOCf6_mNWtKWPsFpx-cYGz02V6w9b_10bfbP_zzuyTZTAqqJt7sG2jPFdMSZbGwWAm3xsQ.webp"
+  },
+  {
+    "id": "nine-card-4",
+    "name": "노련한 일격",
+    "nameKo": "노련한 일격",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 140
+      },
+      {
+        "type": "shield",
+        "value": 20
+      }
+    ],
+    "tags": [],
+    "description": "방어 기반 피해 140% 피해 기반 실드 20% 1턴간 소멸 카드의 피해량 20% 증가",
+    "imageUrl": "https://i.namu.wiki/i/fibXhD_ZXP7Kk1TpnUC5eD7K8amnkZEgM26nq0mbz8LCXDSIlHoKIobA5nbJSpo2hiBElu2RFyB35j36suChUfyIe6atsjH527wPvZ088OqZI17SzBuozcwhny8DxhXTJOjB0NzK32MSKFwP9cZ7bg.webp"
+  },
+  {
+    "id": "nine-card-5",
+    "name": "치명적 일격",
+    "nameKo": "치명적 일격",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 140
+      }
+    ],
+    "tags": [],
+    "description": "방어 기반 피해 140% 비용이 가장 높은 소멸 카드의 비용만큼 피해량 20% 증가, 그 카드 소멸",
+    "imageUrl": "https://i.namu.wiki/i/Mob8p3d7EkMAXHAc2fwFF-U-YWMlm83AkIcV560uOv5lBeno9Hp9L6Fjq-O1w1ES0ee7pXQuWlhWS_ALyAUqx5AQLBgTphVmnE_ld1exXZckkFlVGIpm0woacuUnNX4H6yTL46TPS1I5Qn4NoX1dPg.webp"
+  },
+  {
+    "id": "nine-card-6",
+    "name": "역전의 칼날",
+    "nameKo": "역전의 칼날",
+    "category": "Epiphany",
+    "apCost": 0,
+    "type": "Upgrade",
+    "effects": [],
+    "tags": [
+      "유일"
+    ],
+    "description": "능력으로 실드 획득 시 칼날 벼리기 1[칼날벼리기]",
+    "imageUrl": "https://i.namu.wiki/i/OkJW87Aa8gMe9Kd8f0thr4gZfjz4nZgIFGCqA6dz-if8yvRWVWBXN9VOCeOMWT9HYzPcUEdhtIYNJwa2xTwLRnzoHvGUIAuX80frpP9_FquMbTZ6Lnjf47OToBLCmA8O6h0MQO7dJqb6A1oSBjtTxQ.webp"
+  },
+  {
+    "id": "nine-card-7",
+    "name": "투지",
+    "nameKo": "투지",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 250
+      }
+    ],
+    "tags": [],
+    "description": "비용이 가장 높은 자신의 공격 카드 1장 발동, 그 카드 소멸",
+    "imageUrl": "https://i.namu.wiki/i/OWq8XiABw48fM2q3ieT9Cj9TFiwl3k67ZPVHpiJfudXzLIQzmSdS4lTAv3CRm1Z3O_GphObDX3XuAQtH_4K4axCgsGbYunZCu1xTBkz9ADG3Fy1Bw4qRkO6AKj2-m5qRA3N5P_q6OT5Li7QxkDPF8g.webp"
+  },
+  {
+    "id": "mika-card-1",
+    "name": "물의 화살",
+    "nameKo": "물의 화살",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "피해 100%",
+    "imageUrl": "https://i.namu.wiki/i/bRN8rrL3TRPpkF-t1BzywriCKCiW73MpIAS6b4rwRWfq40Ocb4Q92Lea7Xf7NBF3JwhjyZQeiAEcLsADhne2FhrQ1fcFUZjjdBFzivfn1geVSi8u6WekJNRvDlqsmVSjqADy5i6JH8aOHOPadIJLcg.webp"
+  },
+  {
+    "id": "mika-card-2",
+    "name": "물의 보호막",
+    "nameKo": "물의 보호막",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "heal",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "치유 100%",
+    "imageUrl": "https://i.namu.wiki/i/5jTF6t2PjDg5ZbTCFnr1uaGrwZJkevLn8dDjQ604wEzz3SduQvUZLlPfeb4S4e0-eSVFMaZI5OhFSYV9hBU2D5JWjfOPzyvjhG3G2qdoV0Bxcjz1-a2BBsGeFiN8QUEioEIPn6GuJnMiaNiL-sGgmg.webp"
+  },
+  {
+    "id": "mika-card-3",
+    "name": "물의 근원",
+    "nameKo": "물의 근원",
+    "category": "Epiphany",
+    "apCost": 0,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "heal",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "치유 100% 행동 포인트",
+    "imageUrl": "https://i.namu.wiki/i/1CuWkt4U1_u7G9ffNbg6Fdlz_Hwn0XfMAk6nxnOZ74KXKxZBMs5StAlY5bqc5_oqBxV_qpnPaBcUABahwSk50eNMuK70j61yhWOfPbrZx3gfwKHaKEvssPuTFTn3eYk8OuuUlT6zNn4s0Pa0hBN5Vg.webp"
+  },
+  {
+    "id": "mika-card-4",
+    "name": "파도의 가호",
+    "nameKo": "파도의 가호",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "heal",
+        "value": 100
+      }
+    ],
+    "tags": [
+      "보존"
+    ],
+    "description": "치유 100% 행동 포인트 수만큼 치유량 30% 증가",
+    "imageUrl": "https://i.namu.wiki/i/ttrlijMw4B_rtUafah2-2E7_uF8U2v-crMNdGGQUB52M2F3DJrONrt46e64VS7l8TTpuIEI3EGGxnSEmKWG9e-Rqoj29b501W6L5wdzjU24ejmgSMywUe-ogZ2z9jmxKhL1v_CAdI_NwV6e83nFBCg.webp"
+  },
+  {
+    "id": "mika-card-5",
+    "name": "작전 분석",
+    "nameKo": "작전 분석",
+    "category": "Epiphany",
+    "apCost": 0,
+    "type": "Skill",
+    "effects": [],
+    "tags": [],
+    "description": "물결 1[물결] 1턴간 치유량 +50%",
+    "imageUrl": "https://i.namu.wiki/i/5POmstkIccl4_96Kscs-mQxLE6q37VCo99mFacClbCTXBmnE9CGCYnaC9qBrExqHzxVfZiNYMp7C78p4AXaK8wfXdGBSChy5DI3jMQLvvWEHvQcAcWorPyPVlPdrnk4Cb5mxv0zcrCO008QXZU74xg.webp"
+  },
+  {
+    "id": "mika-card-6",
+    "name": "소용돌이",
+    "nameKo": "소용돌이",
+    "category": "Epiphany",
+    "apCost": 2,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 200
+      },
+      {
+        "type": "heal",
+        "value": 50
+      }
+    ],
+    "tags": [],
+    "description": "모든 적 피해 200% 타격한 대상 수만큼 치유 50%",
+    "imageUrl": "https://i.namu.wiki/i/hSzvPmxGOF02m6gexOCMrQE1stDMwt3jH-yASoZ8SYr_G4upWnyMK9ByMk-kfG-NNlXQgImgYkA2IRr-ajAU42pG7gx3w4tJrruKAEuwufaQmq9AnN9XSlaHDmi-EL6-9-ZrQu8EvVyZaF5bvoeccQ.webp"
+  },
+  {
+    "id": "mika-card-7",
+    "name": "범람",
+    "nameKo": "범람",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Upgrade",
+    "effects": [],
+    "tags": [
+      "유일"
+    ],
+    "description": "물결 1[물결] 턴 시작 시 물결",
+    "imageUrl": "https://i.namu.wiki/i/5G3byivMjsl7rSolEdUhnsN9xVdDSKlKnzgpnmPFMAtvBFCcIAf7AXd5InaUW6hNvQcsT-d2TKRuFJaXbRk7VcEVPDDhRdp-RXk9Vwyzb1isn5bQ33WnUAP2t9zflhSBCpBVwalJ90xX1SFKbVLv_g.webp"
+  },
+  {
+    "id": "chizuru-card-1",
+    "name": "참월",
+    "nameKo": "참월",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "피해 100% 기본 카드 숙련",
+    "imageUrl": "https://i.namu.wiki/i/U9ZOw-K5ZqJ_rdw2derBJVSuQKKmbZuCgbc2gjZq9YiVgGsmz60txpWibp1L2jvfs9laFPcqCZj_tuYZKdNjSUujYF13RuMWh1li3mT0lusUa5Ed3HtC2BiPmuPLJ8bC_k6cteGALDgvbOjw8W4bmA.webp"
+  },
+  {
+    "id": "chizuru-card-2",
+    "name": "혼불의 보호",
+    "nameKo": "혼불의 보호",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "실드 100%",
+    "imageUrl": "https://i.namu.wiki/i/sO-FYXl3b7vbWKc4-JVuLsvLMcFPsfUClOEV6aKo3KZI211tU4FoKWULhszJWwr4SE2BNpGlho0-yKTpq6Mv3-fIYMNL8pSSeS82f6diSFKHQmYIGbh7hgPEUtXDUKqhilBjhE6viIhbm41gQIavww.webp"
+  },
+  {
+    "id": "chizuru-card-3",
+    "name": "업화",
+    "nameKo": "업화",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 100
+      }
+    ],
+    "tags": [
+      "개전"
+    ],
+    "description": "피해 100% 주박술 1[주박술] 주박술 : 타격 2회 추가",
+    "imageUrl": "https://i.namu.wiki/i/3gBF211rVc3grQhipw1qWs4-VhtnrmDUGOksof4Ohkl-W_GpxpOz9PhLUEr0RvkyiL8WG4Cg8Ez16HCM_Tloec5PnHpczt1Q6zBCm4K5XNXRrRrxFBk2EL50RYyCOFWeZ4W-0Y9cZIXeY-qxtpS9ZA.webp"
+  },
+  {
+    "id": "chizuru-card-4",
+    "name": "츠쿠요미",
+    "nameKo": "츠쿠요미",
+    "category": "Epiphany",
+    "apCost": 0,
+    "type": "Skill",
+    "effects": [],
+    "tags": [],
+    "description": "다음 자신의 공격 카드 사용 시 타격 수만큼 도깨비불 3[도깨비불]",
+    "imageUrl": "https://i.namu.wiki/i/U2OrbvmigGDxRuLwogfH2EC3ZHiBaMmyETiDSKZcF62CS2VxX_cwSAYGonvZBqimGLDgTKjsu2t7GWeYYO3ROf_va3aQ2z_RaTEZe_lfu4pvViWbu2V1qQDHm3VFcQVdsyZytrTEbQqgXc16RYYicw.webp"
+  },
+  {
+    "id": "chizuru-card-5",
+    "name": "황혼의 결속",
+    "nameKo": "황혼의 결속",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Upgrade",
+    "effects": [],
+    "tags": [
+      "개전",
+      "유일"
+    ],
+    "description": "턴 시작 시 구속 획득[구속] 무작위 다른 전투원 카드 2장 사용 시까지 비용 1감소",
+    "imageUrl": "https://i.namu.wiki/i/8WnGD9xYPjXsZGUN8Ww_uhrHzEx5eVHeCZiMDh5smoRtej1FaXbhMZ7GqXVXwVcrVmzhArIT_bLRcIlWuRRe6Lqf2SFhK1LD1QlZO2cJWLTevyAeF5C2zSdSqkzLHM2hlVkuj6wP6zUjUh6t2CDHfQ.webp"
+  },
+  {
+    "id": "chizuru-card-6",
+    "name": "도깨비 사냥",
+    "nameKo": "도깨비 사냥",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 60,
+        "hits": 3
+      }
+    ],
+    "tags": [
+      "신속"
+    ],
+    "description": "피해 60% x 3 다음 사용하는 결속 카드 피해량 +80%",
+    "imageUrl": "https://i.namu.wiki/i/lYJS-TLoCwHvqm1SpTxyaHqlUeXMFx2sC6oZznPs9fH0f0uj71R3baVva2tIKo4qyaMf1JWDHyQoXYEi6ufbMs-XTCeyHFzSpI91z_C4AScGu4riD9HXZrFt3IpClT-xYhAAgs_nZyQgoItMNhVKfQ.webp"
+  },
+  {
+    "id": "chizuru-card-7",
+    "name": "달그림자",
+    "nameKo": "달그림자",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 80
+      }
+    ],
+    "tags": [],
+    "description": "피해 80% 결속 중첩 수만큼 피해량 +40%",
+    "imageUrl": "https://i.namu.wiki/i/mgJIkryHaULVE97LgMpGz6F7YYxkjFeFjZyXJBYhTiMTCbRLMqYVuqNyZU1aUoWXx1olt8ZDQ7uT4DzuCMQ92fGOuqm4DLKAsWSqnt6vwezLgHBltKqIyV-zkMCf0inJgGSGj7TPpPIbt_FnmjpbKg.webp"
+  },
+  {
+    "id": "haru-card-1",
+    "name": "앵커",
+    "nameKo": "앵커",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "피해 100%",
+    "imageUrl": "https://i.namu.wiki/i/Pd_qLwcT56bkfCgsPlEpjuhOdn5e-xyiAAKAbYTGB8JvR4WSPgv8xL5AOusKe0OwV6uMEJAs-0F4gdH6eBR2uNwhbc2fncUXWDkcg2w-nkPlgQJ2gAXeqBONDCWnW5ETz8qw0JKrTMVdpVU9716blg.webp"
+  },
+  {
+    "id": "haru-card-2",
+    "name": "파워 앵커",
+    "nameKo": "파워 앵커",
+    "category": "Starting",
+    "apCost": 2,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 220
+      }
+    ],
+    "tags": [],
+    "description": "피해 220%",
+    "imageUrl": "https://i.namu.wiki/i/x1VtTRDQDMjLofloGttBNsWtfkKh9T8FA3vazlfD_0bo2DmtXQaYrJZb8B9P-qTSpp4Pr0_RnMQZSMmDglleriVnSjaHjzATQ4aTbp2plPpiFkJ8Z5DTt49tH0TdwcsBCdG5bVExxyIzKB9f-7HE2g.webp"
+  },
+  {
+    "id": "haru-card-3",
+    "name": "앵커 드롭",
+    "nameKo": "앵커 드롭",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "실드 100%",
+    "imageUrl": "https://i.namu.wiki/i/A46RUHGZn_1Yc7x7frIpeL_3Yu_VF6qN3HM3XR7ML2XAIzNwQKTP0OCytjwiRyl3E7iQiNRAY21qCWDEbdjEAQThfB21rKqbr6J9br0U099d14cYKfnuYnS2hfVOHPXc-X1tUsnpucW5N6fxyyMIqA.webp"
+  },
+  {
+    "id": "haru-card-4",
+    "name": "앵커 슛",
+    "nameKo": "앵커 슛",
+    "category": "Epiphany",
+    "apCost": 2,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 300
+      }
+    ],
+    "tags": [],
+    "description": "피해 300% 이 카드를 사용한 수만큼 피해량 +80% (최대 10)",
+    "imageUrl": "https://i.namu.wiki/i/hmeXzlfjf9NBKeASrqNXu-v1_iYpd3hiK4Rctuj1jhjZuzdrtYUfnkpIMpSeOE8VNmNZ2xKZ06h7aFahwrvuEZagATm8OpqNJ0FpU-CB7061f8djHjNAyNOhpq6TrNtvCmPUodHI9N1yl8Wc3a3_cQ.webp"
+  },
+  {
+    "id": "haru-card-5",
+    "name": "앵커포인터",
+    "nameKo": "앵커포인터",
+    "category": "Epiphany",
+    "apCost": 0,
+    "type": "Skill",
+    "effects": [],
+    "tags": [],
+    "description": "뽑을 카드 혹은 무덤에서 앵커 슛을 핸드로 이동",
+    "imageUrl": "https://i.namu.wiki/i/zDyI06rDuHCA4vSkbC3ZmQ45X4piWplctKsYlY6iWcASm_IYqQN7UTkPd1oXOCEHYJzMmhLAN-HUhfpuqsW9YIP37Eqnw77AvCvIz6hgOOcdSH9tCP_1Uk_d6-1GpRjExylMpM4zogkIEO28Wh8t8A.webp"
+  },
+  {
+    "id": "haru-card-6",
+    "name": "파워 차지",
+    "nameKo": "파워 차지",
+    "category": "Epiphany",
+    "apCost": 2,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 180
+      }
+    ],
+    "tags": [],
+    "description": "모든 적 피해 180% 단일 대상일 경우 피해량 +80%",
+    "imageUrl": "https://i.namu.wiki/i/xSeBdD0XQhX0rQvsONHf3K4BIpEGpXp_wZe1O44xYuI_uXihPlzyzhkkI5UMAwgG_W1AP_lSJcenVTP0rcv_eS2FvSoJ3O8_RGl3FJ5Tc-nWkyK9s9WU5SN0bnynZiN-MTXQUPLLPQ4ATADGw8Ze_w.webp"
+  },
+  {
+    "id": "haru-card-7",
+    "name": "에너지 충전",
+    "nameKo": "에너지 충전",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [],
+    "tags": [
+      "보존"
+    ],
+    "description": "1턴간 자신의 공격 카드 피해량 30% 증가",
+    "imageUrl": "https://i.namu.wiki/i/FsBwkPsMypp4iSUc72z2cIT_Z2NKjgN81G3DHmJBvn5Yzl8jnja7gKrtibiIFEJLQdaDWeHONNXJplRSHcIjUUM9y_GZ04y5GIfydmZagzGwCxUzs8VmUWciCdfPRZ-Cz1RWnPk3Aaxmlf02U2Dxhw.webp"
+  },
+  {
+    "id": "haru-card-8",
+    "name": "끌어올리기",
+    "nameKo": "끌어올리기",
+    "category": "Epiphany",
+    "apCost": 0,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 350
+      }
+    ],
+    "tags": [
+      "보존"
+    ],
+    "description": "핸드의 앵커 슛 1턴간 사용 시까지 피해량 80% 증가",
+    "imageUrl": "https://i.namu.wiki/i/lFf6vhl_9WV1viYMcSyjhVbbc5zdnI-iNxSiqGTeHgQi7qzDLue4plAnaT-Pt38ITmAw464zYnDLOSM7l8kUvC2ajx43y9dxxpb1j9VVw57X1d3VMOuCrFAqt1tWMczGEY3ctcTW6PTvSzVv0DDOxA.webp"
+  },
+  {
+    "id": "hugo-card-1",
+    "name": "단검 던지기",
+    "nameKo": "단검 던지기",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "피해 100%",
+    "imageUrl": "https://i.namu.wiki/i/-HeU4nojgwhhWEb5plff1NhA4AxUIMQqcwopTovH_t7qK67HbpIg5BXpnxP9S4fTgnLKtd2DLWvBhrZski1D4w.webp"
+  },
+  {
+    "id": "hugo-card-2",
+    "name": "방어 시스템",
+    "nameKo": "방어 시스템",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "실드 100%",
+    "imageUrl": "https://i.namu.wiki/i/5-Dna2L6luDo8XMeIWaeOq4dshy9XmdN35icZes_SeRK5_XzsemQwaJOlzYW6lUYtf3Eif6fK4o70wN5uLYDQA.webp"
+  },
+  {
+    "id": "hugo-card-3",
+    "name": "사냥 본능",
+    "nameKo": "사냥 본능",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Upgrade",
+    "effects": [],
+    "tags": [
+      "개전"
+    ],
+    "description": "다른 전투원의 강화 혹은 스킬 카드 사용 시 사냥 개시 1[사냥·개시]",
+    "imageUrl": "https://i.namu.wiki/i/VLNy2oiM6r2BAkZXoP1H3tIoWPgM0C7N9xrvPeVVlVUzfGoV3zfiT7CCKeREILBw7DGI0wZYYp5RDBlZNwXlUg.webp"
+  },
+  {
+    "id": "hugo-card-4",
+    "name": "단검 방사",
+    "nameKo": "단검 방사",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 60,
+        "hits": 3
+      }
+    ],
+    "tags": [
+      "신속"
+    ],
+    "description": "무작위 적들에게 피해 60% x",
+    "imageUrl": "https://i.namu.wiki/i/ouOn0fMviRwlQs_qx96c_TocEoitxmqYWKC7WnYZo0t6oFpJILfPlTc5VylUMYnOhw_vTFtjumJjQRMa2CSHrQ.webp"
+  },
+  {
+    "id": "hugo-card-5",
+    "name": "빠른 해결법",
+    "nameKo": "빠른 해결법",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 80,
+        "hits": 2
+      }
+    ],
+    "tags": [
+      "신속"
+    ],
+    "description": "피해 80% x 2 사냥 개시[사냥·개시] 상태라면 공격 카드 1장 드로우",
+    "imageUrl": "https://i.namu.wiki/i/WHdlrC439kT-6hdmpJAqQfqG6riUfRcZsvdi6LcaL6sVRhVmcex8QUzQ0AeISpASJN8PkMrcda77_rLiMDRu9g.webp"
+  },
+  {
+    "id": "hugo-card-6",
+    "name": "딩고 하울링",
+    "nameKo": "딩고 하울링",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "실드 100% 사냥 개시 2[사냥·개시]",
+    "imageUrl": "https://i.namu.wiki/i/_AocPG6HOjkRwu7Hnl4q0lPviDPJaU5lroHkhGQQ8sKe_6fH2BCk_alrhmeq6bmwy2EFoMgbvxikrXE9UbEPWg.webp"
+  },
+  {
+    "id": "hugo-card-7",
+    "name": "해결사의 방식",
+    "nameKo": "해결사의 방식",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Upgrade",
+    "effects": [],
+    "tags": [
+      "유일"
+    ],
+    "description": "사냥 개시의 추가 공격 피해량 40% 증가 스택을 소모해 발동하는 협공 공격의 피해량을 올려주는 보조카드",
+    "imageUrl": "https://i.namu.wiki/i/Uc8dNWIDUFVbb--V_h-MN6plu5xHEzYn2NP0wfHfwXnoZEsV_TVAKHFvskwgJN5yEpbMldzSQcn-9k52FnzkSg.webp"
+  },
+  {
+    "id": "kayron-card-1",
+    "name": "Kayron Card 1",
+    "nameKo": "카이론 카드 1",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 100,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 100%"
+  },
+  {
+    "id": "kayron-card-2",
+    "name": "Kayron Card 2",
+    "nameKo": "카이론 카드 2",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "실드 100%"
+  },
+  {
+    "id": "kayron-card-3",
+    "name": "Kayron Card 3",
+    "nameKo": "카이론 카드 3",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 160,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 160%"
+  },
+  {
+    "id": "kayron-card-4",
+    "name": "Kayron Card 4",
+    "nameKo": "카이론 카드 4",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 180,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 180%"
+  },
+  {
+    "id": "kayron-card-5",
+    "name": "Kayron Card 5",
+    "nameKo": "카이론 카드 5",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 200,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 200%"
+  },
+  {
+    "id": "kayron-card-6",
+    "name": "Kayron Card 6",
+    "nameKo": "카이론 카드 6",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 220,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 220%"
+  },
+  {
+    "id": "kayron-card-7",
+    "name": "Kayron Card 7",
+    "nameKo": "카이론 카드 7",
+    "category": "Epiphany",
+    "apCost": 2,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 240,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 240%"
+  },
+  {
+    "id": "khalipe-card-1",
+    "name": "Khalipe Card 1",
+    "nameKo": "칼리페 카드 1",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 100,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 100%"
+  },
+  {
+    "id": "khalipe-card-2",
+    "name": "Khalipe Card 2",
+    "nameKo": "칼리페 카드 2",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "실드 100%"
+  },
+  {
+    "id": "khalipe-card-3",
+    "name": "Khalipe Card 3",
+    "nameKo": "칼리페 카드 3",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 160,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 160%"
+  },
+  {
+    "id": "khalipe-card-4",
+    "name": "Khalipe Card 4",
+    "nameKo": "칼리페 카드 4",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 180,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 180%"
+  },
+  {
+    "id": "khalipe-card-5",
+    "name": "Khalipe Card 5",
+    "nameKo": "칼리페 카드 5",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 200,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 200%"
+  },
+  {
+    "id": "khalipe-card-6",
+    "name": "Khalipe Card 6",
+    "nameKo": "칼리페 카드 6",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 220,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 220%"
+  },
+  {
+    "id": "khalipe-card-7",
+    "name": "Khalipe Card 7",
+    "nameKo": "칼리페 카드 7",
+    "category": "Epiphany",
+    "apCost": 2,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 240,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 240%"
+  },
+  {
+    "id": "luke-card-1",
+    "name": "단발 사격",
+    "nameKo": "단발 사격",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "피해 100%",
+    "imageUrl": "https://i.namu.wiki/i/fQUTG_8fxL3cQ3ebJzKUOQ38EKIkpBykJ65IGCt-qf-pZ2j-O7iO8hyKTZyWZysapbu4UReG3lXpVRrtd6fz7OLFRqOrvMjyzL0sT0PMC2VaEp2tt7FuCqdV8JzQcWBtjr_u9dfRaTl0hUg5_CgM1g.webp"
+  },
+  {
+    "id": "luke-card-2",
+    "name": "그림자 은신",
+    "nameKo": "그림자 은신",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "실드 100%",
+    "imageUrl": "https://i.namu.wiki/i/-FDgIknrpcjQofQ6BeVSFNL91JZ4GB1wrw7i0RXXQYJDvScHwgRysZo2XFGel44lwaeBBN3JmIzMEBPbzE_FQSQ6U4beTuePxB0UdT5PUk8DnlmgrrWWr6WzB2Gsu-P48t8ukkHS-lQwHGXDh6ukTg.webp"
+  },
+  {
+    "id": "luke-card-3",
+    "name": "연속 격발",
+    "nameKo": "연속 격발",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 50,
+        "hits": 2
+      }
+    ],
+    "tags": [],
+    "description": "피해 50% x 2 치명타 수만큼 핸드건 탄환 생성 치명확률 +50%",
+    "imageUrl": "https://i.namu.wiki/i/7R-Tho7RYQ2SUbKfZn6e6k6EsWI3ofP8L7DBLs0XKsorB2zm4tvzKDd0JeDNJOsXyKvoQ3zyRhhvvA6jVdgbcXzms0lJd7F2-NP_gehHdc46eGengo_Z1aqgIYe9LpwOeJBzeFl13yCI57QUzdiWWQ.webp"
+  },
+  {
+    "id": "luke-card-4",
+    "name": "은밀한 장전",
+    "nameKo": "은밀한 장전",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [],
+    "tags": [],
+    "description": "핸드건 탄환 2장 생성",
+    "imageUrl": "https://i.namu.wiki/i/59wVDq6UCJU8thMpDizRvJwN57ZdmcO_1Xn7jgb8dheuHtDK6l18tETKdSxFmbFWLDwCJ-SPs-WEQhkvMsMfb5s-GEpKL68JNMVCJiA7Yl7nD1KffTsULIgLRq7KhDLfGUIrgzvY2G_tXkabONg3Jw.webp"
+  },
+  {
+    "id": "luke-card-5",
+    "name": "기회 포착",
+    "nameKo": "기회 포착",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "실드 100% 다음 사용하는 탄환 카드의 피해량 +120%",
+    "imageUrl": "https://i.namu.wiki/i/JkwEv_KeE6eaa2kaW2bHwxO2VgR3a0C8MBVTjnJvMSURaFDDaE9XoVudosL7-enKa-QhAVsjk7robM2lwJtTIjEhgJStQy4x4Cye-R5DweaN_GEh4tmvaYIQCd2Agc5D5uGPvIuUSxCytCOnCDTx4A.webp"
+  },
+  {
+    "id": "luke-card-6",
+    "name": "마안의 난무",
+    "nameKo": "마안의 난무",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 50
+      }
+    ],
+    "tags": [],
+    "description": "피해 50% 이번 턴 사용한 탄환 카드 수만큼 타격 1회 추가",
+    "imageUrl": "https://i.namu.wiki/i/Dmt8gwjhT18jUp1z9FlTRYr_YTH-eHtQyVCzjGMqVJ95-wQxbxLRfQP_inTf-aTy8XcqfbpK2EmBkT3mEsusdifE0CAdmx5lfqLJ_H28aMoZIqVl8u-Vion6roSXBDdDmSCzjvAr9NZpha-FNPAF1A.webp"
+  },
+  {
+    "id": "magna-card-1",
+    "name": "빙결의 주먹",
+    "nameKo": "빙결의 주먹",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "방어 기반 피해 100%",
+    "imageUrl": "https://i.namu.wiki/i/kVeqlHZft5BxTyEwPhZ13LkTOnWDS3aLiYEmrvOQPva3G30Pz33O2cKjmuXUqxTC6pdpFWo2XNRxRKFhQHUoyg.webp"
+  },
+  {
+    "id": "magna-card-2",
+    "name": "서리 방패",
+    "nameKo": "서리 방패",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "실드 100% 5.2. 고유 카드",
+    "imageUrl": "https://i.namu.wiki/i/I7P8npAOLRijk10DWNO6CE2HDBm3olFMXyVHX51Ymjr5JU84F1PXJ-j05dG4gjwmbJ8kPw5xk1sGBOugjoqopA.webp"
+  },
+  {
+    "id": "magna-card-3",
+    "name": "얼음 파편",
+    "nameKo": "얼음 파편",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Upgrade",
+    "effects": [],
+    "tags": [],
+    "description": "결정화 2 턴 시작 시 반격",
+    "imageUrl": "https://i.namu.wiki/i/fw-VEFSfe0w3hMZYiPUvBshaFjFSskk5tvta0pi5XomtgtfZ91SjfShT--8NPgzXXTDGmpWC8n9jg0tJ7bikCo_iR6lG7FqapNTiDd8h_4kFXuHDFxLFTg7sXM4Isk3hpk-4FzankpJgswMv3WUQ4A.webp"
+  },
+  {
+    "id": "magna-card-4",
+    "name": "빙하의 철권",
+    "nameKo": "빙하의 철권",
+    "category": "Epiphany",
+    "apCost": 2,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 300
+      },
+      {
+        "type": "shield",
+        "value": 50
+      }
+    ],
+    "tags": [],
+    "description": "방어 기반 피해 300% 피해 기반 실드 50%",
+    "imageUrl": "https://i.namu.wiki/i/zuKdHnuhZpkVrWW8KdpwNSwx0_Rd0WtFWbJys0Tg6WlnOXjhlQTb6dmNci0AuJIvHITvCtrjcn6MIfrcfH1x3X7Hi8VOTv5hxrOJF9N8r9Fq_XvJdGZfQTXg9mRlRaC3jARc6HCTli2N8l2z-tC9mQ.webp"
+  },
+  {
+    "id": "magna-card-5",
+    "name": "빙벽",
+    "nameKo": "빙벽",
+    "category": "Epiphany",
+    "apCost": 2,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 180
+      }
+    ],
+    "tags": [],
+    "description": "실드 180% 반격 2 1턴간 반격의 대상이 모든 적으로 적용",
+    "imageUrl": "https://i.namu.wiki/i/xxC4EKxM4PalDrvBDYpsrVggekdTmI2hGEB-yf-u9JZu3Jf-DPUHGPPOdCoSmuRyIK8xNVgPV2Oa4XVhSXvE6r_tPqz-15aXHfIyQdTM3Cb3qKI2yxewtc1S4a6hFBDUAosSJ7rqXSWothIHwSFkxQ.webp"
+  },
+  {
+    "id": "magna-card-6",
+    "name": "냉기 충전",
+    "nameKo": "냉기 충전",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "실드 100% 모든 적 취약",
+    "imageUrl": "https://i.namu.wiki/i/lL-M8qP1FlFnXe-umy_S_6RyfOw4LwLzUwmldqWXeXw6rJg75xAEE-uuruzih5sHTdSJg_4H6-4QD3tELPgZ24r-5058op6xUoEXgZlDAGEePSiEet88Z9DICgdStkT8Esa4ZWFjbeCSS2uKyq3NCw.webp"
+  },
+  {
+    "id": "magna-card-7",
+    "name": "혹한의 폭풍",
+    "nameKo": "혹한의 폭풍",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Upgrade",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 300
+      }
+    ],
+    "tags": [],
+    "description": "능력으로 실드 획득 시 반격",
+    "imageUrl": "https://i.namu.wiki/i/KoL4T9el9OMXs1jwCBQ3RDg-CLkeFoGVDT1X7dLrIstnwJ7H4BoJ_aT6uYCvz0mi4eqzuYucvcv9wStEPtv2fy-fR7b8fj32FU28X49dvDeH5szTbRFeSnFUuBnASdS8k_bdfpd_3Arb1wpIMgG7Vg.webp"
+  },
+  {
+    "id": "mei-lin-card-1",
+    "name": "일격",
+    "nameKo": "일격",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "피해 100% 메이린의 주력 딜링기. 기본공격 카드를",
+    "imageUrl": "https://i.namu.wiki/i/_kP1xxvPR9CFAsLVzHvkzxDkFtwlLf83x4A2H_YIF4fPxbJIiSrndKf6k-U_8jSIBFpWtpixUXgu4u1r9cJ4NQ.webp"
+  },
+  {
+    "id": "mei-lin-card-2",
+    "name": "화룡호신",
+    "nameKo": "화룡호신",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "실드 100% 공방일체에서 일격 대신 이 화룡호신을 드로우한다면",
+    "imageUrl": "https://i.namu.wiki/i/dFKax4VRHMeEsLGka8NGUo0zTwHhdRBc2mzPP7VfcUlW08l3UdQpPCVqEJ3uAaP9E42VJtuPV5KjXIapdbgf4Q.webp"
+  },
+  {
+    "id": "mei-lin-card-3",
+    "name": "화룡의 보석",
+    "nameKo": "화룡의 보석",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Upgrade",
+    "effects": [],
+    "tags": [
+      "유일",
+      "개전"
+    ],
+    "description": "자신의 공격 카드의 피해량 20% 증가 공격 카드 사용 시 대상에게 열정 약점",
+    "imageUrl": "https://i.namu.wiki/i/lnrYGSzl7rxQFG3zJc6qtpACau9FCchf7lPJjL4EWsZX0upRhh67dJBURpi_TJa-9-AsNcYSjvIBmM5OwVOZPtzlaJvw6XKJsR7wH7GZUeTocbxPJ0Hbc0xNgy8W6lhxH3KFgt0cZwpfEGSbHSipbg.webp"
+  },
+  {
+    "id": "mei-lin-card-4",
+    "name": "승룡각",
+    "nameKo": "승룡각",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "피해 100% 잔불 2 연속: 타격 1회 추가",
+    "imageUrl": "https://i.namu.wiki/i/cs9VZJfd1IbuPUu0-JQWW1BJ7gipejHb_Lmv9hqf7U7lfBOgrcMZEkjzHs8Nj1tIGK3MyeMcOAOpJ824SUoDC3cUJP0gtXwBTGP3HcyCi536wkfGjKhHKn04QM0W9iVC9a4Cts_Q78a3FCmTgLZoFg.webp"
+  },
+  {
+    "id": "mei-lin-card-5",
+    "name": "공방일체",
+    "nameKo": "공방일체",
+    "category": "Epiphany",
+    "apCost": 0,
+    "type": "Skill",
+    "effects": [],
+    "tags": [],
+    "description": "자신의 기본 카드 드로우 2 1턴간 사용 시까지 그 카드의 비용",
+    "imageUrl": "https://i.namu.wiki/i/mz3Q8zHzpL5cAJPU3OthvBiqHWjODzRl49zQ3Ejfqih5-B8gJmDSLNNoHWB8xyN8ovgzuS__zr5bxeBwoa98SHmGzcZwNBOg6CbaZ1tGQCRCr2anfpjOtYvYlA2wLb9tSVS66nJJ1kt-kkFcH8Z-sw.webp"
+  },
+  {
+    "id": "mei-lin-card-6",
+    "name": "향족의 정신",
+    "nameKo": "향족의 정신",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [],
+    "tags": [
+      "보존"
+    ],
+    "description": "1턴간 자신의 카드 사용 시 자신의 피해량 +20%",
+    "imageUrl": "https://i.namu.wiki/i/mBapkMGkqsRb9K4unDMfwY2qp54Famb9PSIAJy6IAcs86XJma-FQRuemdScODKOnh0GVONd1Gtp4t4i49OHFhTtE_xrryCq0PScx3PytGp4WOIJeHxlCUA_BNfVG1sqWmOcwTvXQ7jGYxpJ1kqVFNA.webp"
+  },
+  {
+    "id": "mei-lin-card-7",
+    "name": "화룡경천",
+    "nameKo": "화룡경천",
+    "category": "Epiphany",
+    "apCost": 2,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 300
+      }
+    ],
+    "tags": [],
+    "description": "피해 300% 파괴: 잔불 보존",
+    "imageUrl": "https://i.namu.wiki/i/y7afiYZctWyrJkMRVJE1RSKZ5kE05R35PGAEVrtxa-j1hIJl-n8_DORt_gT6nlhq910dBe8O8RAstMbaZCPOVQlZ3DqnZSf_kAZeLgi-cB_FGaVkccduV10PM2k1MLNR63Wyy0RTrMlRaRWSb8GTbQ.webp"
+  },
+  {
+    "id": "narja-card-1",
+    "name": "Narja Card 1",
+    "nameKo": "나르자 카드 1",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 100,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 100%"
+  },
+  {
+    "id": "narja-card-2",
+    "name": "Narja Card 2",
+    "nameKo": "나르자 카드 2",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "실드 100%"
+  },
+  {
+    "id": "narja-card-3",
+    "name": "Narja Card 3",
+    "nameKo": "나르자 카드 3",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 160,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 160%"
+  },
+  {
+    "id": "narja-card-4",
+    "name": "Narja Card 4",
+    "nameKo": "나르자 카드 4",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 180,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 180%"
+  },
+  {
+    "id": "narja-card-5",
+    "name": "Narja Card 5",
+    "nameKo": "나르자 카드 5",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 200,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 200%"
+  },
+  {
+    "id": "narja-card-6",
+    "name": "Narja Card 6",
+    "nameKo": "나르자 카드 6",
+    "category": "Epiphany",
+    "apCost": 2,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 220,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 220%"
+  },
+  {
+    "id": "narja-card-7",
+    "name": "Narja Card 7",
+    "nameKo": "나르자 카드 7",
+    "category": "Epiphany",
+    "apCost": 2,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 240,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 240%"
+  },
+  {
+    "id": "orlea-card-1",
+    "name": "Orlea Card 1",
+    "nameKo": "올레아 카드 1",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 100,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 100%"
+  },
+  {
+    "id": "orlea-card-2",
+    "name": "Orlea Card 2",
+    "nameKo": "올레아 카드 2",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "실드 100%"
+  },
+  {
+    "id": "orlea-card-3",
+    "name": "Orlea Card 3",
+    "nameKo": "올레아 카드 3",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 160,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 160%"
+  },
+  {
+    "id": "orlea-card-4",
+    "name": "Orlea Card 4",
+    "nameKo": "올레아 카드 4",
+    "category": "Epiphany",
+    "apCost": 2,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 180,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 180%"
+  },
+  {
+    "id": "orlea-card-5",
+    "name": "Orlea Card 5",
+    "nameKo": "올레아 카드 5",
+    "category": "Epiphany",
+    "apCost": 2,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 200,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 200%"
+  },
+  {
+    "id": "orlea-card-6",
+    "name": "Orlea Card 6",
+    "nameKo": "올레아 카드 6",
+    "category": "Epiphany",
+    "apCost": 2,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 220,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 220%"
+  },
+  {
+    "id": "orlea-card-7",
+    "name": "Orlea Card 7",
+    "nameKo": "올레아 카드 7",
+    "category": "Epiphany",
+    "apCost": 2,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 240,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 240%"
+  },
+  {
+    "id": "rin-card-1",
+    "name": "흑운검 일식",
+    "nameKo": "흑운검 일식",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "피해 100%",
+    "imageUrl": "https://i.namu.wiki/i/VIozoINAyMtu9N42uwTC4dZz_5_tYJzSSbMYm7HuoIra0geBDValzkSICt501OnNxtqWwTAiVwjzNdZRlUbI5wCIP_GaJmW_IL-Zd7hEvKKtZv3uppn0P1dKNMWHCR4vcDvRlhIItkWiv4MyGb_46A.webp"
+  },
+  {
+    "id": "rin-card-2",
+    "name": "흑운검 삼식",
+    "nameKo": "흑운검 삼식",
+    "category": "Starting",
+    "apCost": 2,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 220
+      }
+    ],
+    "tags": [],
+    "description": "피해 220%",
+    "imageUrl": "https://i.namu.wiki/i/XPgTc2iTOpyz1vmnfg3scNqIZ2-ws2-Wn5RgiA0xWt2QxRmQXAcxp7c1A05gEq7SJbu27NlPreEGRFxJ27K3QyTBiXFb5YtU02MGCv8E94q-rKFjKJAlbQdGc6xsdERNJIupLceG7OtgoktNLt-4-g.webp"
+  },
+  {
+    "id": "rin-card-3",
+    "name": "수호",
+    "nameKo": "수호",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "실드 100%",
+    "imageUrl": "https://i.namu.wiki/i/lDvt5w3QhmIPLphTGkc1bTEV_LSSxN5jV7XZZZbPPUegxVjxuMyffAh81OuH2WR_BK09JR_xZUBKnR0-rMX5kEMEr7LIwYdbyX_rtwylfJc-Rrp_QVhM7_JJC45FjsojYFnCydJUeOz6LQhb29QH-Q.webp"
+  },
+  {
+    "id": "rin-card-4",
+    "name": "발도",
+    "nameKo": "발도",
+    "category": "Epiphany",
+    "apCost": 0,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 120
+      }
+    ],
+    "tags": [
+      "신속"
+    ],
+    "description": "피해 120% 흑운태세[흑운태세] 획득 흑운검법 : 피해량 50% 증가",
+    "imageUrl": "https://i.namu.wiki/i/DV1uIvIbLORgauibnqs8V2305yD8-7OYsub40tSfLEfmucvuZ3mjxHr_d_y7XwkGNquPSQIn1P5elpfuhvX5qqwgdYh4nhHoMnK0Z0dqFt1X-LM2eVasyQgYc8bQK6lJKpZ-uw-RvehXy9DidoY15Q.webp"
+  },
+  {
+    "id": "rin-card-5",
+    "name": "흑운 오의 : 잔",
+    "nameKo": "흑운 오의 : 잔",
+    "category": "Epiphany",
+    "apCost": 0,
+    "type": "Skill",
+    "effects": [],
+    "tags": [],
+    "description": "자신의 카드 드로우 1 흑운태세[흑운태세] 획득 흑운검법: 피해량 50% 증가",
+    "imageUrl": "https://i.namu.wiki/i/AQ3qkQz04cYj_b-elQwFyULYXGhCWIdmzNgQ58csHOnG5IV1_XfN0cgmbxRmST_F6FebidGjHyXG-Q61WE4GuiHGcl_KZVv8ntjEr1CHoZSXp3B7CetG1-Dp_gdRVWfy8RVze0Puw-3IjlDm-sRhjA.webp"
+  },
+  {
+    "id": "rin-card-6",
+    "name": "흑운 오의 : 멸",
+    "nameKo": "흑운 오의 : 멸",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 150
+      }
+    ],
+    "tags": [
+      "신속"
+    ],
+    "description": "피해 150% 흑운검법: 타격 1회 추가",
+    "imageUrl": "https://i.namu.wiki/i/dLhG7Gh2nAeUl6oxZU8ltcnwuv6ButSE6GdbzQSH5C_qsjkdNByj29HHAj31V58WoQoneOIcrAVhv2kx-cu4d0yXy2RyX01uJuPS7XbtwHghiAjHjh9M-QF9ZpZYTVjTnStcW6zqMBrUz7TYS3lC5w.webp"
+  },
+  {
+    "id": "rin-card-7",
+    "name": "흑운 심법",
+    "nameKo": "흑운 심법",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [],
+    "tags": [],
+    "description": "1턴간 흑운태세 보존 흑운검법 : 1턴간 자신의 공격 카드 피해량 +40%",
+    "imageUrl": "https://i.namu.wiki/i/FdL3dQbcnAebPyJaZ8X4iI6IL4M99gB24zMoY5FaBva5l_9P6XrX5uTUMsTo35uKEqRbchNWOqHodPJ1vd0eUxha9lVPZzPPt2m7qM-NSA5rjbhjmRcDF6VKt_QtD2vBIxcSZwmp091jkTkpIT9O5g.webp"
+  },
+  {
+    "id": "rin-card-8",
+    "name": "흑운 오의 : 흑무",
+    "nameKo": "흑운 오의 : 흑무",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 80
+      }
+    ],
+    "tags": [],
+    "description": "피해 80% 흑운검법 : 핸드의 스킬 카드 수만큼 타격 1회 추가"
+  },
+  {
+    "id": "rin-card-9",
+    "name": "납도",
+    "nameKo": "납도",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 60
+      }
+    ],
+    "tags": [
+      "소멸",
+      "증발"
+    ],
+    "description": "피해 60% 이번 턴 사용한 자신의 공격 카드 수만큼 피해량 +20% 핸드에 자신의 다른 공격 카드가 없다면 비용"
+  },
+  {
+    "id": "sereniel-card-1",
+    "name": "Sereniel Card 1",
+    "nameKo": "세레니엘 카드 1",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 100,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 100%"
+  },
+  {
+    "id": "sereniel-card-2",
+    "name": "Sereniel Card 2",
+    "nameKo": "세레니엘 카드 2",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "실드 100%"
+  },
+  {
+    "id": "sereniel-card-3",
+    "name": "Sereniel Card 3",
+    "nameKo": "세레니엘 카드 3",
+    "category": "Epiphany",
+    "apCost": 2,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 160,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 160%"
+  },
+  {
+    "id": "sereniel-card-4",
+    "name": "Sereniel Card 4",
+    "nameKo": "세레니엘 카드 4",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 180,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 180%"
+  },
+  {
+    "id": "sereniel-card-5",
+    "name": "Sereniel Card 5",
+    "nameKo": "세레니엘 카드 5",
+    "category": "Epiphany",
+    "apCost": 2,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 200,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 200%"
+  },
+  {
+    "id": "sereniel-card-6",
+    "name": "Sereniel Card 6",
+    "nameKo": "세레니엘 카드 6",
+    "category": "Epiphany",
+    "apCost": 2,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 220,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 220%"
+  },
+  {
+    "id": "sereniel-card-7",
+    "name": "Sereniel Card 7",
+    "nameKo": "세레니엘 카드 7",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 240,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 240%"
+  },
+  {
+    "id": "tiphera-card-1",
+    "name": "Tiphera Card 1",
+    "nameKo": "티페라 카드 1",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 100,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 100%"
+  },
+  {
+    "id": "tiphera-card-2",
+    "name": "Tiphera Card 2",
+    "nameKo": "티페라 카드 2",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "실드 100%"
+  },
+  {
+    "id": "tiphera-card-3",
+    "name": "Tiphera Card 3",
+    "nameKo": "티페라 카드 3",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 160,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 160%"
+  },
+  {
+    "id": "tiphera-card-4",
+    "name": "Tiphera Card 4",
+    "nameKo": "티페라 카드 4",
+    "category": "Epiphany",
+    "apCost": 2,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 180,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 180%"
+  },
+  {
+    "id": "tiphera-card-5",
+    "name": "Tiphera Card 5",
+    "nameKo": "티페라 카드 5",
+    "category": "Epiphany",
+    "apCost": 2,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 200,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 200%"
+  },
+  {
+    "id": "tiphera-card-6",
+    "name": "Tiphera Card 6",
+    "nameKo": "티페라 카드 6",
+    "category": "Epiphany",
+    "apCost": 2,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 220,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 220%"
+  },
+  {
+    "id": "tiphera-card-7",
+    "name": "Tiphera Card 7",
+    "nameKo": "티페라 카드 7",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 240,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 240%"
+  },
+  {
+    "id": "veronica-card-1",
+    "name": "속사탄",
+    "nameKo": "속사탄",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "피해 100%",
+    "imageUrl": "https://i.namu.wiki/i/ZJs1EQJmfyS8usm9yHYbM1w5NgxTRlm_zryCRwZfpRw5R1oyDG6gWC1sqdh5VDdmOtBdQFnqw6ErDKAT-qt3cw.webp"
+  },
+  {
+    "id": "veronica-card-2",
+    "name": "금선화의 환상",
+    "nameKo": "금선화의 환상",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "실드 100%",
+    "imageUrl": "https://i.namu.wiki/i/rEJEJn1dXYFEX_zzefBCvoAuqkLHcPds-8SJ-3XBtwKD0nou7RfFvPLB08RHiIFDnhKIOIjqo7bscCVXnvJ1kg.webp"
+  },
+  {
+    "id": "veronica-card-3",
+    "name": "발사 준비",
+    "nameKo": "발사 준비",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Upgrade",
+    "effects": [],
+    "tags": [
+      "유일",
+      "개전"
+    ],
+    "description": "발리스타 1장 생성 턴 시작 시 발리스타 1장 생성",
+    "imageUrl": "https://i.namu.wiki/i/H-3kdJsvSegxHTtcUZ4bRtzzbh4AxMYwipLHyJeEFZLKr9AX2tUNoHnvGaaXMEfW0d-EkEAnl0TMrkgBCPNaHZtcRzV8LkQtBUqsjG1-g2FE2hom1x6PL-mg1KkZ7gb00T9aMtLa5p4oYl57ULW_DA.webp"
+  },
+  {
+    "id": "veronica-card-4",
+    "name": "숨돌리기",
+    "nameKo": "숨돌리기",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "실드 100% 다른 전투원의 카드 드로우",
+    "imageUrl": "https://i.namu.wiki/i/OL_awE4kwV7NDNgOnPvJXB2pUxoyyqnlwx7F_8nSIUurIKyhDuF8ah23tYnyrygYj1VQhe3-pQS9SLAt8ZSVRWD0CQsgxCSoHDf0w545HKSjLiqXQCXZ75wgeOSFGT14mI0ZbB5aoOJx5qjk2Y6gpg.webp"
+  },
+  {
+    "id": "veronica-card-5",
+    "name": "결심의 팬던트",
+    "nameKo": "결심의 팬던트",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Upgrade",
+    "effects": [],
+    "tags": [],
+    "description": "다른 전투원의 스킬 카드 사용 시 장전 1[장전]",
+    "imageUrl": "https://i.namu.wiki/i/ejOAnQ_-a0ja4q-3JRvsOSCFl0axhETnUvmkRw_XmgiurEoOSSk_ZP1WstbDwafBIZej2gtEAoEc_cylc9FBxg.webp"
+  },
+  {
+    "id": "veronica-card-6",
+    "name": "코왈스키 경",
+    "nameKo": "코왈스키 경",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [],
+    "tags": [],
+    "description": "핸드의 발리스타 카드 1장 선택, 사용 시까지 피해량 +100% 드로우",
+    "imageUrl": "https://i.namu.wiki/i/HpEJLMA9H6oqLfjZOd334jEhONVyHl1ZW8Fvm5NnIAw-INhfHliUrqDThLPgiWvmH3_dVqSioL1Hj5oaWG8D5g.webp"
+  },
+  {
+    "id": "veronica-card-7",
+    "name": "폭격 준비",
+    "nameKo": "폭격 준비",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Upgrade",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 200
+      }
+    ],
+    "tags": [
+      "유일"
+    ],
+    "description": "장전 최대 중첩 1 증가 장전 2",
+    "imageUrl": "https://i.namu.wiki/i/gxOuhCVZWDUJDE_9cIHVhTUTIxZafPyRVei2vDdHH_7DdZy76C0i8b3JZdKw9F59G5N8HaNJYapOPR4qxuvhEZgcZz1SZ03xe9AVUsohXPxvL1I9GM3iCbo8qXIMVgqxGCITLXgRTp8ccQLGE-If5g.webp"
+  },
+  {
+    "id": "yuki-card-1",
+    "name": "장검 베기",
+    "nameKo": "장검 베기",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "피해 100%",
+    "imageUrl": "https://i.namu.wiki/i/l8v8QkKJZaSY4M7Q0KUJbonVMRQBM9n4YV52J1ggGOmaJEWRTVaeTOcfeCDNTt-oSeBKnNZxfC7x3XDgthJpYQKZEuQB7GEuj3-N_oorZk31mM04NeAs1SBwQfyEICuhuBo2JpMZx_jdffhtkSo77g.webp"
+  },
+  {
+    "id": "yuki-card-2",
+    "name": "고속 베기",
+    "nameKo": "고속 베기",
+    "category": "Starting",
+    "apCost": 2,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 220
+      }
+    ],
+    "tags": [],
+    "description": "피해 220%",
+    "imageUrl": "https://i.namu.wiki/i/q-2oSLuE1d4MjXDksHN9bvUbvJwMmdhvA9PE1I5dPvhUbU3oqIzMHB-C7UdEK3ocTr3Zj9ObGowA9GpScnsFn-A_01aPmWoGC9oNz-xTwCB2CfLXf1TFwh13xUhVVMRPpAlTa_gP94vQ3cqiQhwqFQ.webp"
+  },
+  {
+    "id": "yuki-card-3",
+    "name": "흘려 보내기",
+    "nameKo": "흘려 보내기",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "실드 100%",
+    "imageUrl": "https://i.namu.wiki/i/AOGeTaDjf6Rajza2eE_2ZA10gPJjp9kW2on4Y-hRIKDVQMPPO2pTJ9W6oNeAqKlJv3ypUYMyGWnjFPT91TqysHaXmY0bsjEk8nmkwu3M_F5bRes5TwBxV3wHGk93OAuMZ6i6Oc2K5U-cIaL-YUnMQw.webp"
+  },
+  {
+    "id": "yuki-card-4",
+    "name": "제압 준비",
+    "nameKo": "제압 준비",
+    "category": "Epiphany",
+    "apCost": 0,
+    "type": "Skill",
+    "effects": [],
+    "tags": [],
+    "description": "자신의 공격 카드 드로우 1 1턴간 자신의 공격 카드 피해량 20% 증가",
+    "imageUrl": "https://i.namu.wiki/i/dk0FxJju33cvx1mguZ1iLz8Km1-InQwIive3FlSzx6F6dhTaT3PEocXqTp5uIGe3fadexJuLImvWiUjgz_QyEOVaN1f512HLxvA6GssaCQm5v0UrkLEMlbplz792OzNEfQmnHf7sZcpEZ38zaBqjhQ.webp"
+  },
+  {
+    "id": "yuki-card-5",
+    "name": "훔쳐베기",
+    "nameKo": "훔쳐베기",
+    "category": "Epiphany",
+    "apCost": 2,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 200
+      }
+    ],
+    "tags": [],
+    "description": "모든 적 피해 200% 영감: 비용",
+    "imageUrl": "https://i.namu.wiki/i/VSHNDubif1MasPZcAFdRs6__fCwqbpffe1g6eRCke5fhwMIuDDdZwa97exDVcBAWPVKzgAcL41PyICFNe1_7TFLG-nsL6app0N9zRjNF1YHXb1_U1cf8m6c_fCfeVnpcs0_jPg-990MsXhPh42XtmQ.webp"
+  },
+  {
+    "id": "yuki-card-6",
+    "name": "눈속임 일격",
+    "nameKo": "눈속임 일격",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 180
+      }
+    ],
+    "tags": [
+      "보존"
+    ],
+    "description": "피해 180% 핸드의 무작위 자신의 카드 1장 영감 효과 활성화",
+    "imageUrl": "https://i.namu.wiki/i/Q0IOqp_vUdzVvOmaCiQI2LrwFgCmrJAb2WkY5l-KwhHThvUu4iJqnuD460MVweI-agAfNT_F6xH7lZr_qcvYSb7bEsaqS3EK-Yo13aNfMPFuLRfpU2nWXRYqQFmNfCpfYTLZtvgq8cticswMWgy4OQ.webp"
+  },
+  {
+    "id": "yuki-card-7",
+    "name": "빙점 칼날",
+    "nameKo": "빙점 칼날",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Upgrade",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 90
+      }
+    ],
+    "tags": [
+      "유일"
+    ],
+    "description": "자신의 영감 효과가 활성화된 카드 사용 시 모든 적 피해 90%",
+    "imageUrl": "https://i.namu.wiki/i/8ekhh_Ci4IUnQD0zwAcEyvQ5a40b4EnOsH5VaGGYbIO-ZbFgNV0V5Apjy_EeGYYqE2e1KVDfxwSxmiz2Y9MJfmPzUgPLP-EHrdIOb3VC9EK53Cfcepxfq4L8Br0F0g02ktag9C34n2s2Qu4FI7gjHA.webp"
+  },
+  {
+    "id": "yuki-card-8",
+    "name": "빙산 가르기",
+    "nameKo": "빙산 가르기",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 180
+      }
+    ],
+    "tags": [],
+    "description": "모든 적 피해 180% 영감: 타격 1회 추가, 피해량 20% 감소",
+    "imageUrl": "https://i.namu.wiki/i/oSvn84ROlTcAfwOt-5FA-6ubF6kRDo2vymnbh6STaJ38fgTe5RzzSV8vQSMOGFMX5jznv460P0FyK-zg48s9PWCTEpAf8-igkau0c0hnCzhu1nvoVZ9fbyzyaYv8xUGQPed0eCqJSqTVuGDJjnnqOw.webp"
+  },
+  {
+    "id": "amir-card-1",
+    "name": "레이피어",
+    "nameKo": "레이피어",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "방어 기반 피해 100%",
+    "imageUrl": "https://i.namu.wiki/i/Jv89SEEPTiV6ABYSoSQ5sVQ2DoYwnenqsKMLBwRRavsDbvEwWrSnOK1IBFgEDWG1XOLsRVtfVrC4c7qXDTnb31eFgjKhk0k5XXZ0910C_1uK8JvBsc4fsjYBdlC-zcqvSxllYeFAgmIeqDEbywHaeg.webp"
+  },
+  {
+    "id": "amir-card-2",
+    "name": "강철 보호막",
+    "nameKo": "강철 보호막",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "실드 100% 4.2. 고유 카드",
+    "imageUrl": "https://i.namu.wiki/i/BhXdtP84y7L_ShEtvhbse3-Fpm6mcbJynvrsoQoJPlQJyNz2M6m2IxwzyIUmjqexbf7_TZSFlyLp7uakH9btWPOL2KmO6DK2Lsfoh2-zBsbl4bKDZAS2EbkcfwywB8cHm-5fLNl07_EPikW52u6WSQ.webp"
+  },
+  {
+    "id": "amir-card-3",
+    "name": "호버링 메탈",
+    "nameKo": "호버링 메탈",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [],
+    "tags": [],
+    "description": "피해 감소 3 금속화",
+    "imageUrl": "https://i.namu.wiki/i/_9ZGWt4l7mhK7PZfxq2RnYVb7nnPK06GBT4_5P5mDEDUZuTSi3I7GrN6JWF1zHlSCh9Xyot8E_5auFq6dNvqadrj-ICh2mvp2pgmpRnCHcpMJJYBEApTdRlaQLlgRbPJE88rl97EyWHYpyQj0UUK8w.webp"
+  },
+  {
+    "id": "amir-card-4",
+    "name": "메탈 피어스",
+    "nameKo": "메탈 피어스",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 90,
+        "hits": 2
+      }
+    ],
+    "tags": [],
+    "description": "방어 기반 피해 90% x",
+    "imageUrl": "https://i.namu.wiki/i/JhFWlL8cqdR9X2P2jQY138bNRkAA8Sc6AbEOOyxQrZJDV2BqjzC6gXAK9M6hpcyvBOiWQchhQfTOsnaab-esxgFji6cfQIZrSPf_kibmiEZKgRqSsQ2oWH4tlKYDgZ8wyruK6ZQQ7vf6CYDkYad-qg.webp"
+  },
+  {
+    "id": "amir-card-5",
+    "name": "금속 추출",
+    "nameKo": "금속 추출",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [],
+    "tags": [],
+    "description": "금속화 2 1턴간 결의",
+    "imageUrl": "https://i.namu.wiki/i/h7rOKEmGbQLaPmLpeOiJ03YSEmGGC5uhj98euPkJlng-vNNDZe_savHJDCic_j8GvA9gDExzL-9QbA1k47M7pBpP3vmiYBnBaNdWYtS0QQ8ZgHsoQM8CQT21fUXmdkKc84tIkxf1dqUUJlo8ytRPsw.webp"
+  },
+  {
+    "id": "amir-card-6",
+    "name": "풀 메탈 허리케인",
+    "nameKo": "풀 메탈 허리케인",
+    "category": "Epiphany",
+    "apCost": 2,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 200
+      }
+    ],
+    "tags": [],
+    "description": "모든 적 방어 기반 피해 200% 1턴간 금속화의 대상이 모든 적으로 적용, 피해량 +20%",
+    "imageUrl": "https://i.namu.wiki/i/k1x-QWEkZm2EnuCVEdgwoyFzjXki4fZcNQINrRrzweoYSk-Hv4gikn6fxA-hjo1R1-ynZw22Wuuuj7KKcHHvc4PKjDBB_yo0d35Wh2DUvsbzPdAreQTidhPOxKvWgh5GhG3xv9blAMIn-Zf6en2sOA.webp"
+  },
+  {
+    "id": "amir-card-7",
+    "name": "아이언 스킨",
+    "nameKo": "아이언 스킨",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 120
+      }
+    ],
+    "tags": [
+      "소멸"
+    ],
+    "description": "1턴간 받는 피해량 20% 감소 금속화 최대"
+  },
+  {
+    "id": "beryl-card-1",
+    "name": "런처",
+    "nameKo": "런처",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "피해 100%",
+    "imageUrl": "https://i.namu.wiki/i/8VsNAdYUC33vjYv9RNTfPxy45K3z9Pk3jTyAv7cLVCyNZbbNixbs-hIzsPdYz2QQxH0IFcVxVT0HNvtjvAgxXDyVSLReHi_FsNL2FtMWZPK6q9djAomG3egAYfNusK-CHXK7tWZLk0pwxoBGDI0muw.webp"
+  },
+  {
+    "id": "beryl-card-2",
+    "name": "차지 런처",
+    "nameKo": "차지 런처",
+    "category": "Starting",
+    "apCost": 2,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 220
+      }
+    ],
+    "tags": [],
+    "description": "피해 220%",
+    "imageUrl": "https://i.namu.wiki/i/gLTgm0A16ZSOA4NS4qaxBwM40_5vzEmqSn-BSQM_0mdr_aveEDFLPZyklxZ4i-uq8PG7aiWe4cL8Ko5GXad-Z2fwAjzbH5Urj2vngEUnbb4b5lpwolDk_BxeAP9SVrDa0Ljn15DijQTa0prk71p-QQ.webp"
+  },
+  {
+    "id": "beryl-card-3",
+    "name": "보호막",
+    "nameKo": "보호막",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "실드 100% 4.2. 고유 카드",
+    "imageUrl": "https://i.namu.wiki/i/CFHCXpdP_g-zy9TNhBhcl1-lIwZSsCsvQsxHwMnNy8e5OzZkXzW02epwdHpb5UI2vWQzAhdaG_qhrjYpZLDhdN4RZxQzfCaRSRSdw8TDPvY_6z0B9QvH9BXyi0Won-6Xvi9jXPKHmz-fF-vOEoN5DA.webp"
+  },
+  {
+    "id": "beryl-card-4",
+    "name": "빈틈 발견",
+    "nameKo": "빈틈 발견",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 140
+      }
+    ],
+    "tags": [
+      "보존"
+    ],
+    "description": "피해 140% 보존: 1턴간 타격 1회 추가",
+    "imageUrl": "https://i.namu.wiki/i/vMs_x4-buzsJ2oNaNhu6vM1ZYA54kzsFGtbQ-qA_tnug5198suklD8RFOA5dv3eDflIm5_l5NTtyr6nex3zdxQ6-EXiyiHL40bbXjk5_zKhv4euOiN8X3uzQ6dEujFIwKsaXZQu4S4KgaHRqavZodg.webp"
+  },
+  {
+    "id": "beryl-card-5",
+    "name": "충전탄",
+    "nameKo": "충전탄",
+    "category": "Epiphany",
+    "apCost": 2,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 240
+      }
+    ],
+    "tags": [
+      "보존"
+    ],
+    "description": "피해 240% 보존: 피해량 +120%",
+    "imageUrl": "https://i.namu.wiki/i/BMNsKVSZQShbcr0ugc6WVdMXUf-7Pl4bAJL4sSq2eYW-AndOo_QEeWsdYgmYdlHOai5M1sp7bDPMe8CIKYQK5fsZEtQSYlCTWiBcKb_7oLP5jjM8aW70XE1d_4SNaHo57aXhCw8wPkv693tgu6cVkw.webp"
+  },
+  {
+    "id": "beryl-card-6",
+    "name": "숨겨온 초코바",
+    "nameKo": "숨겨온 초코바",
+    "category": "Epiphany",
+    "apCost": 0,
+    "type": "Skill",
+    "effects": [],
+    "tags": [
+      "소멸"
+    ],
+    "description": "드로우",
+    "imageUrl": "https://i.namu.wiki/i/OgocxvZ7BykmE9Um5RMf_pgFvfXjjJE7BmGdLYA42fE29lmpgQTUK_Qzd-jexWADrcFp20sB0OtYdGsP4NM-E1Xl6Zrm0Bt1MhdUvWg6EgjBv3Xwk1kRQhVDLzztMORhV5h8UY1GGsxAqfRkooAE5Q.webp"
+  },
+  {
+    "id": "beryl-card-7",
+    "name": "무제한 화력",
+    "nameKo": "무제한 화력",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "실드 100% 다음 사용하는 자신의 공격 카드 피해량 +80%",
+    "imageUrl": "https://i.namu.wiki/i/tcA5lKSlisAFc4sma3Joo4eJ2FohGsQ3J0a8TEc3hWpTkutg48_4dbkQxqKAZJsD8tZmQytTfdN3tJ5KnPHGyqkK17GEtG8EdT26Yq_cDA6OdIHXxAY-RDNPmFtGb4FaP01eZmVS8jz7-sWiJQZ_9A.webp"
+  },
+  {
+    "id": "beryl-card-8",
+    "name": "중화기 전문가",
+    "nameKo": "중화기 전문가",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 350
+      }
+    ],
+    "tags": [],
+    "description": "빈틈 발견 혹은 충전탄 1장 생성, 그 카드에 소멸 부여, 사용 시까지 비용",
+    "imageUrl": "https://i.namu.wiki/i/G7LF5bQUJfMdBo4UACRG5UURCGt4j7KoUsMOnw6C5xGBFfZB_6ZbweCwQCCD8A4WX567c4V3oJHnxLnYnDHUE_GmPFQlAWRYMyEe3tkLtH7NoxovE0ak7ltlmlcjV1C-NhwE_d1sVp4qUnjhO7-YCA.webp"
+  },
+  {
+    "id": "cassius-card-1",
+    "name": "Cassius Card 1",
+    "nameKo": "카시우스 카드 1",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 100,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 100%"
+  },
+  {
+    "id": "cassius-card-2",
+    "name": "Cassius Card 2",
+    "nameKo": "카시우스 카드 2",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "실드 100%"
+  },
+  {
+    "id": "cassius-card-3",
+    "name": "Cassius Card 3",
+    "nameKo": "카시우스 카드 3",
+    "category": "Epiphany",
+    "apCost": 2,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 160,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 160%"
+  },
+  {
+    "id": "cassius-card-4",
+    "name": "Cassius Card 4",
+    "nameKo": "카시우스 카드 4",
+    "category": "Epiphany",
+    "apCost": 2,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 180,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 180%"
+  },
+  {
+    "id": "cassius-card-5",
+    "name": "Cassius Card 5",
+    "nameKo": "카시우스 카드 5",
+    "category": "Epiphany",
+    "apCost": 2,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 200,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 200%"
+  },
+  {
+    "id": "cassius-card-6",
+    "name": "Cassius Card 6",
+    "nameKo": "카시우스 카드 6",
+    "category": "Epiphany",
+    "apCost": 2,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 220,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 220%"
+  },
+  {
+    "id": "cassius-card-7",
+    "name": "Cassius Card 7",
+    "nameKo": "카시우스 카드 7",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 240,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 240%"
+  },
+  {
+    "id": "lucas-card-1",
+    "name": "머신건",
+    "nameKo": "머신건",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "피해 100%",
+    "imageUrl": "https://i.namu.wiki/i/qKioBvK2jh0LwySRAtj9GfCqRZuPQJDSRmpfx_5aj56efxCDdYab81ishjgFotvDmM3HYDHbMmLCkIMvASpa7V5UhDlDIi8PgKJMX7A244b28RwwYKcHougFfszuMtTWnSmyhfDsPsbhYVnd-KV0Mw.webp"
+  },
+  {
+    "id": "lucas-card-2",
+    "name": "방호 소이탄",
+    "nameKo": "방호 소이탄",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "실드 100% 4.2. 고유 카드",
+    "imageUrl": "https://i.namu.wiki/i/uIW0zjOQOahVhaP-0iU3mxeF36YBVZGyTVeADolRIsA3UPhgXJ1EgMDah8nit7F9jD186jC-zx2GmOic9X_k0ZVz_MMFOdGi5JN6KiM8MgO51n4XAPM_LpaQRE-dORnifI7EAGVjzqmVx_utRoWFlA.webp"
+  },
+  {
+    "id": "lucas-card-3",
+    "name": "대용량 탄창",
+    "nameKo": "대용량 탄창",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Upgrade",
+    "effects": [],
+    "tags": [],
+    "description": "턴 시작 시 런처 탄환 1장 생성",
+    "imageUrl": "https://i.namu.wiki/i/yjCZD7KwtFVzrJVACNPfnscXWmF8xu7KT0U1vyLTFCORcdY3ZMIEIsmMxzQBq8JQnT8Gq57VhInq61QizgyQBXhu4Oq0cg_vFapBberO3z8q79kW5k989YsfcSa_w4HlLJgFomDPyrSK_6MyoxKogw.webp"
+  },
+  {
+    "id": "lucas-card-4",
+    "name": "S.S.S",
+    "nameKo": "S.S.S",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "피해 100% 1턴간 탄환 카드의 피해량 +40%",
+    "imageUrl": "https://i.namu.wiki/i/8eC343SNhHB-PPTgNuKZcMumiiIG7ErChO-EDjtsuZhiU5vTWs25QL21qR1Q9cro_fQbTWWRnIEpWr15sc4bIyc_tWj3vZxNmi6RkmCz3cTj5qq9xhApwKL3rCSqBLjmEKRmnV3ww9G-832EoToUkg.webp"
+  },
+  {
+    "id": "lucas-card-5",
+    "name": "플라멘베르퍼",
+    "nameKo": "플라멘베르퍼",
+    "category": "Epiphany",
+    "apCost": 2,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 180
+      }
+    ],
+    "tags": [],
+    "description": "모든 적 피해 180% 드로우",
+    "imageUrl": "https://i.namu.wiki/i/-vnF-v_IQueGQWdmJACpJe_AF4rjFNozWv58-VeyGCrEfDGJEQUg80MwJ7-SNGfCcJPJ8kjt3kgk5o6o-kNP0050WCBQH63fWmxIJfspibI1bZ1Sr_HgeUJIqlWklrhGufqZhW7Kbio0w-GnF3izmg.webp"
+  },
+  {
+    "id": "lucas-card-6",
+    "name": "섬광탄",
+    "nameKo": "섬광탄",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 120
+      }
+    ],
+    "tags": [],
+    "description": "모든 적 피해 120% 약화",
+    "imageUrl": "https://i.namu.wiki/i/tlOY-W4sdkIZZjaULRQEfjHSGBPAaqeFr37MB5n9GWnJ-7HTYuWTMyTl7ZqCMiKFcVuEhv0FDruDyfrZ82Q1tpaymeLSj_kMLJtcq3HMcm6g8t_g9epyvmNTESojIilriqVH0UJVky80Ecws5X41ow.webp"
+  },
+  {
+    "id": "maribell-card-1",
+    "name": "셸터 킥",
+    "nameKo": "셸터 킥",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "방어 기반 피해 100%",
+    "imageUrl": "https://i.namu.wiki/i/GgOkm0M_V9otDUf623V4gF2a_mVhlxRBTAtRs2s2vD4hm04oMEiAezEc9JyP-vjyc08HBd8F_1wKO7N45_l7pCRNoGg_NjywiHSdJPC0LJosh9MBrmodpHZlwxvnkusa6x7CcYaF9KnnVbq1q4hbQQ.webp"
+  },
+  {
+    "id": "maribell-card-2",
+    "name": "셸터 디펜스",
+    "nameKo": "셸터 디펜스",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "실드 100%",
+    "imageUrl": "https://i.namu.wiki/i/G_G-gP0KJbZ6DyfrYPr9KBXh12NgGw3C0tRrm7O6STmxeREXB6o8hkiuty6Rn32pNo9uNi-k4h5oFZOTb68hw5XFA29-mM3UiSiKNz5-536p3y3hD8s_U3vDSJMfEtZC624olB4FoCuQmWwnEAXncg.webp"
+  },
+  {
+    "id": "maribell-card-3",
+    "name": "셸터 홀드",
+    "nameKo": "셸터 홀드",
+    "category": "Starting",
+    "apCost": 2,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 220
+      }
+    ],
+    "tags": [],
+    "description": "실드 220% 4.2. 고유 카드",
+    "imageUrl": "https://i.namu.wiki/i/XjehDp5O3U6uPdB5AiXEtDHQ8Lme6DQxCKZg3b6SeTaD4jgFUnjsKlrRcYIWucq295DKu4ErFuWJBSTrgiqcz0Coso86VFlkndK67cPE2hqJLEroGG8H0D1OejvvOlX3FDJNDm-J_gRgmJ34vMtiRw.webp"
+  },
+  {
+    "id": "maribell-card-4",
+    "name": "의지의 돌진",
+    "nameKo": "의지의 돌진",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 140
+      }
+    ],
+    "tags": [],
+    "description": "방어 기반 피해 140% 반격",
+    "imageUrl": "https://i.namu.wiki/i/vSKiM4wkEbTxOZF0AC50D_eL-hoqp75CgtlkDJG9E5rCO00zm5eKJBm_XATmDH-VucPdgq4rzbNAUqVm1bnSfTTkfIiZ_ljIdxgCMzTR_5s69l8Si3LU9oR8kmEMv-LOkcfOAaB_L4GumuWqcw_L4A.webp"
+  },
+  {
+    "id": "maribell-card-5",
+    "name": "마리벨 셸터 MK.II",
+    "nameKo": "마리벨 셸터 MK.II",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 100
+      },
+      {
+        "type": "shield",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "방어 기반 피해 100% 피해 기반 실드 100%",
+    "imageUrl": "https://i.namu.wiki/i/JXqFqRsN4ddlVREK7nQclC12lMUe9nQl_LwD2bDAGA6JAReVAaRi2WmFBQTzXUnsjMonxuUFSv2khDGl3LSSxCEZECoE78Kicf2XgQm-NvhMOs2v-t1ahaCc31T8hEW7jlKamyVeHwld9vsDM7wzfg.webp"
+  },
+  {
+    "id": "maribell-card-6",
+    "name": "울브즈 돔",
+    "nameKo": "울브즈 돔",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Upgrade",
+    "effects": [],
+    "tags": [],
+    "description": "반격 2 턴 시작 시 반격",
+    "imageUrl": "https://i.namu.wiki/i/szvwMMeKR3tIyBdaaYoF6zMFhVAs1kjPMOoo70QE8hfDD_S_vjKji-Ua719ilWlqUDmMeddmJhqAoK2ZiN6Zer1JALLgmQvxnXcENNa2Zt3LDY02ZnJLF_6PiNbMa-rfumPHzSWryCwK0Md2MGfYrg.webp"
+  },
+  {
+    "id": "maribell-card-7",
+    "name": "아~ 그렇구나",
+    "nameKo": "아~ 그렇구나",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "실드 100% 반격 1 모든 적 약화",
+    "imageUrl": "https://i.namu.wiki/i/8bz25c1VgMoqsu607ooBIWpao1dQjl21dd3hIfoXafe5tVBj7b213lvnWhPR4Q19lHnH1vEeL2vDck0lTIQu7fcoBp97GGPO-AzjMmBw2LDxf8mfthfjDjiR0I4mAJ50jYhOSslu5_U2gVBsQ4vS2g.webp"
+  },
+  {
+    "id": "maribell-card-8",
+    "name": "셸터 스트라이크",
+    "nameKo": "셸터 스트라이크",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 350
+      }
+    ],
+    "tags": [],
+    "description": "보유한 실드의 150% 만큼 고정 피해",
+    "imageUrl": "https://i.namu.wiki/i/MZxwmFJEqC-jCFTESOxSFi67dXKddJULM0JLKVsozwnhVvFZ5WE8rSslSMkkKBwvbs2InPG4wQSy-huf0urWJLSX4Xq6uAhgSPfjKST9j3f414e_AsITdgSVyxr23QRy6XoMfDLHP8UCVhtwIhSS_Q.webp"
+  },
+  {
+    "id": "nia-card-1",
+    "name": "스트로크",
+    "nameKo": "스트로크",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "피해 100%",
+    "imageUrl": "https://i.namu.wiki/i/40rThiXrbF_CR1Pky_8mTdp1r5hd9GIGzpS5U0SwMNIj-HQew3MxR1hh3Gy-cE5uJNSpL4BTYumJZuRnxWDjkgRD3Vr3-OoCdDMq2ewTVuoOv_53uTItO8QrFmzY4G7-aEhfrxhzqRUxm3YRIuwQ6Q.webp"
+  },
+  {
+    "id": "nia-card-2",
+    "name": "앰프 테라피",
+    "nameKo": "앰프 테라피",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "heal",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "치유 100% 5.2. 고유 카드",
+    "imageUrl": "https://i.namu.wiki/i/0YCb--M-0_xPEXTPIVhgcZ8GzabO7O_bBiYDwBxSlH16WGqTQUuNSHUbZlWF74KwrmN-M2LX45zr7_VBW6GGVu8yUnnmGg4LcYhRCNT76bo5wNG_U99gfX1_T6blVXT0G8drX3AGl6S-EU8ok6Rv5Q.webp"
+  },
+  {
+    "id": "nia-card-3",
+    "name": "G코드",
+    "nameKo": "G코드",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [],
+    "tags": [],
+    "description": "데시벨 2[데시벨] 뽑을 카드 맨 위의 카드 1장 발동",
+    "imageUrl": "https://i.namu.wiki/i/4idBZFA9-p6c4bFd9KwaxbWO-SGhCdNCNfXS8ZIw0a5TGeQBzUtLwux3aRodkwxV1h-EL62nB_3JPDuXPwZ3GATG3G3K5AwRaGAj9pmPg78eJybUyxn9n0oPWyKQqx9V1cn8M585GdQnFPkMpO_kSw.webp"
+  },
+  {
+    "id": "nia-card-4",
+    "name": "악센트 뮤트",
+    "nameKo": "악센트 뮤트",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [],
+    "tags": [],
+    "description": "비용이 가장 높은 카드 1장 버리기 그 카드를 소유한 전투원 무작위 적 추가 공격 150%",
+    "imageUrl": "https://i.namu.wiki/i/GI8M7QRKDoK00-TnSAmG_eAJsZkD10-UvnMk2s0y_EDao9nV6Xu2dgebdkoZ4uvcANbaNdMR8XJbnqzCDDVDgDoIUVkmpYDjqRH67dNgOmaA8yO6i7Rmdukwwk2wJVCrZKd6s335xLCUaFwU04Z2Nw.webp"
+  },
+  {
+    "id": "nia-card-5",
+    "name": "소울리프",
+    "nameKo": "소울리프",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "heal",
+        "value": 120
+      }
+    ],
+    "tags": [
+      "보존"
+    ],
+    "description": "치유 120% 1턴간 카드를 버릴 시 데시벨 1[데시벨], 탄력",
+    "imageUrl": "https://i.namu.wiki/i/qOCCP06BkLmi8snBhVQ0e1S8NAr-fRP7hq6thuZzy5lLAqRqm562aygKLelpuT-NrfRGv4f3YDB-U1DVvQW6qeN-TPzZrrEUlpYdZah-8FQ0H3TZMxs6oc2Ph3kgNaEOFBRFZB1QVr5lc8ztnbZOEw.webp"
+  },
+  {
+    "id": "nia-card-6",
+    "name": "아다지오",
+    "nameKo": "아다지오",
+    "category": "Epiphany",
+    "apCost": 0,
+    "type": "Skill",
+    "effects": [],
+    "tags": [],
+    "description": "드로우 1 버리기 1 이 효과로 버려진 카드를 뽑을 카드 위로 이동",
+    "imageUrl": "https://i.namu.wiki/i/C4wy5fxfSnWzHOkEni5dCein4eRxNvRpud1aYZJLJgGFL2EwGefjjYo9mT7r2VLh01En2ZEohmrM8SV1jDTQBISrBstza6CYfGjQRmNyCqWlI7RrJynneckJ7aTDlSLf1G6xOqdsanZa0OiyuKyBzg.webp"
+  },
+  {
+    "id": "nia-card-7",
+    "name": "니아의 호기심",
+    "nameKo": "니아의 호기심",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 200
+      },
+      {
+        "type": "heal",
+        "value": 50
+      }
+    ],
+    "tags": [],
+    "description": "뽑을 카드의 무작위 카드 3장을 확인 하나를 선택하여 드로우 나머지는 버리기",
+    "imageUrl": "https://i.namu.wiki/i/_GD6FIdJgBzbMPWEh5WJ2dVLE7m17xwdjkODuABKkKEoOnLIzJ_vTU05snEDwSsyoBicqm3p1hAxVqhoPCed2ssKGJYJGIcYmet-NsDdm3j6rA_sklxB58qXzJjKtFdcQHsBk0SllUVd9R4uvj14aA.webp"
+  },
+  {
+    "id": "owen-card-1",
+    "name": "내려베기",
+    "nameKo": "내려베기",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "피해 100%",
+    "imageUrl": "https://i.namu.wiki/i/nYLIbQuRlznws7dke5-HuQ89JQjjpVbWN3c7X0yAnYfSAwLsobK4LgFiIWRJgpz6egkr8tXVJ_v7UIckNUGIzkRZ6p5GzO88wVqdlAaAvnTueSTa_yisMbHdgMFmZwKaGf5KuTjF4m9bKSfw7Nk_fA.webp"
+  },
+  {
+    "id": "owen-card-2",
+    "name": "무기 막기",
+    "nameKo": "무기 막기",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "실드 100%",
+    "imageUrl": "https://i.namu.wiki/i/QNH1pw8r24n9CyNRZKTWkM1LH-NU1-XTc-Vf2o613OQBqsyfFtfjCzb74BWNPKy_V3aeapFC785auHK49zfQmMKIkFo5Zk8jlklxzdvrZGjM5fs4qged5lrDc9zQufikco1qfgdZzJ8ZfTjYq6Px4w.webp"
+  },
+  {
+    "id": "owen-card-3",
+    "name": "바람 충전",
+    "nameKo": "바람 충전",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [],
+    "tags": [],
+    "description": "다음 사용하는 자신의 공격 카드 타격 1회 추가",
+    "imageUrl": "https://i.namu.wiki/i/17V877o7K7eHtvFs-cJGljIjzyZmKXrKtDKZHevbbQiEJJLKWfhisHLLDAcEFeZyPdgRhWCo-8-IKV77hfiQxw5LOJjWqhGw4tWjlv7dncYOpoT1q85Nu0l4_ujZ_NXyPl3Qg_g3jpYYQcEkPBhCBQ.webp"
+  },
+  {
+    "id": "owen-card-4",
+    "name": "바람 베기",
+    "nameKo": "바람 베기",
+    "category": "Epiphany",
+    "apCost": 2,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 240
+      }
+    ],
+    "tags": [],
+    "description": "모든 적 피해 240%",
+    "imageUrl": "https://i.namu.wiki/i/z3OSwhP9ogQqgo7v6WYhEMCx7q661279fHQYw5MRKqhOunpDinrgn_Pa0BCsX6a5u3AsqA0WwSf9szkB1G3fpKKfFKxYsv99JmYbge0SgLk7B-yOPTEX8TqLZT2IHSmG8sV-OFAyNcWWf8JGtfOQDw.webp"
+  },
+  {
+    "id": "owen-card-5",
+    "name": "방어구 부수기",
+    "nameKo": "방어구 부수기",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 140
+      }
+    ],
+    "tags": [],
+    "description": "피해 140% 취약",
+    "imageUrl": "https://i.namu.wiki/i/P27MmtANuFfD-6qP9rUmyFmiRwKDjKvkwP4CpRFnQ7ErAS_5cHZVre91_Kx7fqdcg0K_kIl97hLMAh17QlbyzP8XVYvDzhC3Y0dHlCjhpluuQ0QZYTRTgcFctCoWSTj4cliAyNASLxUuN_iIT-YeDw.webp"
+  },
+  {
+    "id": "owen-card-6",
+    "name": "바람타기",
+    "nameKo": "바람타기",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 150
+      }
+    ],
+    "tags": [],
+    "description": "실드 150% 버린 카드에서 바람 충전을 핸드로 이동",
+    "imageUrl": "https://i.namu.wiki/i/842CV53nf6eQXxNK3Q6YeNsmrKWVMjWG1lC2d7Ix-5367GcDtMXjtTT4A2siF1o2PAZrGclvIsoo7Le_rkvIa2xx8Kcf4yLdWL2AlZWJttKYlS0Fx-OqD_XqO0lb984d6ffERwvk9jRFWlZR1n1DGA.webp"
+  },
+  {
+    "id": "owen-card-7",
+    "name": "질풍의 일격",
+    "nameKo": "질풍의 일격",
+    "category": "Epiphany",
+    "apCost": 2,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 300
+      },
+      {
+        "type": "shield",
+        "value": 130
+      }
+    ],
+    "tags": [],
+    "description": "피해 300% 실드 130% 무난한 딜링 카드지만 오웬 자체의 딜링 능력이 저열한 편이라 그냥 지워도 되는 카드",
+    "imageUrl": "https://i.namu.wiki/i/xHyAWPcq6IrIXo80_MUv8Bpq4Y8V7SmKumh9ESwQ9tPlLc7C4HGepOTm28C6WcGYByjrX-wXxEkQriI4uV2Kl_LXTpEsoPSlq6Dn5XwFzuw1wIb_Pry8QI0JSrNuKs_zKXj8r4ICRNPHXBCRtUyccA.webp"
+  },
+  {
+    "id": "rei-card-1",
+    "name": "암흑 칼날",
+    "nameKo": "암흑 칼날",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "피해 100%",
+    "imageUrl": "https://i.namu.wiki/i/sOfioOTwnYOD4HXxPFE-G-XbQj0YbwfetsKYOnculrS81XjRGpyaZFLwkhJrLjrSbfG5pTI-14S-QHdCV4kTqsjHoXJQmY9OoWffv_fycsO_l3l-NY62VcnYyZJS2mA8cjigSGWMMtKWvVuALA41RA.webp"
+  },
+  {
+    "id": "rei-card-2",
+    "name": "물질 재생",
+    "nameKo": "물질 재생",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "heal",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "치유 100% 5.2. 고유 카드",
+    "imageUrl": "https://i.namu.wiki/i/IFGhUf5aipUQuDbZZfPNunCgCvevWBScd2BNI4lCfgtXxMNMtaUIZD11aAVtW3yZbkVpv3qG_NjQauSLCxqrwXPVgMOJ8Km8XKJxT3hbW4a3ts_LxJYuy64-ed0x7LeSSwvSFZHNl9I_Fe_WCMGX1A.webp"
+  },
+  {
+    "id": "rei-card-3",
+    "name": "어둠의 참격",
+    "nameKo": "어둠의 참격",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "피해 100% 1턴간 기본 공격 카드의 피해량 100% 증가",
+    "imageUrl": "https://i.namu.wiki/i/w6hUSyOU3ydv5JPzHJG_IN-XHpgQUz0RFA14PHgzZFh84L9IfmAdQPQTlRmVUQIuWT_c1Vyd-UEpQ3miPRUJwBnIlhuFtjl_CzDyoG-ppqHPsTcZkq8tbgkyquXaitANTCVB-kaG6hVirYq8c6n6gw.webp"
+  },
+  {
+    "id": "rei-card-4",
+    "name": "공명하는 어둠",
+    "nameKo": "공명하는 어둠",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Upgrade",
+    "effects": [],
+    "tags": [
+      "유일"
+    ],
+    "description": "비용이 1인 카드의 피해량 +40%",
+    "imageUrl": "https://i.namu.wiki/i/u0AYkADFJFfr83amfx9ZIxxNgaCSRhFclMh6WdPPWm-7RaDNZe1G0JPBxpzui6wjGD7U8m3kJ3u9m56y3Q8UZzWWBssXdD4f2Q7ZtF081ctXpmNg4JkNgpzmN30wd89Xjwhn84t0eNWeo5SstvHNVw.webp"
+  },
+  {
+    "id": "rei-card-5",
+    "name": "간식 시간",
+    "nameKo": "간식 시간",
+    "category": "Epiphany",
+    "apCost": 0,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "heal",
+        "value": 200
+      }
+    ],
+    "tags": [
+      "소멸"
+    ],
+    "description": "핸드의 카드 1장 선택 소멸 치유 200% 드로우",
+    "imageUrl": "https://i.namu.wiki/i/Dyuq1R3dgG4o1OGhVpjjee3f5o_rp1l8vsX9lzSN3xSp6LYzdYrP9ahmwJvea5PHtjJFT7bGB4um-drQ175LAgg4r838vsw2TiyO26vryn4yQ4et5xur7T40VsQ1rQ-NRV3IoQ09-6__Romi4w1AJQ.webp"
+  },
+  {
+    "id": "rei-card-6",
+    "name": "암흑 응집",
+    "nameKo": "암흑 응집",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [],
+    "tags": [],
+    "description": "핸드의 공격 카드 1장 선택, 1턴간 사용 시까지 피해량 +100%",
+    "imageUrl": "https://i.namu.wiki/i/zJ2DWCDhH2rCrUJUCighT5_TOm0A4JyJZTZ4p16TUq87yAl-CHCTzxTTtvoB7m3iiPXdrYjLhIX8YddzpTuLqt5E4xvducKmVhiIrL7i1Mt3eVKDcfueD0RxEhioj3vutJzNYcu0f0_jyRkbzdIOWw.webp"
+  },
+  {
+    "id": "rei-card-7",
+    "name": "포식자의 칼날",
+    "nameKo": "포식자의 칼날",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 250
+      },
+      {
+        "type": "heal",
+        "value": 20
+      }
+    ],
+    "tags": [],
+    "description": "피해 250% 1턴간 사기",
+    "imageUrl": "https://i.namu.wiki/i/eVkQTMA0l3WPDvIXmV-ydYDzg5ENwYVLoskViHAfItfeAbbQSwKQSGVaBIvYfelzCtLgvy2JZ-zUNPcQ2RaJvED_VsEy5vFF_8MrUIhjNYqlSPdxUmUDSXtejakWByqCM0PYOTlyQqT3krRxb0liKQ.webp"
+  },
+  {
+    "id": "selena-card-1",
+    "name": "교전 사격",
+    "nameKo": "교전 사격",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "피해 100%",
+    "imageUrl": "https://i.namu.wiki/i/pHq7W9qj_rAPm6oGUO_fYy7I0MePC1UiKLhR4QWPNTVe3tuRgZKHyIEaYCPFlymj1p7hTtlsUmtBFv_XZ-Itye-Vm5LORic8fPvemmBuYPg7DOFS4EH-UFqb62ABYgzp8PVQkTsgh3EMrA4IrYcCdQ.webp"
+  },
+  {
+    "id": "selena-card-2",
+    "name": "긴급 차폐",
+    "nameKo": "긴급 차폐",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "실드 100% 4.2. 고유 카드",
+    "imageUrl": "https://i.namu.wiki/i/8hgCx8QpMCI-1iBuvYvQKg-0km_dNeZaNiqyiUKslEs_joIM-mD6JUP6MQnNEDLMMBZSv9CJJEcvk6NVv7M45X3aixnWsR6c0wPcXbNm5EX6RjqWq-CD3E1ZkOxPTQg2_2vVMS9ZJpVJ9YKyP5CU0Q.webp"
+  },
+  {
+    "id": "selena-card-3",
+    "name": "고배율 조준경",
+    "nameKo": "고배율 조준경",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [],
+    "tags": [],
+    "description": "표식",
+    "imageUrl": "https://i.namu.wiki/i/GVqsM-l888Cg0LYMkTBLWOJuLf4CuSGNqw1h2P3E3M5TEuxlYnFFCYCsVGi-9zUJ6CPSqYM_UWa7DusnDykY3JJItgw5ZgW3Tl3goSxTaufVVrGIfH8JuM8T_leI5nukvlEotECBFbG07691G-7TGA.webp"
+  },
+  {
+    "id": "selena-card-4",
+    "name": "목표 포착",
+    "nameKo": "목표 포착",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 150
+      }
+    ],
+    "tags": [],
+    "description": "피해 150% 감응 : 무작위 적 표식",
+    "imageUrl": "https://i.namu.wiki/i/WN5hGw-EMbQpwpd0D-D_jTD21H6iL34zj33VMj2c6YZYFEG4Ct0omGSLd2ttVNQnJhWSi-w2bCj6VeVsXXqklKVia3f90PRLKmCXBZORBNlKmrT09xtyvEhLHQY8wqFlQE111OnnIyl4_YkPUM5TGw.webp"
+  },
+  {
+    "id": "selena-card-5",
+    "name": "드론 폭격",
+    "nameKo": "드론 폭격",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [],
+    "tags": [],
+    "description": "모든 적 120%, 열정 약점",
+    "imageUrl": "https://i.namu.wiki/i/MIpG7bcAoX6zmfKyyEFFP9oxhTya1fch-gsXzi1kqqUPU2W0cX3gQfcu8R0cTOAv8Eq3f5X3ntdZX9aZThqQwgLkaI4d4-lTR-t6bAQQnJwnv_44ymO6WlPCaPA_VWHWJxK46Mvi9TbepHdhRYo8GQ.webp"
+  },
+  {
+    "id": "selena-card-6",
+    "name": "전술 기동",
+    "nameKo": "전술 기동",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 150
+      }
+    ],
+    "tags": [],
+    "description": "실드 150% 강인도 피해",
+    "imageUrl": "https://i.namu.wiki/i/vHio6gl6YTQQ2x5C2LaXR1nILbWqG9kTTz8UDW0IbvVCXXcBWkD5k5Xc-UxOssWNXN0R2wVuXAhuW4PfvyNiYEWF9pK2_0hMQDsk6QfeJD8bcMMjeDWNbasPmUGmmZtsvn2QJRsE-k8EewRr5QCpRQ.webp"
+  },
+  {
+    "id": "selena-card-7",
+    "name": "저격수의 영역",
+    "nameKo": "저격수의 영역",
+    "category": "Epiphany",
+    "apCost": 0,
+    "type": "Upgrade",
+    "effects": [],
+    "tags": [
+      "유일"
+    ],
+    "description": "표식 피해량 +80%",
+    "imageUrl": "https://i.namu.wiki/i/wmOVE9eJO5lS8lrraKvlMh_l1D9s6cPTaUnrlAU-6xCV3IqV8ovsquoN0JQWImHRxYSM6CGSl4VBZLZr783LnikPkePOTjfHtPiCADQyqN_r-psEZbT4YMQW5bXX4mKzECCyR56elCyQUCLu0qGmJw.webp"
+  },
+  {
+    "id": "tressa-card-1",
+    "name": "Tressa Card 1",
+    "nameKo": "트레사 카드 1",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 100,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 100%"
+  },
+  {
+    "id": "tressa-card-2",
+    "name": "Tressa Card 2",
+    "nameKo": "트레사 카드 2",
+    "category": "Starting",
+    "apCost": 1,
+    "type": "Skill",
+    "effects": [
+      {
+        "type": "shield",
+        "value": 100
+      }
+    ],
+    "tags": [],
+    "description": "실드 100%"
+  },
+  {
+    "id": "tressa-card-3",
+    "name": "Tressa Card 3",
+    "nameKo": "트레사 카드 3",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 160,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 160%"
+  },
+  {
+    "id": "tressa-card-4",
+    "name": "Tressa Card 4",
+    "nameKo": "트레사 카드 4",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 180,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 180%"
+  },
+  {
+    "id": "tressa-card-5",
+    "name": "Tressa Card 5",
+    "nameKo": "트레사 카드 5",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 200,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 200%"
+  },
+  {
+    "id": "tressa-card-6",
+    "name": "Tressa Card 6",
+    "nameKo": "트레사 카드 6",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 220,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 220%"
+  },
+  {
+    "id": "tressa-card-7",
+    "name": "Tressa Card 7",
+    "nameKo": "트레사 카드 7",
+    "category": "Epiphany",
+    "apCost": 1,
+    "type": "Attack",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 240,
+        "hits": 1
+      }
+    ],
+    "tags": [],
+    "description": "피해 240%"
+  }
+]

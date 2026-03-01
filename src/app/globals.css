@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+:root {
+  --color-bg-primary: #0a0a0f;
+  --color-bg-secondary: #12121a;
+  --color-bg-tertiary: #1a1a2e;
+  --color-border: #2a2a3e;
+  --color-text-primary: #e4e4e7;
+  --color-text-secondary: #a1a1aa;
+  --color-accent: #6366f1;
+  --color-accent-hover: #818cf8;
+
+  --color-void: #8b5cf6;
+  --color-justice: #f59e0b;
+  --color-order: #3b82f6;
+  --color-instinct: #10b981;
+  --color-passion: #ef4444;
+}
+
+body {
+  background: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* Attribute color utilities */
+.attr-void { color: var(--color-void); }
+.attr-justice { color: var(--color-justice); }
+.attr-order { color: var(--color-order); }
+.attr-instinct { color: var(--color-instinct); }
+.attr-passion { color: var(--color-passion); }
+
+.bg-attr-void { background-color: var(--color-void); }
+.bg-attr-justice { background-color: var(--color-justice); }
+.bg-attr-order { background-color: var(--color-order); }
+.bg-attr-instinct { background-color: var(--color-instinct); }
+.bg-attr-passion { background-color: var(--color-passion); }
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg-secondary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 3px;
+}
