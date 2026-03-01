@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import type { Character, Card, TeamSlot as TeamSlotType } from "@/lib/types";
 
 const ATTR_COLORS: Record<string, string> = {
@@ -48,12 +47,11 @@ export default function TeamSlot({
         {/* Character Portrait */}
         {character.imageUrl ? (
           <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-lg">
-            <Image
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
               src={character.imageUrl}
               alt={character.name}
-              fill
-              sizes="56px"
-              className="object-cover"
+              className="h-full w-full object-cover"
             />
           </div>
         ) : (

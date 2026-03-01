@@ -30,7 +30,7 @@
       }
     ],
     "tags": [],
-    "description": "실드 100% 5.2. 고유 카드",
+    "description": "실드 100%",
     "imageUrl": "https://i.namu.wiki/i/w0mW94X9odyn8UcpyXXLg2iCPoAtyg6HVVTub_fl0zGPZ6EwIeHI3s0ZtwT3xLCnBPUDJ2eXAk6Mh-oShhoq0u5kLi9C2EouWGRvEXHUK9aUB9qZ6wIt83H4d3RGi6_TFehjWuFV7iG56-gaKM952g.webp"
   },
   {
@@ -113,7 +113,7 @@
     "tags": [
       "보존"
     ],
-    "description": "피해 150% 진혼의 탄환 모두 버리기, 그 수만큼 피해량 +50% 5.3. 탄환 카드",
+    "description": "피해 150% 진혼의 탄환 모두 버리기, 그 수만큼 피해량 +50%",
     "imageUrl": "https://i.namu.wiki/i/YnYwIBIqcPSfthR3CqBJ73bbLzTbEMWlrtcbEWsfLr_Xw6_wHs-9Ch8ErWMxMAqVpEhlVtD3_lA7HqaKAQdF98Ox4QqQt6J9jpdFoI_4AzMSAQq3aVnP1-psNksOOZrwCHauyqnK6TblPcR3bdRrDA.webp"
   },
   {
@@ -779,7 +779,7 @@
     "name": "Kayron Card 4",
     "nameKo": "카이론 카드 4",
     "category": "Epiphany",
-    "apCost": 1,
+    "apCost": 2,
     "type": "Attack",
     "effects": [
       {
@@ -830,7 +830,7 @@
     "name": "Kayron Card 7",
     "nameKo": "카이론 카드 7",
     "category": "Epiphany",
-    "apCost": 2,
+    "apCost": 1,
     "type": "Attack",
     "effects": [
       {
@@ -880,7 +880,7 @@
     "name": "Khalipe Card 3",
     "nameKo": "칼리페 카드 3",
     "category": "Epiphany",
-    "apCost": 1,
+    "apCost": 2,
     "type": "Attack",
     "effects": [
       {
@@ -1089,7 +1089,7 @@
       }
     ],
     "tags": [],
-    "description": "실드 100% 5.2. 고유 카드",
+    "description": "실드 100%",
     "imageUrl": "https://i.namu.wiki/i/I7P8npAOLRijk10DWNO6CE2HDBm3olFMXyVHX51Ymjr5JU84F1PXJ-j05dG4gjwmbJ8kPw5xk1sGBOugjoqopA.webp"
   },
   {
@@ -1323,7 +1323,7 @@
     "name": "Narja Card 3",
     "nameKo": "나르자 카드 3",
     "category": "Epiphany",
-    "apCost": 1,
+    "apCost": 2,
     "type": "Attack",
     "effects": [
       {
@@ -1391,7 +1391,7 @@
     "name": "Narja Card 7",
     "nameKo": "나르자 카드 7",
     "category": "Epiphany",
-    "apCost": 2,
+    "apCost": 1,
     "type": "Attack",
     "effects": [
       {
@@ -1475,7 +1475,7 @@
     "name": "Orlea Card 5",
     "nameKo": "올레아 카드 5",
     "category": "Epiphany",
-    "apCost": 2,
+    "apCost": 1,
     "type": "Attack",
     "effects": [
       {
@@ -1492,7 +1492,7 @@
     "name": "Orlea Card 6",
     "nameKo": "올레아 카드 6",
     "category": "Epiphany",
-    "apCost": 2,
+    "apCost": 1,
     "type": "Attack",
     "effects": [
       {
@@ -1509,7 +1509,7 @@
     "name": "Orlea Card 7",
     "nameKo": "올레아 카드 7",
     "category": "Epiphany",
-    "apCost": 2,
+    "apCost": 1,
     "type": "Attack",
     "effects": [
       {
@@ -1741,7 +1741,7 @@
     "name": "Sereniel Card 5",
     "nameKo": "세레니엘 카드 5",
     "category": "Epiphany",
-    "apCost": 2,
+    "apCost": 1,
     "type": "Attack",
     "effects": [
       {
@@ -1775,7 +1775,7 @@
     "name": "Sereniel Card 7",
     "nameKo": "세레니엘 카드 7",
     "category": "Epiphany",
-    "apCost": 1,
+    "apCost": 2,
     "type": "Attack",
     "effects": [
       {
@@ -1842,7 +1842,7 @@
     "name": "Tiphera Card 4",
     "nameKo": "티페라 카드 4",
     "category": "Epiphany",
-    "apCost": 2,
+    "apCost": 1,
     "type": "Attack",
     "effects": [
       {
@@ -1876,7 +1876,7 @@
     "name": "Tiphera Card 6",
     "nameKo": "티페라 카드 6",
     "category": "Epiphany",
-    "apCost": 2,
+    "apCost": 1,
     "type": "Attack",
     "effects": [
       {
@@ -1893,7 +1893,7 @@
     "name": "Tiphera Card 7",
     "nameKo": "티페라 카드 7",
     "category": "Epiphany",
-    "apCost": 1,
+    "apCost": 2,
     "type": "Attack",
     "effects": [
       {
@@ -2180,7 +2180,7 @@
       }
     ],
     "tags": [],
-    "description": "실드 100% 4.2. 고유 카드",
+    "description": "실드 100%",
     "imageUrl": "https://i.namu.wiki/i/BhXdtP84y7L_ShEtvhbse3-Fpm6mcbJynvrsoQoJPlQJyNz2M6m2IxwzyIUmjqexbf7_TZSFlyLp7uakH9btWPOL2KmO6DK2Lsfoh2-zBsbl4bKDZAS2EbkcfwywB8cHm-5fLNl07_EPikW52u6WSQ.webp"
   },
   {
@@ -2308,7 +2308,7 @@
       }
     ],
     "tags": [],
-    "description": "실드 100% 4.2. 고유 카드",
+    "description": "실드 100%",
     "imageUrl": "https://i.namu.wiki/i/CFHCXpdP_g-zy9TNhBhcl1-lIwZSsCsvQsxHwMnNy8e5OzZkXzW02epwdHpb5UI2vWQzAhdaG_qhrjYpZLDhdN4RZxQzfCaRSRSdw8TDPvY_6z0B9QvH9BXyi0Won-6Xvi9jXPKHmz-fF-vOEoN5DA.webp"
   },
   {
@@ -2486,7 +2486,7 @@
     "name": "Cassius Card 6",
     "nameKo": "카시우스 카드 6",
     "category": "Epiphany",
-    "apCost": 2,
+    "apCost": 1,
     "type": "Attack",
     "effects": [
       {
@@ -2546,7 +2546,7 @@
       }
     ],
     "tags": [],
-    "description": "실드 100% 4.2. 고유 카드",
+    "description": "실드 100%",
     "imageUrl": "https://i.namu.wiki/i/uIW0zjOQOahVhaP-0iU3mxeF36YBVZGyTVeADolRIsA3UPhgXJ1EgMDah8nit7F9jD186jC-zx2GmOic9X_k0ZVz_MMFOdGi5JN6KiM8MgO51n4XAPM_LpaQRE-dORnifI7EAGVjzqmVx_utRoWFlA.webp"
   },
   {
@@ -2660,7 +2660,7 @@
       }
     ],
     "tags": [],
-    "description": "실드 220% 4.2. 고유 카드",
+    "description": "실드 220%",
     "imageUrl": "https://i.namu.wiki/i/XjehDp5O3U6uPdB5AiXEtDHQ8Lme6DQxCKZg3b6SeTaD4jgFUnjsKlrRcYIWucq295DKu4ErFuWJBSTrgiqcz0Coso86VFlkndK67cPE2hqJLEroGG8H0D1OejvvOlX3FDJNDm-J_gRgmJ34vMtiRw.webp"
   },
   {
@@ -2778,7 +2778,7 @@
       }
     ],
     "tags": [],
-    "description": "치유 100% 5.2. 고유 카드",
+    "description": "치유 100%",
     "imageUrl": "https://i.namu.wiki/i/0YCb--M-0_xPEXTPIVhgcZ8GzabO7O_bBiYDwBxSlH16WGqTQUuNSHUbZlWF74KwrmN-M2LX45zr7_VBW6GGVu8yUnnmGg4LcYhRCNT76bo5wNG_U99gfX1_T6blVXT0G8drX3AGl6S-EU8ok6Rv5Q.webp"
   },
   {
@@ -3006,7 +3006,7 @@
       }
     ],
     "tags": [],
-    "description": "치유 100% 5.2. 고유 카드",
+    "description": "치유 100%",
     "imageUrl": "https://i.namu.wiki/i/IFGhUf5aipUQuDbZZfPNunCgCvevWBScd2BNI4lCfgtXxMNMtaUIZD11aAVtW3yZbkVpv3qG_NjQauSLCxqrwXPVgMOJ8Km8XKJxT3hbW4a3ts_LxJYuy64-ed0x7LeSSwvSFZHNl9I_Fe_WCMGX1A.webp"
   },
   {
@@ -3123,7 +3123,7 @@
       }
     ],
     "tags": [],
-    "description": "실드 100% 4.2. 고유 카드",
+    "description": "실드 100%",
     "imageUrl": "https://i.namu.wiki/i/8hgCx8QpMCI-1iBuvYvQKg-0km_dNeZaNiqyiUKslEs_joIM-mD6JUP6MQnNEDLMMBZSv9CJJEcvk6NVv7M45X3aixnWsR6c0wPcXbNm5EX6RjqWq-CD3E1ZkOxPTQg2_2vVMS9ZJpVJ9YKyP5CU0Q.webp"
   },
   {
@@ -3236,7 +3236,7 @@
     "name": "Tressa Card 3",
     "nameKo": "트레사 카드 3",
     "category": "Epiphany",
-    "apCost": 1,
+    "apCost": 2,
     "type": "Attack",
     "effects": [
       {
@@ -3253,7 +3253,7 @@
     "name": "Tressa Card 4",
     "nameKo": "트레사 카드 4",
     "category": "Epiphany",
-    "apCost": 1,
+    "apCost": 2,
     "type": "Attack",
     "effects": [
       {
@@ -3287,7 +3287,7 @@
     "name": "Tressa Card 6",
     "nameKo": "트레사 카드 6",
     "category": "Epiphany",
-    "apCost": 1,
+    "apCost": 2,
     "type": "Attack",
     "effects": [
       {

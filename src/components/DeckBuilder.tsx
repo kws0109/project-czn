@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import type { Card, Character } from "@/lib/types";
 import CardList from "./CardList";
 
@@ -35,12 +34,11 @@ export default function DeckBuilder({
       <div className="mb-3 flex items-center gap-2">
         {character.imageUrl && (
           <div className="relative h-8 w-8 shrink-0 overflow-hidden rounded">
-            <Image
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
               src={character.imageUrl}
               alt={character.name}
-              fill
-              sizes="32px"
-              className="object-cover"
+              className="h-full w-full object-cover"
             />
           </div>
         )}

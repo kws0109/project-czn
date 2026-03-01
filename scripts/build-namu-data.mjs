@@ -163,8 +163,8 @@ function cleanDescription(desc) {
     .trim();
 
   // Cut at section headers (e.g., "5.2. 고유 카드", "5. 에고 스킬", "6. 잠재력")
-  // Also catch standalone section numbers at end of text
-  const sectionPattern = /\s+\d+\.\s*(고유|기본|탄환|특수|에고|잠재력|기억|$)/;
+  // Handle both single-level (5.) and multi-level (5.2.) section numbers
+  const sectionPattern = /\s+\d+(\.\d+)*\.\s*(고유|기본|탄환|특수|에고|잠재력|기억|$)/;
   const sectionMatch = clean.match(sectionPattern);
   if (sectionMatch) {
     clean = clean.substring(0, sectionMatch.index).trim();

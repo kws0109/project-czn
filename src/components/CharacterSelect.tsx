@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import Image from "next/image";
 import type {
   Character,
   Attribute,
@@ -259,12 +258,11 @@ export default function CharacterSelect({
                 {/* Avatar */}
                 {char.imageUrl ? (
                   <div className="relative h-10 w-10 shrink-0 overflow-hidden rounded-lg">
-                    <Image
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
                       src={char.imageUrl}
                       alt={char.name}
-                      fill
-                      sizes="40px"
-                      className="object-cover"
+                      className="h-full w-full object-cover"
                     />
                   </div>
                 ) : (
