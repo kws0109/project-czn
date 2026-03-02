@@ -1,0 +1,147 @@
+=== 기본 통계 ===
+총 카드: 200장
+캐릭터: 28명
+캐릭터 목록: amir, beryl, cassius, chizuru, haru, hugo, kayron, khalipe, lucas, luke, magna, maribell, mei-lin, mika, narja, nia, nine, orlea, owen, rei, renoa, rin, selena, sereniel, tiphera, tressa, veronica, yuki
+
+=== 태그 분포 (카드 수 내림차순) ===
+
+## 유일: 11장 (9캐릭터)
+캐릭터: nine, mika, chizuru, hugo, mei-lin, veronica, yuki, rei, selena
+카드:
+  - 파쇄 (AP:3, Attack, Epiphany)
+  - 역전의 칼날 (AP:0, Upgrade, Epiphany)
+  - 범람 (AP:1, Upgrade, Epiphany)
+  - 황혼의 결속 (AP:1, Upgrade, Epiphany)
+  - 해결사의 방식 (AP:1, Upgrade, Epiphany)
+  - 화룡의 보석 (AP:1, Upgrade, Epiphany)
+  - 발사 준비 (AP:1, Upgrade, Epiphany)
+  - 폭격 준비 (AP:1, Upgrade, Epiphany)
+  - 빙점 칼날 (AP:1, Upgrade, Epiphany)
+  - 공명하는 어둠 (AP:1, Upgrade, Epiphany)
+  - 저격수의 영역 (AP:0, Upgrade, Epiphany)
+
+## 보존: 9장 (7캐릭터)
+캐릭터: renoa, mika, haru, mei-lin, yuki, beryl, nia
+카드:
+  - 결사의 일격 (AP:1, Attack, Epiphany)
+  - 파도의 가호 (AP:1, Skill, Epiphany)
+  - 에너지 충전 (AP:1, Skill, Epiphany)
+  - 끌어올리기 (AP:0, Skill, Epiphany)
+  - 향족의 정신 (AP:1, Skill, Epiphany)
+  - 눈속임 일격 (AP:1, Attack, Epiphany)
+  - 빈틈 발견 (AP:1, Attack, Epiphany)
+  - 충전탄 (AP:2, Attack, Epiphany)
+  - 소울리프 (AP:1, Skill, Epiphany)
+
+## 개전: 6장 (5캐릭터)
+캐릭터: nine, chizuru, hugo, mei-lin, veronica
+카드:
+  - 파쇄 (AP:3, Attack, Epiphany)
+  - 업화 (AP:1, Attack, Epiphany)
+  - 황혼의 결속 (AP:1, Upgrade, Epiphany)
+  - 사냥 본능 (AP:1, Upgrade, Epiphany)
+  - 화룡의 보석 (AP:1, Upgrade, Epiphany)
+  - 발사 준비 (AP:1, Upgrade, Epiphany)
+
+## 소멸: 5장 (5캐릭터)
+캐릭터: nine, rin, amir, beryl, rei
+카드:
+  - 파쇄 (AP:3, Attack, Epiphany)
+  - 납도 (AP:1, Attack, Epiphany)
+  - 아이언 스킨 (AP:1, Skill, Epiphany)
+  - 숨겨온 초코바 (AP:0, Skill, Epiphany)
+  - 간식 시간 (AP:0, Skill, Epiphany)
+
+## 신속: 5장 (3캐릭터)
+캐릭터: chizuru, hugo, rin
+카드:
+  - 도깨비 사냥 (AP:1, Attack, Epiphany)
+  - 단검 방사 (AP:1, Attack, Epiphany)
+  - 빠른 해결법 (AP:1, Attack, Epiphany)
+  - 발도 (AP:0, Attack, Epiphany)
+  - 흑운 오의 : 멸 (AP:1, Attack, Epiphany)
+
+## 증발: 2장 (2캐릭터)
+캐릭터: nine, rin
+카드:
+  - 파쇄 (AP:3, Attack, Epiphany)
+  - 납도 (AP:1, Attack, Epiphany)
+
+=== 카드 타입 분포 ===
+Attack: 116장
+Skill: 68장
+Upgrade: 16장
+
+=== 카테고리 분포 ===
+Starting: 61장
+Epiphany: 139장
+
+=== AP 코스트 분포 ===
+AP 0: 15장
+AP 1: 150장
+AP 2: 34장
+AP 3: 1장
+
+=== 효과 타입 분포 ===
+damage: 121장
+shield: 41장
+heal: 10장
+
+=== 캐릭터 × 태그 매트릭스 ===
+
+캐릭터,유일,보존,개전,소멸,신속,증발
+amir,0,0,0,1,0,0
+beryl,0,2,0,1,0,0
+cassius,0,0,0,0,0,0
+chizuru,1,0,2,0,1,0
+haru,0,2,0,0,0,0
+hugo,1,0,1,0,2,0
+kayron,0,0,0,0,0,0
+khalipe,0,0,0,0,0,0
+lucas,0,0,0,0,0,0
+luke,0,0,0,0,0,0
+magna,0,0,0,0,0,0
+maribell,0,0,0,0,0,0
+mei-lin,1,1,1,0,0,0
+mika,1,1,0,0,0,0
+narja,0,0,0,0,0,0
+nia,0,1,0,0,0,0
+nine,2,0,1,1,0,1
+orlea,0,0,0,0,0,0
+owen,0,0,0,0,0,0
+rei,1,0,0,1,0,0
+renoa,0,1,0,0,0,0
+rin,0,0,0,1,2,1
+selena,1,0,0,0,0,0
+sereniel,0,0,0,0,0,0
+tiphera,0,0,0,0,0,0
+tressa,0,0,0,0,0,0
+veronica,2,0,1,0,0,0
+yuki,1,1,0,0,0,0
+
+=== 태그 공존 분석 (같은 카드에 2+ 태그) ===
+
+개전 + 유일: 4장 (파쇄, 황혼의 결속, 화룡의 보석, 발사 준비)
+소멸 + 증발: 2장 (파쇄, 납도)
+소멸 + 유일: 1장 (파쇄)
+유일 + 증발: 1장 (파쇄)
+개전 + 소멸: 1장 (파쇄)
+개전 + 증발: 1장 (파쇄)
+
+=== 캐릭터별 태그 프로필 ===
+
+amir: 소멸(1)
+beryl: 보존(2), 소멸(1)
+chizuru: 개전(2), 유일(1), 신속(1)
+haru: 보존(2)
+hugo: 개전(1), 신속(2), 유일(1)
+mei-lin: 유일(1), 개전(1), 보존(1)
+mika: 보존(1), 유일(1)
+nia: 보존(1)
+nine: 유일(2), 개전(1), 소멸(1), 증발(1)
+rei: 유일(1), 소멸(1)
+renoa: 보존(1)
+rin: 신속(2), 소멸(1), 증발(1)
+selena: 유일(1)
+veronica: 유일(2), 개전(1)
+yuki: 보존(1), 유일(1)

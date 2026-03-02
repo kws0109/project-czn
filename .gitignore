@@ -25,6 +25,11 @@ next-env.d.ts
 scripts/all-scraped-data.json
 namu-migration-result.png
 
+# analysis build outputs
+docs/analysis/*.html
+docs/analysis/*.pdf
+docs/analysis/*.pptx
+
 # tool logs
 .playwright-mcp/
 .claude/

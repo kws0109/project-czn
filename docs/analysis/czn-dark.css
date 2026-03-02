@@ -1,0 +1,109 @@
+/* @theme czn-dark */
+@import 'default';
+
+section {
+  background: #0f1117;
+  color: #e2e8f0;
+  font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
+  font-size: 28px;
+  padding: 50px 60px;
+}
+
+h1 {
+  color: #a78bfa;
+  font-size: 48px;
+  border-bottom: 2px solid #7c3aed;
+  padding-bottom: 12px;
+}
+
+h2 {
+  color: #c4b5fd;
+  font-size: 36px;
+}
+
+h3 {
+  color: #93c5fd;
+  font-size: 30px;
+}
+
+strong {
+  color: #fbbf24;
+}
+
+code {
+  background: #1e293b;
+  color: #7dd3fc;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+blockquote {
+  border-left: 4px solid #7c3aed;
+  background: rgba(124, 58, 237, 0.1);
+  padding: 12px 20px;
+  margin: 16px 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background: transparent;
+}
+
+thead {
+  background: transparent;
+}
+
+tr {
+  background: transparent !important;
+  border-bottom: 1px solid #334155;
+}
+
+tr:nth-child(even) {
+  background: rgba(30, 41, 59, 0.5) !important;
+}
+
+th {
+  background: #1e293b;
+  color: #a78bfa;
+  padding: 10px 16px;
+  text-align: left;
+  border-bottom: 2px solid #7c3aed;
+}
+
+td {
+  background: transparent;
+  color: #e2e8f0;
+  border-bottom: 1px solid #334155;
+  padding: 8px 16px;
+}
+
+td strong {
+  color: #fbbf24;
+}
+
+/* 표지 슬라이드 */
+section.lead {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section.lead h1 {
+  font-size: 56px;
+  border-bottom: none;
+}
+
+/* 태그 카테고리 색상 */
+.tag-attack { color: #ef4444; }
+.tag-timing { color: #f59e0b; }
+.tag-resource { color: #3b82f6; }
+.tag-defense { color: #10b981; }
+.tag-special { color: #8b5cf6; }
+
+/* 페이지 번호 */
+section::after {
+  color: #475569;
+  font-size: 14px;
+}

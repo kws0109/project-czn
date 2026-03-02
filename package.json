@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "slides:preview": "marp docs/analysis/combat-mechanics.md --preview --theme docs/analysis/czn-dark.css",
+    "slides:pdf": "marp docs/analysis/combat-mechanics.md --pdf --theme docs/analysis/czn-dark.css -o docs/analysis/combat-mechanics.pdf",
+    "slides:pptx": "marp docs/analysis/combat-mechanics.md --pptx --theme docs/analysis/czn-dark.css -o docs/analysis/combat-mechanics.pptx"
   },
   "dependencies": {
     "next": "^16.1.6",
@@ -14,12 +17,14 @@
     "react-dom": "^19.2.4"
   },
   "devDependencies": {
+    "@marp-team/marp-cli": "^4.2.3",
     "@tailwindcss/postcss": "^4.2.1",
     "@types/node": "^25.3.2",
     "@types/react": "^19.2.14",
     "eslint": "^9.39.3",
     "eslint-config-next": "^16.1.6",
     "postcss": "^8.5.6",
+    "serve": "^14.2.5",
     "tailwindcss": "^4.2.1",
     "typescript": "^5.9.3"
   }
