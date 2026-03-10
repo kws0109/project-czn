@@ -5,25 +5,29 @@ section {
   background: #0f1117;
   color: #e2e8f0;
   font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
-  font-size: 28px;
-  padding: 50px 60px;
+  font-size: 22px;
+  padding: 36px 50px;
+  line-height: 1.4;
 }
 
 h1 {
   color: #a78bfa;
-  font-size: 48px;
+  font-size: 38px;
   border-bottom: 2px solid #7c3aed;
-  padding-bottom: 12px;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
 }
 
 h2 {
   color: #c4b5fd;
-  font-size: 36px;
+  font-size: 30px;
 }
 
 h3 {
   color: #93c5fd;
-  font-size: 30px;
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 6px;
 }
 
 strong {
@@ -40,8 +44,22 @@ code {
 blockquote {
   border-left: 4px solid #7c3aed;
   background: rgba(124, 58, 237, 0.1);
-  padding: 12px 20px;
-  margin: 16px 0;
+  padding: 8px 16px;
+  margin: 8px 0;
+  font-size: 18px;
+}
+
+ul, ol {
+  margin: 6px 0;
+  padding-left: 1.5em;
+}
+
+li {
+  margin: 2px 0;
+}
+
+p {
+  margin: 6px 0;
 }
 
 table {
@@ -66,16 +84,18 @@ tr:nth-child(even) {
 th {
   background: #1e293b;
   color: #a78bfa;
-  padding: 10px 16px;
+  padding: 5px 10px;
   text-align: left;
   border-bottom: 2px solid #7c3aed;
+  font-size: 20px;
 }
 
 td {
   background: transparent;
   color: #e2e8f0;
   border-bottom: 1px solid #334155;
-  padding: 8px 16px;
+  padding: 4px 10px;
+  font-size: 20px;
 }
 
 td strong {
@@ -91,8 +111,12 @@ section.lead {
 }
 
 section.lead h1 {
-  font-size: 56px;
+  font-size: 48px;
   border-bottom: none;
+}
+
+section.lead h2 {
+  font-size: 28px;
 }
 
 /* 태그 카테고리 색상 */
@@ -101,6 +125,179 @@ section.lead h1 {
 .tag-resource { color: #3b82f6; }
 .tag-defense { color: #10b981; }
 .tag-special { color: #8b5cf6; }
+
+/* 주석 스크린샷 슬라이드 */
+section.annotated {
+  padding: 0 !important;
+  position: relative;
+  overflow: hidden;
+}
+
+section.annotated h3 {
+  position: absolute;
+  top: 16px;
+  left: 20px;
+  z-index: 10;
+  background: rgba(15, 17, 23, 0.9);
+  padding: 8px 20px;
+  border-radius: 6px;
+  border-left: 4px solid #7c3aed;
+  font-size: 22px;
+  color: #c4b5fd;
+  margin: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+
+section.annotated .co {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  z-index: 10;
+  pointer-events: none;
+}
+
+section.annotated .co .n {
+  min-width: 28px;
+  height: 28px;
+  background: #7c3aed;
+  border: 2px solid rgba(255,255,255,0.9);
+  border-radius: 50%;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 28px;
+  flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.7);
+}
+
+section.annotated .co .l {
+  background: rgba(15, 17, 23, 0.92);
+  color: #e2e8f0;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 15px;
+  white-space: nowrap;
+  border-left: 3px solid #7c3aed;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.5);
+}
+
+section.annotated .co .l em {
+  color: #fbbf24;
+  font-style: normal;
+  font-weight: bold;
+}
+
+section.annotated .nt {
+  position: absolute;
+  bottom: 12px;
+  left: 16px;
+  right: 16px;
+  z-index: 10;
+  background: rgba(15, 17, 23, 0.92);
+  padding: 10px 20px;
+  border-left: 4px solid #7c3aed;
+  border-radius: 4px;
+  font-size: 15px;
+  color: #a5b4fc;
+  box-shadow: 0 -2px 8px rgba(0,0,0,0.3);
+}
+
+section.annotated .nt em {
+  color: #fbbf24;
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* 플로우차트 슬라이드 */
+.flow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  width: 92%;
+  margin: 0 auto;
+}
+
+.flow .step {
+  background: #7c3aed;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 85%;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.flow .process {
+  background: #1e293b;
+  border: 2px solid #7c3aed;
+  padding: 10px 16px;
+  border-radius: 8px;
+  width: 85%;
+  text-align: center;
+  font-size: 15px;
+  color: #94a3b8;
+}
+
+.flow .process em {
+  color: #fbbf24;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.flow .arr {
+  color: #7c3aed;
+  font-size: 22px;
+  line-height: 1;
+}
+
+.flow .cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 6px;
+  width: 85%;
+}
+
+.flow .cards .c {
+  padding: 7px 4px;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+
+.flow .cards .c em {
+  font-style: normal;
+  font-weight: bold;
+  display: block;
+  font-size: 16px;
+}
+
+.flow .cards .c span {
+  font-size: 13px;
+  opacity: 0.9;
+}
+
+.flow .cards .c.atk { background: #ef4444; }
+.flow .cards .c.skl { background: #3b82f6; }
+.flow .cards .c.upg { background: #f59e0b; color: #1e293b; }
+.flow .cards .c.upg em { color: #1e293b; }
+.flow .cards .c.crs { background: #6b7280; }
+
+.flow .alert {
+  background: rgba(239, 68, 68, 0.15);
+  border: 1px solid #ef4444;
+  padding: 7px 16px;
+  border-radius: 6px;
+  text-align: center;
+  width: 85%;
+  font-size: 14px;
+  color: #fca5a5;
+}
 
 /* 페이지 번호 */
 section::after {

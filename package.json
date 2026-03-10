@@ -3,13 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --webpack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "slides:preview": "marp docs/analysis/combat-mechanics.md --preview --theme docs/analysis/czn-dark.css",
-    "slides:pdf": "marp docs/analysis/combat-mechanics.md --pdf --theme docs/analysis/czn-dark.css -o docs/analysis/combat-mechanics.pdf",
-    "slides:pptx": "marp docs/analysis/combat-mechanics.md --pptx --theme docs/analysis/czn-dark.css -o docs/analysis/combat-mechanics.pptx"
+    "slides:preview": "marp docs/analysis/combat-mechanics.md --preview --html --allow-local-files --theme docs/analysis/czn-dark.css",
+    "slides:pdf": "marp docs/analysis/combat-mechanics.md --pdf --html --allow-local-files --theme docs/analysis/czn-dark.css -o docs/analysis/combat-mechanics.pdf",
+    "slides:pptx": "marp docs/analysis/combat-mechanics.md --pptx --html --allow-local-files --theme docs/analysis/czn-dark.css -o docs/analysis/combat-mechanics.pptx",
+    "capture": "powershell.exe -ExecutionPolicy Bypass -File scripts/capture-game.ps1 -Name",
+    "capture:delay": "powershell.exe -ExecutionPolicy Bypass -File scripts/capture-game.ps1 -Delay 3 -Name"
   },
   "dependencies": {
     "next": "^16.1.6",
