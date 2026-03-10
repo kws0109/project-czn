@@ -1,0 +1,289 @@
+{
+  "statusEffects": {
+    "Morale": {
+      "ko": "사기",
+      "type": "buff",
+      "stacking": true,
+      "duration": "permanent",
+      "valuePerStack": "피해량 +20%",
+      "desc": "사기 수만큼 피해량 +20%",
+      "descEn": "Increases damage by 20% per stack"
+    },
+    "Resolve": {
+      "ko": "결의",
+      "type": "buff",
+      "stacking": true,
+      "duration": "permanent",
+      "valuePerStack": "실드 획득량 +20%",
+      "desc": "결의 수만큼 실드 획득량 +20%",
+      "descEn": "Increases Shield gained by 20% per stack"
+    },
+    "Crystallize": {
+      "ko": "결정화",
+      "type": "buff",
+      "stacking": true,
+      "duration": "permanent",
+      "valuePerStack": "고정 실드 20%",
+      "trigger": "턴 종료 시 적용",
+      "desc": "턴 종료 시 결정화 수만큼 고정 실드 20%",
+      "descEn": "At turn end, gains 20% fixed Shield per stack"
+    },
+    "Metallize": {
+      "ko": "금속화",
+      "type": "buff",
+      "stacking": true,
+      "duration": "permanent",
+      "valuePerStack": "방어 기반 피해 80%",
+      "trigger": "능력으로 실드 획득 시 적용",
+      "desc": "능력으로 실드 획득 시 무작위 적에게 방어 기반 피해 80%",
+      "descEn": "When gaining Shield from abilities: deals DEF-based 80% damage to a random enemy"
+    },
+    "Immune": {
+      "ko": "면역",
+      "type": "buff",
+      "stacking": true,
+      "duration": "permanent",
+      "valuePerStack": "디버프 1회 무효화",
+      "trigger": "디버프 부여 시 적용",
+      "desc": "디버프 부여 시 무효화. 무효화 1회마다 1 감소",
+      "descEn": "Negates debuff application. Decreases by 1 per debuff negated"
+    },
+    "Evasion": {
+      "ko": "회피",
+      "type": "buff",
+      "stacking": true,
+      "duration": "permanent",
+      "valuePerStack": "타격 1회 회피",
+      "trigger": "피격 시 적용",
+      "desc": "피격 시 피해 무효화. 회피 1회마다 1 감소",
+      "descEn": "Negates damage on hit. Decreases by 1 per hit evaded"
+    },
+    "Fortitude": {
+      "ko": "불굴",
+      "type": "buff",
+      "stacking": true,
+      "duration": "permanent",
+      "valuePerStack": "받는 피해량 -20%",
+      "trigger": "피격 시 적용",
+      "desc": "불굴 수만큼 받는 피해량 -20%",
+      "descEn": "Reduces damage taken by 20% per stack"
+    },
+    "Counter": {
+      "ko": "반격",
+      "type": "buff",
+      "stacking": true,
+      "duration": "permanent",
+      "maxStacks": 10,
+      "valuePerStack": "피격 시 방어 기반 피해 100%, 실드로 완벽 방어 시 200%",
+      "trigger": "피해를 받을 시 적용",
+      "desc": "피해를 받을 시 공격자에게 방어 기반 피해 100%. 실드로 완벽하게 막으면 방어 기반 피해 200%. 발동 시 1 감소 (최대 10)",
+      "descEn": "When taking damage: DEF-based 100% damage to attacker. If fully blocked by Shield: DEF-based 200% instead. Decreases by 1 per trigger (max 10)"
+    },
+    "Damage Shield": {
+      "ko": "피해 기반 실드",
+      "type": "buff",
+      "stacking": false,
+      "duration": "permanent",
+      "valuePerStack": "준 피해량의 20% 고정 실드 획득",
+      "trigger": "피해를 줄 시 적용",
+      "desc": "준 피해량의 20%만큼 고정 실드 획득. 최대 체력의 20%를 넘지 않음",
+      "descEn": "Gains fixed Shield equal to 20% of damage dealt. Capped at 20% of max HP"
+    },
+    "Vulnerable": {
+      "ko": "취약",
+      "type": "debuff",
+      "stacking": true,
+      "duration": "permanent",
+      "valuePerStack": "받는 피해량 50% 증가",
+      "trigger": "효과 발동 시 적용",
+      "desc": "받는 피해량 50% 증가. 효과 발동 시 취약 1 감소",
+      "descEn": "Increases damage taken by 50%. Decreases by 1 on trigger"
+    },
+    "Weaken": {
+      "ko": "약화",
+      "type": "debuff",
+      "stacking": true,
+      "duration": "permanent",
+      "valuePerStack": "피해량 25% 감소",
+      "trigger": "효과 발동 시 적용",
+      "desc": "피해량 25% 감소. 효과 발동 시 약화 1 감소",
+      "descEn": "Reduces damage dealt by 25%. Decreases by 1 on trigger"
+    },
+    "Mark": {
+      "ko": "표식",
+      "type": "debuff",
+      "stacking": true,
+      "duration": "permanent",
+      "valuePerStack": "공격 카드 사용 시 추가 공격 100%, 비용 0, 강인도 피해",
+      "trigger": "공격 카드 사용 시 적용",
+      "desc": "공격 카드 사용 시 추가 공격 100%, 비용 0만큼 강인도 피해. 표식 1 감소",
+      "descEn": "When attack card is used: bonus attack at 100% multiplier, 0 cost toughness damage. Decreases by 1 per trigger"
+    },
+    "Affliction": {
+      "ko": "고통",
+      "type": "debuff",
+      "stacking": true,
+      "duration": "permanent",
+      "maxStacks": 20,
+      "valuePerStack": "고정 지속 피해 50%",
+      "trigger": "턴 종료 시 적용",
+      "desc": "턴 종료 시 고통 수만큼 고정 지속 피해 50%. 효과 발동 시 중첩 수 절반 감소 (최대 20)",
+      "descEn": "At turn end, deals 50% fixed DoT per stack. Halves stacks on trigger (max 20)"
+    },
+    "Impair": {
+      "ko": "손상",
+      "type": "debuff",
+      "stacking": true,
+      "duration": "permanent",
+      "valuePerStack": "실드 획득량 -15%",
+      "trigger": "실드 획득 시 적용",
+      "desc": "중첩당 실드 획득량 15% 감소. 턴 시작 시 1 감소",
+      "descEn": "Reduces Shield gained by 15% per stack. Decreases by 1 at turn start"
+    },
+    "Overload": {
+      "ko": "과부하",
+      "type": "debuff",
+      "stacking": false,
+      "duration": "사용 시 소멸",
+      "valuePerStack": "드로우 시 AP 1 소모",
+      "trigger": "드로우 시 적용",
+      "desc": "핸드에 들어올 때 행동 포인트 1 소모. 사용 시 소멸",
+      "descEn": "Costs 1 AP when drawn to hand. Exhausts on use"
+    },
+    "Retribution": {
+      "ko": "응징",
+      "type": "debuff",
+      "stacking": true,
+      "duration": "permanent",
+      "valuePerStack": "공격 시 ATK×10% 자가 피해",
+      "trigger": "공격 시 적용",
+      "desc": "공격 시 중첩당 ATK 10% 자가 피해. 턴 시작 시 1 감소",
+      "descEn": "Takes ATK×10% self-damage per stack when attacking. Decreases by 1 at turn start",
+      "verified": false
+    },
+    "Contaminate": {
+      "ko": "오염",
+      "type": "debuff",
+      "stacking": false,
+      "duration": "사용/제거 시 소멸",
+      "valuePerStack": "덱 오염 카드",
+      "trigger": "뽑을 카드에 생성",
+      "desc": "뽑을 카드에 저주 카드 생성. 핸드 효율 저하",
+      "descEn": "Creates Curse cards in draw pile. Reduces hand efficiency"
+    },
+    "Spore Proliferation": {
+      "ko": "포자증식",
+      "type": "debuff",
+      "stacking": true,
+      "duration": "permanent",
+      "maxStacks": 20,
+      "valuePerStack": "받는 피해량 5% 증가",
+      "trigger": "효과 발동 시 적용",
+      "desc": "받는 피해량 5% 증가. 효과 발동 시 포자증식 모두 제거 (최대 20)",
+      "descEn": "Increases damage taken by 5%. Removes all stacks on trigger (max 20)"
+    },
+    "Flanking": {
+      "ko": "협공",
+      "type": "buff",
+      "stacking": true,
+      "duration": "permanent",
+      "valuePerStack": "공격력 100% 피해로 함께 공격",
+      "trigger": "아군 공격 시 적용",
+      "desc": "아군이 공격 시 공격력의 100% 피해로 함께 공격",
+      "descEn": "When an ally attacks, joins with 100% ATK damage"
+    }
+  },
+  "mechanics": {
+    "Draw": {
+      "ko": "드로우",
+      "desc": "뽑을 카드에서 핸드로 카드 이동"
+    },
+    "Discard": {
+      "ko": "버리기",
+      "desc": "핸드의 카드를 무덤으로 이동"
+    },
+    "Action Point": {
+      "ko": "행동 포인트",
+      "desc": "카드 사용에 필요한 자원 (AP). 턴당 3 지급, 적 처치 시 +1"
+    },
+    "Ego Point": {
+      "ko": "에고 포인트",
+      "desc": "에고 스킬 사용에 필요한 자원 (EP). 카드 사용 시 축적, 적 처치 시 보너스"
+    },
+    "Action Count": {
+      "ko": "행동 카운트",
+      "desc": "적의 남은 행동 횟수 — 0 도달 시 적 턴 개시"
+    },
+    "Toughness Damage": {
+      "ko": "강인도 피해",
+      "desc": "카드 AP 비용만큼 몬스터 강인도 감소. 약점/타게팅 시 증가"
+    },
+    "Defeat": {
+      "ko": "격파",
+      "desc": "강인도 0 도달 시 발동 — AP+1 회복, 행동 카운트 +1, 스트레스 -1"
+    },
+    "Execution": {
+      "ko": "처치",
+      "desc": "적 HP 0 도달 시 발동 — AP+1 회복, 스트레스 감소"
+    },
+    "Fixed Shield": {
+      "ko": "고정 실드",
+      "desc": "지속 효과를 무시하고 적용되는 실드"
+    },
+    "Piercing Damage": {
+      "ko": "관통 피해",
+      "desc": "실드를 무시하고 HP에 직접 피해"
+    },
+    "DEF-based Damage": {
+      "ko": "방어 기반 피해",
+      "desc": "(DEF×210% + ATK×30%) × 0.35 × 배율"
+    }
+  },
+  "cardKeywords": {
+    "Retain": {
+      "ko": "보존",
+      "desc": "턴 종료 시 무덤으로 이동하지 않고 핸드에 유지"
+    },
+    "Incinerate": {
+      "ko": "소각",
+      "desc": "카드가 소멸될 때 발동하는 추가 효과"
+    },
+    "Resonance": {
+      "ko": "감응",
+      "desc": "이 카드를 사용할 때마다 효과 1회 강화 (중첩)"
+    },
+    "Inspiration": {
+      "ko": "영감",
+      "desc": "턴 중 카드를 3장 이상 사용 시 추가 효과 발동"
+    },
+    "Consecutive": {
+      "ko": "연속",
+      "desc": "같은 카드를 연속 사용 시 추가 효과"
+    },
+    "Shatter": {
+      "ko": "파괴",
+      "desc": "대상의 실드를 파괴했을 때 발동하는 효과"
+    },
+    "Weakness Attack": {
+      "ko": "약점 공격",
+      "desc": "대상의 약점 속성으로 공격 시 추가 효과"
+    },
+    "Pulsation": {
+      "ko": "고동",
+      "desc": "턴 종료 시 모든 적에게 고동 수 × ATK 70% 고정 피해"
+    },
+    "Regeneration": {
+      "ko": "초재생",
+      "desc": "턴 시작 시 치유 300%"
+    },
+    "Attune": {
+      "ko": "조율",
+      "desc": "이 카드의 비용과 행동 포인트가 동일하다면 효과 발동"
+    }
+  },
+  "coreActions": {
+    "Damage": { "ko": "피해", "desc": "ATK×0.35×배율 (ATK-based 기준)" },
+    "Shield": { "ko": "실드", "desc": "DEF×배율 — HP 앞에서 피해를 흡수" },
+    "Heal": { "ko": "치유", "desc": "ATK×배율 만큼 HP 회복" }
+  }
+}

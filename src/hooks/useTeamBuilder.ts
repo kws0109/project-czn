@@ -13,6 +13,7 @@ const emptySlot: TeamSlot = {
   character: null,
   selectedCards: [],
   partner: null,
+  selectedVariations: {},
 };
 
 export function useTeamBuilder(synergies: SynergyRule[]) {
@@ -30,6 +31,7 @@ export function useTeamBuilder(synergies: SynergyRule[]) {
           ...next[slotIndex],
           character,
           selectedCards: [], // 캐릭터 변경 시 카드 초기화
+          selectedVariations: {}, // 바리에이션도 초기화
         };
         return next;
       });
@@ -53,6 +55,23 @@ export function useTeamBuilder(synergies: SynergyRule[]) {
       setSlots((prev) => {
         const next = [...prev] as [TeamSlot, TeamSlot, TeamSlot];
         next[slotIndex] = { ...next[slotIndex], partner };
+        return next;
+      });
+    },
+    []
+  );
+
+  const setVariation = useCallback(
+    (slotIndex: number, cardId: string, variationNumber: number) => {
+      setSlots((prev) => {
+        const next = [...prev] as [TeamSlot, TeamSlot, TeamSlot];
+        next[slotIndex] = {
+          ...next[slotIndex],
+          selectedVariations: {
+            ...next[slotIndex].selectedVariations,
+            [cardId]: variationNumber,
+          },
+        };
         return next;
       });
     },
@@ -101,6 +120,7 @@ export function useTeamBuilder(synergies: SynergyRule[]) {
     setCharacter,
     setSelectedCards,
     setPartner,
+    setVariation,
     clearSlot,
     clearAll,
     activeSynergies,

@@ -1,0 +1,1108 @@
+{
+  "source": "https://www.prydwen.gg/chaos-zero-nightmare/neutral-cards",
+  "lastUpdated": "2026-02-26",
+  "scrapedAt": "2026-03-05",
+  "totalCards": 122,
+  "neutralCards": 94,
+  "monsterCards": 28,
+  "cards": [
+    {
+      "name": "Abyssal Bug",
+      "apCost": "0",
+      "cardType": "Skill",
+      "tags": "[Exhaust]",
+      "effect": "-1 Morale, -3 Resolve.",
+      "classRestriction": "No Class restrictions",
+      "category": "Monster"
+    },
+    {
+      "name": "Acid Gas",
+      "apCost": "0",
+      "cardType": "Skill",
+      "tags": "[Retrieve][Exhaust]",
+      "effect": "Deal 3 Impair to all enemies.",
+      "classRestriction": "Ranger, Hunter only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Aggressive Mutant",
+      "apCost": "0",
+      "cardType": "Skill",
+      "tags": "[Exhaust]",
+      "effect": "Draw 1 own Attack Card(s).\nFor 1 turn, +50% Damage Amount.",
+      "classRestriction": "Striker, Vanguard only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Aimed Fire",
+      "apCost": "2",
+      "cardType": "Attack",
+      "tags": "",
+      "effect": "400% Damage.\nDefeat: 20 Credit.",
+      "classRestriction": "Ranger, Hunter only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Amber Lumen",
+      "apCost": "1",
+      "cardType": "Skill | Season",
+      "tags": "[Exhaust]",
+      "effect": "Heal 150%.\nHarmonization: 150% Shield.",
+      "classRestriction": "No Class restrictions",
+      "category": "Neutral"
+    },
+    {
+      "name": "Ambush",
+      "apCost": "0",
+      "cardType": "Attack",
+      "tags": "",
+      "effect": "80% Damage.\nIf Ravage, move this card from the Graveyard to hand.",
+      "classRestriction": "Ranger, Hunter only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Arbitum",
+      "apCost": "0",
+      "cardType": "Upgrade",
+      "tags": "",
+      "effect": "-15% Damage taken (1 time per turn).",
+      "classRestriction": "No Class restrictions",
+      "category": "Monster"
+    },
+    {
+      "name": "Arcane Rush",
+      "apCost": "1",
+      "cardType": "Upgrade",
+      "tags": "",
+      "effect": "2 Immunity.",
+      "classRestriction": "Striker, Vanguard only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Atomic Decomposition",
+      "apCost": "2",
+      "cardType": "Attack",
+      "tags": "",
+      "effect": "230% Piercing Damage to all enemies.",
+      "classRestriction": "Psionic, Controller only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Attack!",
+      "apCost": "0",
+      "cardType": "Skill",
+      "tags": "",
+      "effect": "Choose 1 Attack card(s) from the Draw Pile, move it to hand.",
+      "classRestriction": "No Class restrictions",
+      "category": "Neutral"
+    },
+    {
+      "name": "Automata Cavalry",
+      "apCost": "1",
+      "cardType": "Attack",
+      "tags": "",
+      "effect": "150% Damage, 4 Vulnerable.",
+      "classRestriction": "No Class restrictions",
+      "category": "Monster"
+    },
+    {
+      "name": "Azure Lumen",
+      "apCost": "0",
+      "cardType": "Skill | Season",
+      "tags": "[Retain][Exhaust]",
+      "effect": "Exhaust 1 Exhaust card(s) in hand.",
+      "classRestriction": "No Class restrictions",
+      "category": "Neutral"
+    },
+    {
+      "name": "Beam Shooter",
+      "apCost": "3",
+      "cardType": "Attack",
+      "tags": "",
+      "effect": "350% Damage.\nIf the target has Shield, +50% Damage.",
+      "classRestriction": "No Class restrictions",
+      "category": "Monster"
+    },
+    {
+      "name": "Belligerence",
+      "apCost": "0",
+      "cardType": "Skill",
+      "tags": "",
+      "effect": "If there are no Attack Cards in hand, Draw 2.",
+      "classRestriction": "Striker, Vanguard only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Blissful Oblivion",
+      "apCost": "1",
+      "cardType": "Curse | Season",
+      "tags": "[Finale][Ephemeral]",
+      "effect": "Decrease Stress of a random Combatant by 3.\nIncinerate: At the start of the next turn, decrease AP by 1.",
+      "classRestriction": "No Class restrictions",
+      "category": "Neutral"
+    },
+    {
+      "name": "Broken Ebony Lumen",
+      "apCost": "2",
+      "cardType": "Skill | Season",
+      "tags": "[Exhaust]",
+      "effect": "Incinerate: Draw 2, then create 1 Fragments of Ebony Lumen.",
+      "classRestriction": "No Class restrictions",
+      "category": "Neutral"
+    },
+    {
+      "name": "Camouflage",
+      "apCost": "2",
+      "cardType": "Skill",
+      "tags": "[Exhaust]",
+      "effect": "1 Evade.\nDraw Next Turn 2.",
+      "classRestriction": "Striker, Vanguard only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Charged Strike",
+      "apCost": "-",
+      "cardType": "Attack | Season",
+      "tags": "[Exhaust][Ephemeral][Unusable]",
+      "effect": "100% Defense-Based Damage and +100% Damage for each AP.\nIncinerate: Activate this card.",
+      "classRestriction": "No Class restrictions",
+      "category": "Neutral"
+    },
+    {
+      "name": "Chilling Godfather",
+      "apCost": "0",
+      "cardType": "Skill",
+      "tags": "",
+      "effect": "Activate the bottom 1 card(s) of the Draw Pile.\nChoose 1 card(s) in hand and move them to the bottom of the Draw Pile.",
+      "classRestriction": "No Class restrictions",
+      "category": "Monster"
+    },
+    {
+      "name": "Confiscation",
+      "apCost": "0",
+      "cardType": "Skill",
+      "tags": "",
+      "effect": "Draw 1.\nFrom Draw Pile or Discard Pile, move 1 random Forbidden Card(s) into hand.",
+      "classRestriction": "No Class restrictions",
+      "category": "Neutral"
+    },
+    {
+      "name": "Consecutive Attack",
+      "apCost": "1",
+      "cardType": "Attack",
+      "tags": "",
+      "effect": "50% x 3 Damage.",
+      "classRestriction": "Ranger, Hunter only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Contaminated Spore",
+      "apCost": "0",
+      "cardType": "Skill | Season",
+      "tags": "[Retain][Exhaust]",
+      "effect": "1 Spore Propagation.\nRetain: Create 1 Contaminated Spore.",
+      "classRestriction": "No Class restrictions",
+      "category": "Neutral"
+    },
+    {
+      "name": "Counterattack Preperation",
+      "apCost": "1",
+      "cardType": "Skill",
+      "tags": "[Exhaust]",
+      "effect": "Replace the Ego Skill slot with other Ego Skills.",
+      "classRestriction": "Psionic, Controller only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Crimson Lumen",
+      "apCost": "3",
+      "cardType": "Attack | Season",
+      "tags": "[Ignition][Exhaust]",
+      "effect": "300% Damage to all enemies.",
+      "classRestriction": "No Class restrictions",
+      "category": "Neutral"
+    },
+    {
+      "name": "Cultist Arbiter",
+      "apCost": "1",
+      "cardType": "Skill",
+      "tags": "",
+      "effect": "140% Shield.\nAt the start of the turn, all enemies' Action Count +2.",
+      "classRestriction": "No Class restrictions",
+      "category": "Monster"
+    },
+    {
+      "name": "Cyborg Automaton",
+      "apCost": "5",
+      "cardType": "Attack | Season",
+      "tags": "",
+      "effect": "600% Defense-Based Damage.\n1 Incinerate: Activate this card.",
+      "classRestriction": "No Class restrictions",
+      "category": "Monster"
+    },
+    {
+      "name": "Dark Grip",
+      "apCost": "1",
+      "cardType": "Attack",
+      "tags": "",
+      "effect": "120% x 2 Damage.\nDefeat: 120% x 2 Damage to random enemies.",
+      "classRestriction": "No Class restrictions",
+      "category": "Monster"
+    },
+    {
+      "name": "Deadly Shot",
+      "apCost": "2",
+      "cardType": "Attack",
+      "tags": "",
+      "effect": "350% Damage.\nAt the start of the next turn, Draw 1.",
+      "classRestriction": "No Class restrictions",
+      "category": "Neutral"
+    },
+    {
+      "name": "Destruction",
+      "apCost": "1",
+      "cardType": "Attack",
+      "tags": "[Exhaust]",
+      "effect": "300% Damage.\nDiscard 1.",
+      "classRestriction": "Ranger, Hunter only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Determination",
+      "apCost": "2",
+      "cardType": "Upgrade",
+      "tags": "",
+      "effect": "At the start of the turn, +50% Damage to 1 random Attack card in hand for 1 turn.",
+      "classRestriction": "Ranger, Hunter only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Devotion",
+      "apCost": "2",
+      "cardType": "Attack",
+      "tags": "",
+      "effect": "100% Defense-based Damage x 2.\nFor each Resolve, +20% Damage",
+      "classRestriction": "Striker, Vanguard only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Dominion",
+      "apCost": "2",
+      "cardType": "Upgrade",
+      "tags": "",
+      "effect": "At the start of turn, gain 1 Morale.",
+      "classRestriction": "No Class restrictions",
+      "category": "Monster"
+    },
+    {
+      "name": "Ebony Lumen",
+      "apCost": "3",
+      "cardType": "Skill | Season",
+      "tags": "[Exhaust]",
+      "effect": "Incinerate: Draw 3, then create 1 Broken Ebony Lumen.",
+      "classRestriction": "No Class restrictions",
+      "category": "Neutral"
+    },
+    {
+      "name": "Elemental Phoenix",
+      "apCost": "1",
+      "cardType": "Skill",
+      "tags": "[Exhaust]",
+      "effect": "2 Resolve.\nShield equal to the amount of lost HP.",
+      "classRestriction": "No Class restrictions",
+      "category": "Monster"
+    },
+    {
+      "name": "Energy Barrier",
+      "apCost": "0",
+      "cardType": "Skill",
+      "tags": "[Exhaust]",
+      "effect": "100% Shield.\n1 AP.",
+      "classRestriction": "Striker, Vanguard only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Evil Spirit Dullahan",
+      "apCost": "1",
+      "cardType": "Upgrade",
+      "tags": "",
+      "effect": "When using a targeting Attack Card, inflict 1 Agony.",
+      "classRestriction": "No Class restrictions",
+      "category": "Monster"
+    },
+    {
+      "name": "Evil Spirit Salamander",
+      "apCost": "1",
+      "cardType": "Skill",
+      "tags": "[Exhaust 2]",
+      "effect": "Draw 4.",
+      "classRestriction": "No Class restrictions",
+      "category": "Monster"
+    },
+    {
+      "name": "Financial Therapy",
+      "apCost": "1",
+      "cardType": "Skill",
+      "tags": "[Exhaust]",
+      "effect": "Heal 200%.\nIf HP is full, 30 Credits.",
+      "classRestriction": "Psionic, Controller only",
+      "category": "Neutral"
+    },
+    {
+      "name": "First Aid Kit",
+      "apCost": "2",
+      "cardType": "Skill",
+      "tags": "[Celestial][Exhaust]",
+      "effect": "Heal 250%.",
+      "classRestriction": "Psionic, Controller only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Forbidden Algorithm",
+      "apCost": "3",
+      "cardType": "Skill",
+      "tags": "[Exhaust][Lead]",
+      "effect": "Create 1 random Forbidden Card(s) in hand.",
+      "classRestriction": "No Class restrictions",
+      "category": "Neutral"
+    },
+    {
+      "name": "Forbidden: Disposable Ego",
+      "apCost": "1",
+      "cardType": "Skill",
+      "tags": "[Forbidden]",
+      "effect": "Draw 1, Draw for each Cost of that card.",
+      "classRestriction": "No Class restrictions",
+      "category": "Neutral"
+    },
+    {
+      "name": "Forbidden: Ecstasy of Violence",
+      "apCost": "9",
+      "cardType": "Attack",
+      "tags": "[Forbidden][Retain]",
+      "effect": "150% Damage x 4.\nWhen drawing by ability, Cost of this card -1.",
+      "classRestriction": "No Class restrictions",
+      "category": "Neutral"
+    },
+    {
+      "name": "Forbidden: Engraved Malice",
+      "apCost": "2",
+      "cardType": "Skill",
+      "tags": "[Forbidden][Lead]",
+      "effect": "Draw 1.\nActivate 2 random card(s) from hand.",
+      "classRestriction": "No Class restrictions",
+      "category": "Neutral"
+    },
+    {
+      "name": "Forbidden: Eternal Hunger",
+      "apCost": "0",
+      "cardType": "Skill",
+      "tags": "[Forbidden][Retain][Exhaust]",
+      "effect": "Response: Draw 1, +1 AP.",
+      "classRestriction": "No Class restrictions",
+      "category": "Neutral"
+    },
+    {
+      "name": "Forbidden: Gesture of Freedom",
+      "apCost": "0",
+      "cardType": "Skill",
+      "tags": "[Forbidden][Exhaust][Initiation]",
+      "effect": "Decrease Cost of 1 random card in hand by 1.",
+      "classRestriction": "No Class restrictions",
+      "category": "Neutral"
+    },
+    {
+      "name": "Forbidden: Guidance of Falling",
+      "apCost": "1",
+      "cardType": "Upgrade",
+      "tags": "[Forbidden][Initiation]",
+      "effect": "When drawn by an ability, Heal 40% and -1 Stress of a random Combatant.",
+      "classRestriction": "No Class restrictions",
+      "category": "Neutral"
+    },
+    {
+      "name": "Forbidden: Portrait of Fury",
+      "apCost": "1",
+      "cardType": "Attack",
+      "tags": "[Forbidden]",
+      "effect": "70% Damage.\nFor every 4 cards in hand, +1 Hit.\nDraw 1 for each Hit.",
+      "classRestriction": "No Class restrictions",
+      "category": "Neutral"
+    },
+    {
+      "name": "Forced Learning Apparatus",
+      "apCost": "2",
+      "cardType": "Upgrade",
+      "tags": "[Lead]",
+      "effect": "Upon using 4 cards, Draw 1 (1 time for each turn).",
+      "classRestriction": "Psionic, Controller only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Forest's Hunger",
+      "apCost": "2",
+      "cardType": "Attack | Season",
+      "tags": "",
+      "effect": "300% Defense-Based Damage.\nExhaust all Exhaust cards in hand, then +25% Damage Amount for each.",
+      "classRestriction": "Striker, Vanguard only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Forgotten Grave",
+      "apCost": "6",
+      "cardType": "Skill | Season",
+      "tags": "[Ignition][Retain][Exhaust]",
+      "effect": "When Cost of this card is decreased, +10% Critical Chance to this unit for 1 turn.\nIncinerate: Create 1 Contaminated Spore.",
+      "classRestriction": "Ranger, Hunter only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Forgotten Sword",
+      "apCost": "0",
+      "cardType": "Skill | Season",
+      "tags": "[Retain]",
+      "effect": "When all types of Arena cards are created, swap this card into Judgment.",
+      "classRestriction": "No Class restrictions",
+      "category": "Neutral"
+    },
+    {
+      "name": "Fortitude",
+      "apCost": "1",
+      "cardType": "Skill",
+      "tags": "",
+      "effect": "150% Shield.\nCombo: at the start of the next turn, 150% Shield.",
+      "classRestriction": "Striker, Vanguard only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Fracturing Memories",
+      "apCost": "1",
+      "cardType": "Curse | Season",
+      "tags": "[Retain][Exhaust]",
+      "effect": "When there are 10 or more of this card in hand, change Cost of this card to 0.\nRetain: Create 3 Fracturing Memories.",
+      "classRestriction": "No Class restrictions",
+      "category": "Neutral"
+    },
+    {
+      "name": "Fragments of Ebony Lumen",
+      "apCost": "1",
+      "cardType": "Skill | Season",
+      "tags": "[Exhaust]",
+      "effect": "Incinerate: Draw 1.",
+      "classRestriction": "No Class restrictions",
+      "category": "Neutral"
+    },
+    {
+      "name": "Gear Bag",
+      "apCost": "1",
+      "cardType": "Skill",
+      "tags": "[Exhaust][Combo]",
+      "effect": "Draw 2.",
+      "classRestriction": "Psionic, Controller only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Gloomy Godmother",
+      "apCost": "1",
+      "cardType": "Upgrade",
+      "tags": "",
+      "effect": "At the end of the turn, 200% Damage to random enemies.",
+      "classRestriction": "No Class restrictions",
+      "category": "Monster"
+    },
+    {
+      "name": "Glorious Resistance",
+      "apCost": "3",
+      "cardType": "Upgrade",
+      "tags": "",
+      "effect": "At the start of the turn, each ally takes Fixed Damage equal to 10% of their max HP. 1 AP.",
+      "classRestriction": "Psionic, Controller only",
+      "category": "Neutral"
+    },
+    {
+      "name": "HA-00",
+      "apCost": "2",
+      "cardType": "Attack",
+      "tags": "",
+      "effect": "100% x 4 Damage to random enemies.\nTo targets hit, 1 Vulnerable or 1 Weaken.",
+      "classRestriction": "No Class restrictions",
+      "category": "Neutral"
+    },
+    {
+      "name": "Hand-to-Hand Combat",
+      "apCost": "1",
+      "cardType": "Attack",
+      "tags": "[Exhaust]",
+      "effect": "200% Defense-Based Damage.\n2 Crystallization.",
+      "classRestriction": "Striker, Vanguard only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Heavy Bash",
+      "apCost": "2",
+      "cardType": "Attack",
+      "tags": "",
+      "effect": "200% Damage, 2 Vulnerable, 2 Weaken",
+      "classRestriction": "Striker, Vanguard only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Heavy Blow",
+      "apCost": "0",
+      "cardType": "Attack | Season",
+      "tags": "[Exhaust]",
+      "effect": "200% Damage.\nDouble the effect of Vulnerable.",
+      "classRestriction": "No Class restrictions",
+      "category": "Neutral"
+    },
+    {
+      "name": "Hidden Bullet",
+      "apCost": "0",
+      "cardType": "Attack",
+      "tags": "[Retain][Exhaust]",
+      "effect": "100% Damage.\nRetain: +50% Damage.",
+      "classRestriction": "Ranger, Hunter only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Hunger of Loss",
+      "apCost": "1",
+      "cardType": "Skill",
+      "tags": "[Exhaust]",
+      "effect": "Draw 1.\nIf there are no cards in hand, Draw 4 extra",
+      "classRestriction": "No Class restrictions",
+      "category": "Monster"
+    },
+    {
+      "name": "Hunger of the Void",
+      "apCost": "0",
+      "cardType": "Skill",
+      "tags": "[Exhaust]",
+      "effect": "2 Morale.\n-2 Morale.",
+      "classRestriction": "No Class restrictions",
+      "category": "Monster"
+    },
+    {
+      "name": "Instinct Ignition",
+      "apCost": "1",
+      "cardType": "Upgrade",
+      "tags": "",
+      "effect": "Upon card creation, grant random Epiphany (1 per turn).",
+      "classRestriction": "Psionic, Controller only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Iron Wall",
+      "apCost": "1",
+      "cardType": "Skill",
+      "tags": "[Initiation]",
+      "effect": "1 Resolve.\n1 Fortitude.",
+      "classRestriction": "Striker, Vanguard only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Judgement",
+      "apCost": "0",
+      "cardType": "Attack | Season",
+      "tags": "[Retain][Exhaust]",
+      "effect": "Damage 1000%.\nTenacity Damage 10.",
+      "classRestriction": "No Class restrictions",
+      "category": "Neutral"
+    },
+    {
+      "name": "Knowledge of Darkness",
+      "apCost": "1",
+      "cardType": "Skill",
+      "tags": "[Exhaust][Finale]",
+      "effect": "Draw 1.\nActivate drawn card,",
+      "classRestriction": "Psionic, Controller only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Leap Attack",
+      "apCost": "1",
+      "cardType": "Attack",
+      "tags": "",
+      "effect": "200% Damage.\nInspiration: -1 Cost, Draw 1.",
+      "classRestriction": "Ranger, Hunter only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Maneuvering Fire",
+      "apCost": "0",
+      "cardType": "Attack",
+      "tags": "[Initiation][Exhaust]",
+      "effect": "200% Damage to all enemies.",
+      "classRestriction": "Ranger, Hunter only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Muscle-Enhanced Evolver",
+      "apCost": "1",
+      "cardType": "Attack",
+      "tags": "",
+      "effect": "Attack 80% x 2 Damage.\nInspiration +2 hits.",
+      "classRestriction": "Ranger, Hunter only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Mushroom Ammo",
+      "apCost": "3",
+      "cardType": "Attack | Season",
+      "tags": "[Bullet][Exhaust]",
+      "effect": "450% Damage.\nDouble the effect of Spore Propagation.",
+      "classRestriction": "Ranger, Hunter only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Nature's Gift",
+      "apCost": "1",
+      "cardType": "Skill | Season",
+      "tags": "[Exhaust]",
+      "effect": "Heal 20% for each card in hand.\nHarmonization: Create 1 Contaminated Spore for each card in hand.",
+      "classRestriction": "Psionic, Controller only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Negotiate",
+      "apCost": "1",
+      "cardType": "Skill",
+      "tags": "[Retain][Exhaust]",
+      "effect": "2 Morale.\n2 Morale to all enemies.",
+      "classRestriction": "Ranger, Hunter only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Nutrient Absorption",
+      "apCost": "0",
+      "cardType": "Skill | Season",
+      "tags": "[Exhaust]",
+      "effect": "Select and Exhaust 1 card in hand.\nFor each Cost of that card, decrease Cost of 1 random card in hand by 1 for 1 turn.",
+      "classRestriction": "No Class restrictions",
+      "category": "Neutral"
+    },
+    {
+      "name": "One with All",
+      "apCost": "-",
+      "cardType": "Skill | Season",
+      "tags": "[Finale][Exhaust][Unusable]",
+      "effect": "Select and Activate 1 card(s) in hand, Draw Pile, or Discard Pile.\nFor 1 turn, when each of Damage, Shield, and Heal has been activated through cards, remove Unusable.",
+      "classRestriction": "Psionic, Controller only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Overwhelm",
+      "apCost": "0",
+      "cardType": "Attack",
+      "tags": "[Exhaust]",
+      "effect": "100% Damage x 3 to all enemies.\nCreate 2 Overload card(s) in the Draw Pile.",
+      "classRestriction": "Striker, Vanguard only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Pierce",
+      "apCost": "0",
+      "cardType": "Attack | Season",
+      "tags": "[Exhaust]",
+      "effect": "200% Damage.\n1 Vulnerable.\n1 Weaken.\n1 Agony.",
+      "classRestriction": "No Class restrictions",
+      "category": "Neutral"
+    },
+    {
+      "name": "Precision Aim",
+      "apCost": "0",
+      "cardType": "Attack",
+      "tags": "",
+      "effect": "120% Damage.\nDraw 1.\nSelect 1 card(s) in hand, move them on top of the Draw Pile.",
+      "classRestriction": "Ranger, Hunter only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Prepare for Battle",
+      "apCost": "1",
+      "cardType": "Skill",
+      "tags": "",
+      "effect": "Create 1 random Dellang Shop Card(s).\nFor 1 turn, change that card's cost to 0.",
+      "classRestriction": "No Class restrictions",
+      "category": "Neutral"
+    },
+    {
+      "name": "Propagative Virus",
+      "apCost": "2",
+      "cardType": "Attack",
+      "tags": "",
+      "effect": "Damage 120% x 1.\nResponse: +1 hit (Max 5 stacks).",
+      "classRestriction": "Ranger, Hunter only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Protective Shout",
+      "apCost": "1",
+      "cardType": "Skill",
+      "tags": "",
+      "effect": "Gain 130% Shield.\nIf there is no Shield, +100% Shield.",
+      "classRestriction": "Striker, Vanguard only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Pulverize",
+      "apCost": "2",
+      "cardType": "Attack",
+      "tags": "[Weakness Attack]",
+      "effect": "Damage 150% x 2.\nDraw 1.",
+      "classRestriction": "Striker, Vanguard only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Quick Shelling",
+      "apCost": "0",
+      "cardType": "Attack",
+      "tags": "",
+      "effect": "80% Damage.\nDraw 1.",
+      "classRestriction": "Ranger, Hunter only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Quickdraw",
+      "apCost": "0",
+      "cardType": "Attack",
+      "tags": "[Initiation][Exhaust]",
+      "effect": "150% Damage.\nMark 1.",
+      "classRestriction": "Ranger, Hunter only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Rage",
+      "apCost": "2",
+      "cardType": "Attack",
+      "tags": "",
+      "effect": "300% Damage.\nIf there are no other Combatant cards in hand, -2 cost.",
+      "classRestriction": "Striker, Vanguard only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Rally",
+      "apCost": "0",
+      "cardType": "Skill",
+      "tags": "[Haste][Exhaust 2]",
+      "effect": "Draw 1.\n+3 Action Count to all enemies.",
+      "classRestriction": "Psionic, Controller only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Recycling",
+      "apCost": "0",
+      "cardType": "Skill",
+      "tags": "",
+      "effect": "If Ego Points are 2 or more, +1 AP, -2 Ego Point(s).",
+      "classRestriction": "Psionic, Controller only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Relentless Endurance",
+      "apCost": "2",
+      "cardType": "Skill",
+      "tags": "[Retain]",
+      "effect": "350% Shield.",
+      "classRestriction": "Striker, Vanguard only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Reorganize",
+      "apCost": "1",
+      "cardType": "Skill",
+      "tags": "[Exhaust]",
+      "effect": "Draw 3.",
+      "classRestriction": "No Class restrictions",
+      "category": "Neutral"
+    },
+    {
+      "name": "Repent",
+      "apCost": "1",
+      "cardType": "Skill",
+      "tags": "[Exhaust]",
+      "effect": "-1 Morale.\n-1 Resolve.",
+      "classRestriction": "Psionic, Controller only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Residual Herb",
+      "apCost": "0",
+      "cardType": "Skill | Season",
+      "tags": "[Retrieve 2][Exhaust 3]",
+      "effect": "60% Shield.\nIncinerate: Create 1 Contaminated Spore.",
+      "classRestriction": "Striker, Vanguard only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Rocket Punch",
+      "apCost": "-",
+      "cardType": "Attack | Season",
+      "tags": "[Retain][Exhaust][Unusable]",
+      "effect": "400% Damage.\nRetain: +25% activation chance, and has a 25% chance to activate this card.",
+      "classRestriction": "No Class restrictions",
+      "category": "Neutral"
+    },
+    {
+      "name": "Rotten Ripper",
+      "apCost": "1",
+      "cardType": "Attack",
+      "tags": "[Haste]",
+      "effect": "160% Damage.\n+1 Action Count.",
+      "classRestriction": "No Class restrictions",
+      "category": "Monster"
+    },
+    {
+      "name": "Sacred Strike",
+      "apCost": "1",
+      "cardType": "Attack",
+      "tags": "[Exhaust]",
+      "effect": "200% Damage.\n2 Tenacity Damage.",
+      "classRestriction": "Striker, Vanguard only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Sadism",
+      "apCost": "1",
+      "cardType": "Skill",
+      "tags": "[Lead]",
+      "effect": "1 Vulnerable to all enemies.\nCost of 1 random Attack Card(s) in hand -1 for 1 turn.",
+      "classRestriction": "No Class restrictions",
+      "category": "Neutral"
+    },
+    {
+      "name": "Self-Generating Experiment",
+      "apCost": "2",
+      "cardType": "Upgrade",
+      "tags": "[Lead]",
+      "effect": "When 6 or more Cards are in hand, changes the Cost of 1 random Card in hand to 0 for 1 turn (1 time per turn).",
+      "classRestriction": "Psionic, Controller only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Seraphim of Pain",
+      "apCost": "2",
+      "cardType": "Attack",
+      "tags": "",
+      "effect": "250% Damage.\nIf this is the only card in hand, -2 cost.",
+      "classRestriction": "No Class restrictions",
+      "category": "Monster"
+    },
+    {
+      "name": "Seven Arms",
+      "apCost": "1",
+      "cardType": "Attack",
+      "tags": "[Haste]",
+      "effect": "120% Damage.\nIf target's Action Count is 5 or more, 2 AP.",
+      "classRestriction": "No Class restrictions",
+      "category": "Monster"
+    },
+    {
+      "name": "Shell Bug",
+      "apCost": "1",
+      "cardType": "Upgrade",
+      "tags": "",
+      "effect": "5 Crystallize.",
+      "classRestriction": "No Class restrictions",
+      "category": "Monster"
+    },
+    {
+      "name": "Shell-Forming Cell",
+      "apCost": "0",
+      "cardType": "Skill",
+      "tags": "[Retain]",
+      "effect": "70% Shield.\nFor each card in hand, +25% Shield.",
+      "classRestriction": "Striker, Vanguard only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Shield Blast",
+      "apCost": "0",
+      "cardType": "Attack | Season",
+      "tags": "[Exhaust]",
+      "effect": "150% Defense-Based Damage to all enemies.",
+      "classRestriction": "No Class restrictions",
+      "category": "Neutral"
+    },
+    {
+      "name": "Shock",
+      "apCost": "2",
+      "cardType": "Attack",
+      "tags": "",
+      "effect": "200% Damage to all enemies.\n2 Vulnerable.",
+      "classRestriction": "Ranger, Hunter only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Shy Gardener",
+      "apCost": "1",
+      "cardType": "Attack",
+      "tags": "",
+      "effect": "50% x 4 Damage. 3 Mark.",
+      "classRestriction": "No Class restrictions",
+      "category": "Monster"
+    },
+    {
+      "name": "Skull Bash",
+      "apCost": "1",
+      "cardType": "Attack",
+      "tags": "",
+      "effect": "200% Damage.\nWeakness Attack: +50% Damage.",
+      "classRestriction": "Ranger, Hunter only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Slaughter",
+      "apCost": "2",
+      "cardType": "Skill",
+      "tags": "[Exhaust]",
+      "effect": "200% Shield.\nDamage to all enemies equal to Shield gained.",
+      "classRestriction": "No Class restrictions",
+      "category": "Monster"
+    },
+    {
+      "name": "Soldier Prime",
+      "apCost": "2",
+      "cardType": "Attack",
+      "tags": "",
+      "effect": "300% Damage.\n+2AP.",
+      "classRestriction": "No Class restrictions",
+      "category": "Monster"
+    },
+    {
+      "name": "Somnolent Fruit",
+      "apCost": "1",
+      "cardType": "Skill",
+      "tags": "[Finale][Exhaust]",
+      "effect": "-5 Stress to a random Combatant.",
+      "classRestriction": "No Class restrictions",
+      "category": "Neutral"
+    },
+    {
+      "name": "Sorrowful Godfather",
+      "apCost": "1",
+      "cardType": "Attack",
+      "tags": "",
+      "effect": "50% x 4 Damage. 6 Agony.",
+      "classRestriction": "No Class restrictions",
+      "category": "Monster"
+    },
+    {
+      "name": "Spiked Shield",
+      "apCost": "1",
+      "cardType": "Attack",
+      "tags": "",
+      "effect": "100% Defense-based Damage to all enemies.\nDestroy: +1 additional hit(s).",
+      "classRestriction": "Striker, Vanguard only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Spirit Kefox",
+      "apCost": "1",
+      "cardType": "Skill",
+      "tags": "[Exhaust]",
+      "effect": "From the Draw Pile, choose 1 card to Draw, apply Retrieve to that card.",
+      "classRestriction": "No Class restrictions",
+      "category": "Monster"
+    },
+    {
+      "name": "Spore Harvester",
+      "apCost": "0",
+      "cardType": "Skill | Season",
+      "tags": "[Retain][Exhaust]",
+      "effect": "Incinerate: Create 2 Contaminated Spore.\nRetain: Create 1 Contaminated Spore",
+      "classRestriction": "No Class restrictions",
+      "category": "Neutral"
+    },
+    {
+      "name": "Strategic Starting Point",
+      "apCost": "1",
+      "cardType": "Skill",
+      "tags": "[Exhaust]",
+      "effect": "2 Ego Points.",
+      "classRestriction": "Psionic, Controller only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Tackle",
+      "apCost": "3",
+      "cardType": "Attack",
+      "tags": "[Pulverize]",
+      "effect": "400% Defense-Based Damage.\nIf HP is full, -1 cost to this card.",
+      "classRestriction": "No Class restrictions",
+      "category": "Neutral"
+    },
+    {
+      "name": "Tactical Action",
+      "apCost": "1",
+      "cardType": "Upgrade",
+      "tags": "[Initiation]",
+      "effect": "Increase Damage Amount to targets granted Shield by 25% (max 1).",
+      "classRestriction": "Ranger, Hunter only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Tactical Reformation",
+      "apCost": "1",
+      "cardType": "Skill",
+      "tags": "[Exhaust]",
+      "effect": "-1 Next Ego Skill used",
+      "classRestriction": "Psionic, Controller only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Trapper",
+      "apCost": "1",
+      "cardType": "Skill",
+      "tags": "",
+      "effect": "120% Shield, 1 Vulnerable.\nIf the target did not act, +120% Shield Gain, +1 Vulnerable.",
+      "classRestriction": "No Class restrictions",
+      "category": "Monster"
+    },
+    {
+      "name": "Vine Lord",
+      "apCost": "0",
+      "cardType": "Skill | Season",
+      "tags": "[Exhaust 3]",
+      "effect": "Draw 2 Exhaust card(s) of this unit.",
+      "classRestriction": "No Class restrictions",
+      "category": "Monster"
+    },
+    {
+      "name": "Wanderer of the Void",
+      "apCost": "0",
+      "cardType": "Skill",
+      "tags": "[Exhaust]",
+      "effect": "For 1 turn, target's Action Count does not decrease.",
+      "classRestriction": "Psionic, Controller only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Wind of Relief",
+      "apCost": "1",
+      "cardType": "Skill",
+      "tags": "",
+      "effect": "2 Agony to all enemies.\nSelect and Exhaust up to 2 Status Ailment or Curse card(s) from hand.",
+      "classRestriction": "Psionic, Controller only",
+      "category": "Neutral"
+    },
+    {
+      "name": "Winged Humanoid Beast",
+      "apCost": "1",
+      "cardType": "Attack",
+      "tags": "",
+      "effect": "50% x 5 Damage to random enemies.",
+      "classRestriction": "No Class restrictions",
+      "category": "Monster"
+    },
+    {
+      "name": "Wolves Bane",
+      "apCost": "1",
+      "cardType": "Attack",
+      "tags": "",
+      "effect": "120% Damage to all enemies.\n2 Weaken.\n2 Impair.",
+      "classRestriction": "No Class restrictions",
+      "category": "Monster"
+    }
+  ]
+}

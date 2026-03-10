@@ -8,6 +8,8 @@ interface DeckBuilderProps {
   allCards: Card[];
   selectedCards: Card[];
   onCardsChange: (cards: Card[]) => void;
+  selectedVariations?: Record<string, number>;
+  onVariationChange?: (cardId: string, variationNumber: number) => void;
 }
 
 export default function DeckBuilder({
@@ -15,6 +17,8 @@ export default function DeckBuilder({
   allCards,
   selectedCards,
   onCardsChange,
+  selectedVariations = {},
+  onVariationChange,
 }: DeckBuilderProps) {
   const characterCards = character.cardIds
     .map((id) => allCards.find((c) => c.id === id))
@@ -51,6 +55,8 @@ export default function DeckBuilder({
         selectedIds={selectedCards.map((c) => c.id)}
         onToggleCard={handleToggle}
         maxCards={characterCards.length}
+        selectedVariations={selectedVariations}
+        onVariationChange={onVariationChange}
       />
     </div>
   );

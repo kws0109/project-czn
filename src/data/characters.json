@@ -7,7 +7,7 @@
     "class": "Hunter",
     "attribute": "Void",
     "faction": "Terrascion",
-    "imageUrl": "https://www.prydwen.gg/static/d8632173ae4750ac502aa6c0f9fd9d85/2547a/renoa_card.webp",
+    "imageUrl": "/characters/renoa.webp",
     "stats": {
       "attack": {
         "base": 82,
@@ -42,7 +42,7 @@
     "class": "Vanguard",
     "attribute": "Order",
     "faction": "Wanderer",
-    "imageUrl": "https://www.prydwen.gg/static/808bd7ca202ae419a430384f05893a1c/2547a/nine_c.webp",
+    "imageUrl": "/characters/nine.webp",
     "stats": {
       "attack": {
         "base": 68,
@@ -80,7 +80,7 @@
     "class": "Controller",
     "attribute": "Justice",
     "faction": "Terrascion",
-    "imageUrl": "https://www.prydwen.gg/static/e638d89e02d785c77b78aa7852696dd1/2547a/mika_card.webp",
+    "imageUrl": "/characters/mika.webp",
     "stats": {
       "attack": {
         "base": 67,
@@ -115,7 +115,7 @@
     "class": "Psionic",
     "attribute": "Void",
     "faction": "Peltion",
-    "imageUrl": "https://www.prydwen.gg/static/a69c85f9255dedce185b23645e8bdf01/2547a/chi_card.webp",
+    "imageUrl": "/characters/chizuru.webp",
     "stats": {
       "attack": {
         "base": 74,
@@ -150,7 +150,7 @@
     "class": "Striker",
     "attribute": "Justice",
     "faction": "Terrascion",
-    "imageUrl": "https://www.prydwen.gg/static/5ce2378ea36903d2e731bf738fb3dbd7/2547a/haru_card.webp",
+    "imageUrl": "/characters/haru.webp",
     "stats": {
       "attack": {
         "base": 78,
@@ -186,7 +186,7 @@
     "class": "Ranger",
     "attribute": "Order",
     "faction": "Stella Familia",
-    "imageUrl": "https://www.prydwen.gg/static/07b2532be8dbdf9a736b8332c884e71d/2547a/hugo_card.webp",
+    "imageUrl": "/characters/hugo.webp",
     "stats": {
       "attack": {
         "base": 84,
@@ -221,7 +221,7 @@
     "class": "Psionic",
     "attribute": "Void",
     "faction": "Wanderer",
-    "imageUrl": "https://www.prydwen.gg/static/98d6dca948f82dab9abfd86ff892d11b/2547a/kayron_card.webp",
+    "imageUrl": "/characters/kayron.webp",
     "stats": {
       "attack": {
         "base": 74,
@@ -256,7 +256,7 @@
     "class": "Vanguard",
     "attribute": "Instinct",
     "faction": "Stella Familia",
-    "imageUrl": "https://www.prydwen.gg/static/720b046888956ef2dcd37cb5d58f0ade/2547a/khalip_card.webp",
+    "imageUrl": "/characters/khalipe.webp",
     "stats": {
       "attack": {
         "base": 68,
@@ -294,7 +294,7 @@
     "class": "Hunter",
     "attribute": "Order",
     "faction": "Ironrain",
-    "imageUrl": "https://www.prydwen.gg/static/3c298dd9dc2b8e6ddf137e74dd152726/2547a/luka_card.webp",
+    "imageUrl": "/characters/luke.webp",
     "stats": {
       "attack": {
         "base": 82,
@@ -328,7 +328,7 @@
     "class": "Vanguard",
     "attribute": "Justice",
     "faction": "Stella Familia",
-    "imageUrl": "https://www.prydwen.gg/static/ebcf22b1984abb7d075a084b20ac1099/2547a/magna_card.webp",
+    "imageUrl": "/characters/magna.webp",
     "stats": {
       "attack": {
         "base": 68,
@@ -366,7 +366,7 @@
     "class": "Striker",
     "attribute": "Passion",
     "faction": "Terrascion",
-    "imageUrl": "https://www.prydwen.gg/static/4dc2dc4a26a229ae743a4a1a5851f35f/2547a/Meilin_card.webp",
+    "imageUrl": "/characters/mei-lin.webp",
     "stats": {
       "attack": {
         "base": 78,
@@ -401,7 +401,7 @@
     "class": "Controller",
     "attribute": "Instinct",
     "faction": "Peltion",
-    "imageUrl": "https://www.prydwen.gg/static/2206f28a2eaf03776a6338d9159522e1/2547a/narja_card.webp",
+    "imageUrl": "/characters/narja.webp",
     "stats": {
       "attack": {
         "base": 70,
@@ -439,7 +439,7 @@
     "class": "Controller",
     "attribute": "Instinct",
     "faction": "The Holy Crusaders",
-    "imageUrl": "https://www.prydwen.gg/static/57f82d28d86ce80fb0096ecda18208b6/2547a/orlea_card.webp",
+    "imageUrl": "/characters/orlea.webp",
     "stats": {
       "attack": {
         "base": 70,
@@ -474,7 +474,7 @@
     "class": "Striker",
     "attribute": "Void",
     "faction": "Wanderer",
-    "imageUrl": "https://www.prydwen.gg/static/994c8e3ef3fa1fafbae0ad6256aeda3d/2547a/rin_card.webp",
+    "imageUrl": "/characters/rin.webp",
     "stats": {
       "attack": {
         "base": 78,
@@ -511,7 +511,7 @@
     "class": "Hunter",
     "attribute": "Instinct",
     "faction": "Terrascion",
-    "imageUrl": "https://www.prydwen.gg/static/02902efa39cc1c179d25f7362580ec12/2547a/sere_card.webp",
+    "imageUrl": "/characters/sereniel.webp",
     "stats": {
       "attack": {
         "base": 82,
@@ -546,7 +546,7 @@
     "class": "Controller",
     "attribute": "Order",
     "faction": "Wanderer",
-    "imageUrl": "https://www.prydwen.gg/static/b24bd880a73446629d723b940dcbe3ba/2547a/tiphera_c.webp",
+    "imageUrl": "/characters/tiphera.webp",
     "stats": {
       "attack": {
         "base": 70,
@@ -584,7 +584,7 @@
     "class": "Ranger",
     "attribute": "Passion",
     "faction": "Stella Familia",
-    "imageUrl": "https://www.prydwen.gg/static/7e073ee7c0d3b652adbf6b9e4042cfc5/2547a/veronica_card.webp",
+    "imageUrl": "/characters/veronica.webp",
     "stats": {
       "attack": {
         "base": 86,
@@ -619,7 +619,7 @@
     "class": "Striker",
     "attribute": "Order",
     "faction": "Terrascion",
-    "imageUrl": "https://www.prydwen.gg/static/81fc05339c0d7b65a78e2b09cae5c8a2/2547a/yuki_card.webp",
+    "imageUrl": "/characters/yuki.webp",
     "stats": {
       "attack": {
         "base": 78,
@@ -655,7 +655,7 @@
     "class": "Vanguard",
     "attribute": "Order",
     "faction": "Terrascion",
-    "imageUrl": "https://www.prydwen.gg/static/0b745fa8a9476625b0a51f9e276bc97e/2547a/amir_card.webp",
+    "imageUrl": "/characters/amir.webp",
     "stats": {
       "attack": {
         "base": 64,
@@ -693,7 +693,7 @@
     "class": "Ranger",
     "attribute": "Justice",
     "faction": "Ironrain",
-    "imageUrl": "https://www.prydwen.gg/static/111ba568859809cd244413b9bcbf2fec/2547a/beryl_card.webp",
+    "imageUrl": "/characters/beryl.webp",
     "stats": {
       "attack": {
         "base": 81,
@@ -729,7 +729,7 @@
     "class": "Controller",
     "attribute": "Instinct",
     "faction": "Peltion",
-    "imageUrl": "https://www.prydwen.gg/static/5cd2cdcf1a2ed8bb772fe77030209ebb/2547a/cassius_card.webp",
+    "imageUrl": "/characters/cassius.webp",
     "stats": {
       "attack": {
         "base": 66,
@@ -764,7 +764,7 @@
     "class": "Hunter",
     "attribute": "Passion",
     "faction": "Ironrain",
-    "imageUrl": "https://www.prydwen.gg/static/8797f9468837971aee438b986a91181c/2547a/lucas_card.webp",
+    "imageUrl": "/characters/lucas.webp",
     "stats": {
       "attack": {
         "base": 77,
@@ -798,7 +798,7 @@
     "class": "Vanguard",
     "attribute": "Passion",
     "faction": "Ironrain",
-    "imageUrl": "https://www.prydwen.gg/static/10ffe95d47a3517a1b12a4f87789a3c5/2547a/maribell_card.webp",
+    "imageUrl": "/characters/maribell.webp",
     "stats": {
       "attack": {
         "base": 64,
@@ -837,7 +837,7 @@
     "class": "Controller",
     "attribute": "Instinct",
     "faction": "Terrascion",
-    "imageUrl": "https://www.prydwen.gg/static/b3536392cc19b3f0c4740f957a5e1d3b/2547a/nia_card.webp",
+    "imageUrl": "/characters/nia.webp",
     "stats": {
       "attack": {
         "base": 66,
@@ -872,7 +872,7 @@
     "class": "Striker",
     "attribute": "Passion",
     "faction": "Terrascion",
-    "imageUrl": "https://www.prydwen.gg/static/875efc383ffbaf08a20e8280e37293a4/2547a/owen_card.webp",
+    "imageUrl": "/characters/owen.webp",
     "stats": {
       "attack": {
         "base": 73,
@@ -907,7 +907,7 @@
     "class": "Controller",
     "attribute": "Void",
     "faction": "Terrascion",
-    "imageUrl": "https://www.prydwen.gg/static/f71f964cba5947f4c46752fc93e2fd2c/2547a/rei_card.webp",
+    "imageUrl": "/characters/rei.webp",
     "stats": {
       "attack": {
         "base": 66,
@@ -942,7 +942,7 @@
     "class": "Ranger",
     "attribute": "Passion",
     "faction": "Stella Familia",
-    "imageUrl": "https://www.prydwen.gg/static/e02bfbc7dbe796816d305089304826e4/2547a/selene_card.webp",
+    "imageUrl": "/characters/selena.webp",
     "stats": {
       "attack": {
         "base": 81,
@@ -977,7 +977,7 @@
     "class": "Psionic",
     "attribute": "Void",
     "faction": "Terrascion",
-    "imageUrl": "https://www.prydwen.gg/static/466b69fe2d1e91d4fed0a1b2d8f49af9/2547a/Tressa_card.webp",
+    "imageUrl": "/characters/tressa.webp",
     "stats": {
       "attack": {
         "base": 69,

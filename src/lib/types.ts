@@ -53,6 +53,16 @@ export interface CardEffect {
 
 export type CardCategory = "Starting" | "Epiphany";
 
+// 번뜩임 바리에이션 (Epiphany card의 #1~#5 변형)
+export interface CardVariation {
+  variationNumber: number; // 1~5
+  apCost: number;
+  type: CardType;
+  effects: CardEffect[];
+  description: string;
+  tags: string[];
+}
+
 export interface Card {
   id: string;
   name: string;
@@ -64,6 +74,7 @@ export interface Card {
   tags: string[];
   description?: string;
   imageUrl?: string; // 카드 아트 이미지 URL
+  variations?: CardVariation[]; // Epiphany 카드의 번뜩임 바리에이션
 }
 
 // ──────────────────────────────────────────────
@@ -149,6 +160,7 @@ export interface TeamSlot {
   character: Character | null;
   selectedCards: Card[];
   partner: Partner | null;
+  selectedVariations: Record<string, number>; // cardId → variationNumber
 }
 
 export interface Team {

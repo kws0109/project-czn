@@ -1,0 +1,2677 @@
+{
+  "summary": {
+    "total": 122,
+    "neutralCount": 94,
+    "monsterCount": 28,
+    "seasonCount": 26,
+    "koreanNameCoverage": "122/122",
+    "typeDistribution": {
+      "all": {
+        "Attack": 49,
+        "Skill": 58,
+        "Upgrade": 13,
+        "Other": 2,
+        "total": 122
+      },
+      "neutral": {
+        "Attack": 37,
+        "Skill": 47,
+        "Upgrade": 8,
+        "Other": 2,
+        "total": 94
+      },
+      "monster": {
+        "Attack": 12,
+        "Skill": 11,
+        "Upgrade": 5,
+        "Other": 0,
+        "total": 28
+      }
+    },
+    "rarityDistribution": {
+      "Monster": 28,
+      "Common": 30,
+      "Rare": 22,
+      "Legendary": 9,
+      "Unknown": 26,
+      "Forbidden": 7
+    }
+  },
+  "cards": [
+    {
+      "nameEn": "Abyssal Bug",
+      "nameKo": "나락충",
+      "apCost": 0,
+      "type": "Skill",
+      "rarity": "Monster",
+      "category": "Monster",
+      "isSeason": false,
+      "tags": [
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "소멸"
+      ],
+      "effect": "-1 Morale, -3 Resolve.",
+      "effectKo": "사기 1 감소\n결의 3 감소",
+      "effectKeywords": [
+        "Morale",
+        "Resolve"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Acid Gas",
+      "nameKo": "산성 가스",
+      "apCost": 0,
+      "type": "Skill",
+      "rarity": "Common",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Retrieve",
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "회수",
+        "소멸"
+      ],
+      "effect": "Deal 3 Impair to all enemies.",
+      "effectKo": "모든 적 손상 3",
+      "effectKeywords": [
+        "Impair"
+      ],
+      "classRestriction": "Ranger, Hunter only",
+      "classRestrictionKo": "레인저 직업 전용, 헌터 직업 전용"
+    },
+    {
+      "nameEn": "Aggressive Mutant",
+      "nameKo": "공격성 돌연변이",
+      "apCost": 0,
+      "type": "Skill",
+      "rarity": "Rare",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "소멸"
+      ],
+      "effect": "Draw 1 own Attack Card(s).\nFor 1 turn, +50% Damage Amount.",
+      "effectKo": "자신의 공격 카드 드로우 1, 1턴간 그 카드 피해량 +50%",
+      "effectKeywords": [
+        "Damage",
+        "Draw"
+      ],
+      "classRestriction": "Striker, Vanguard only",
+      "classRestrictionKo": "스트라이커 직업 전용, 뱅가드 직업 전용"
+    },
+    {
+      "nameEn": "Aimed Fire",
+      "nameKo": "조준 사격",
+      "apCost": 2,
+      "type": "Attack",
+      "rarity": "Legendary",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "400% Damage.\nDefeat: 20 Credit.",
+      "effectKo": "피해 400%\n처치 : 크레딧 20 획득",
+      "effectKeywords": [
+        "Damage",
+        "Defeat",
+        "Execution"
+      ],
+      "classRestriction": "Ranger, Hunter only",
+      "classRestrictionKo": "레인저 직업 전용, 헌터 직업 전용"
+    },
+    {
+      "nameEn": "Amber Lumen",
+      "nameKo": "노란 루멘",
+      "apCost": 1,
+      "type": "Skill",
+      "rarity": null,
+      "category": "Neutral",
+      "isSeason": true,
+      "tags": [
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "소멸"
+      ],
+      "effect": "Heal 150%.\nHarmonization: 150% Shield.",
+      "effectKo": null,
+      "effectKeywords": [
+        "Heal",
+        "Shield"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Ambush",
+      "nameKo": "기습",
+      "apCost": 0,
+      "type": "Attack",
+      "rarity": "Rare",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "80% Damage.\nIf Ravage, move this card from the Graveyard to hand.",
+      "effectKo": "피해 80%\n격파 시 이 카드를 무덤에서 핸드로 이동",
+      "effectKeywords": [
+        "Damage",
+        "Defeat"
+      ],
+      "classRestriction": "Ranger, Hunter only",
+      "classRestrictionKo": "레인저 직업 전용, 헌터 직업 전용"
+    },
+    {
+      "nameEn": "Arbitum",
+      "nameKo": "알비툼",
+      "apCost": 0,
+      "type": "Upgrade",
+      "rarity": "Monster",
+      "category": "Monster",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "-15% Damage taken (1 time per turn).",
+      "effectKo": "받는 피해량 -15% (턴당 1회)",
+      "effectKeywords": [
+        "Damage"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Arcane Rush",
+      "nameKo": "마력 폭주",
+      "apCost": 1,
+      "type": "Upgrade",
+      "rarity": "Common",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "2 Immunity.",
+      "effectKo": "면역 2",
+      "effectKeywords": [
+        "Immune"
+      ],
+      "classRestriction": "Striker, Vanguard only",
+      "classRestrictionKo": "스트라이커 직업 전용, 뱅가드 직업 전용"
+    },
+    {
+      "nameEn": "Atomic Decomposition",
+      "nameKo": "원자 분해",
+      "apCost": 2,
+      "type": "Attack",
+      "rarity": "Rare",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "230% Piercing Damage to all enemies.",
+      "effectKo": "모든 적 관통 피해 230%",
+      "effectKeywords": [
+        "Damage",
+        "Piercing Damage"
+      ],
+      "classRestriction": "Psionic, Controller only",
+      "classRestrictionKo": "사이오닉 직업 전용, 컨트롤러 직업 전용"
+    },
+    {
+      "nameEn": "Attack!",
+      "nameKo": "공격하라!",
+      "apCost": 0,
+      "type": "Skill",
+      "rarity": "Common",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "Choose 1 Attack card(s) from the Draw Pile, move it to hand.",
+      "effectKo": "뽑을 카드의 공격 카드 1장 선택, 그 카드 핸드로 이동",
+      "effectKeywords": [
+        "Draw"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Automata Cavalry",
+      "nameKo": "오토마타 카발리",
+      "apCost": 1,
+      "type": "Attack",
+      "rarity": "Monster",
+      "category": "Monster",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "150% Damage, 4 Vulnerable.",
+      "effectKo": "피해 150%\n취약 4",
+      "effectKeywords": [
+        "Damage",
+        "Vulnerable"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Azure Lumen",
+      "nameKo": "푸른 루멘",
+      "apCost": 0,
+      "type": "Skill",
+      "rarity": null,
+      "category": "Neutral",
+      "isSeason": true,
+      "tags": [
+        "Retain",
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "보존",
+        "소멸"
+      ],
+      "effect": "Exhaust 1 Exhaust card(s) in hand.",
+      "effectKo": null,
+      "effectKeywords": [],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Beam Shooter",
+      "nameKo": "빔슈터",
+      "apCost": 3,
+      "type": "Attack",
+      "rarity": "Monster",
+      "category": "Monster",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "350% Damage.\nIf the target has Shield, +50% Damage.",
+      "effectKo": "피해 350%\n대상이 실드를 보유하면 피해량 +50%",
+      "effectKeywords": [
+        "Damage",
+        "Shield"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Belligerence",
+      "nameKo": "호전성",
+      "apCost": 0,
+      "type": "Skill",
+      "rarity": "Legendary",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "If there are no Attack Cards in hand, Draw 2.",
+      "effectKo": "핸드에 공격 카드가 없을 시 드로우 2",
+      "effectKeywords": [
+        "Draw"
+      ],
+      "classRestriction": "Striker, Vanguard only",
+      "classRestrictionKo": "스트라이커 직업 전용, 뱅가드 직업 전용"
+    },
+    {
+      "nameEn": "Blissful Oblivion",
+      "nameKo": "행복한 망각",
+      "apCost": 1,
+      "type": "Curse",
+      "rarity": null,
+      "category": "Neutral",
+      "isSeason": true,
+      "tags": [
+        "Finale",
+        "Ephemeral"
+      ],
+      "tagsKo": [
+        "종극",
+        "제거"
+      ],
+      "effect": "Decrease Stress of a random Combatant by 3.\nIncinerate: At the start of the next turn, decrease AP by 1.",
+      "effectKo": null,
+      "effectKeywords": [
+        "Incinerate"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Broken Ebony Lumen",
+      "nameKo": "부서진 검은 루멘",
+      "apCost": 2,
+      "type": "Skill",
+      "rarity": null,
+      "category": "Neutral",
+      "isSeason": true,
+      "tags": [
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "소멸"
+      ],
+      "effect": "Incinerate: Draw 2, then create 1 Fragments of Ebony Lumen.",
+      "effectKo": null,
+      "effectKeywords": [
+        "Draw",
+        "Incinerate"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Camouflage",
+      "nameKo": "카모플라쥬",
+      "apCost": 2,
+      "type": "Skill",
+      "rarity": "Rare",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "소멸"
+      ],
+      "effect": "1 Evade.\nDraw Next Turn 2.",
+      "effectKo": "회피 1\n다음 턴 드로우 2",
+      "effectKeywords": [
+        "Draw",
+        "Evasion"
+      ],
+      "classRestriction": "Striker, Vanguard only",
+      "classRestrictionKo": "스트라이커 직업 전용, 뱅가드 직업 전용"
+    },
+    {
+      "nameEn": "Charged Strike",
+      "nameKo": "충전된 일격",
+      "apCost": null,
+      "type": "Attack",
+      "rarity": null,
+      "category": "Neutral",
+      "isSeason": true,
+      "tags": [
+        "Exhaust",
+        "Ephemeral",
+        "Unusable"
+      ],
+      "tagsKo": [
+        "소멸",
+        "제거",
+        "사용불가"
+      ],
+      "effect": "100% Defense-Based Damage and +100% Damage for each AP.\nIncinerate: Activate this card.",
+      "effectKo": "방어 기반 피해 100%, 행동\n포인트만큼 피해 + 100%\n소각 : 이 카드 발동",
+      "effectKeywords": [
+        "DEF-based Damage",
+        "Damage",
+        "Incinerate"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Chilling Godfather",
+      "nameKo": "서늘한 대부",
+      "apCost": 0,
+      "type": "Skill",
+      "rarity": "Monster",
+      "category": "Monster",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "Activate the bottom 1 card(s) of the Draw Pile.\nChoose 1 card(s) in hand and move them to the bottom of the Draw Pile.",
+      "effectKo": "뽑을 카드 맨 아래의 카드 1장 발동\n핸드의 카드 1장 선택, 그 카드 뽑을 카드 맨 아래로 이동",
+      "effectKeywords": [
+        "Draw"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Confiscation",
+      "nameKo": "압류",
+      "apCost": 0,
+      "type": "Skill",
+      "rarity": "Legendary",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "Draw 1.\nFrom Draw Pile or Discard Pile, move 1 random Forbidden Card(s) into hand.",
+      "effectKo": "드로우 1\n뽑을 카드 혹은 버린 카드에서 무작위 금기 카드 1장 핸드로 이동",
+      "effectKeywords": [
+        "Discard",
+        "Draw"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Consecutive Attack",
+      "nameKo": "연속 공격",
+      "apCost": 1,
+      "type": "Attack",
+      "rarity": "Common",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "50% x 3 Damage.",
+      "effectKo": "피해 50% x 3",
+      "effectKeywords": [
+        "Damage"
+      ],
+      "classRestriction": "Ranger, Hunter only",
+      "classRestrictionKo": "레인저 직업 전용, 헌터 직업 전용"
+    },
+    {
+      "nameEn": "Contaminated Spore",
+      "nameKo": "오염된 포자",
+      "apCost": 0,
+      "type": "Skill",
+      "rarity": null,
+      "category": "Neutral",
+      "isSeason": true,
+      "tags": [
+        "Retain",
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "보존",
+        "소멸"
+      ],
+      "effect": "1 Spore Propagation.\nRetain: Create 1 Contaminated Spore.",
+      "effectKo": "포자증식 1\n보존 : 오염된 포자 1장 생성",
+      "effectKeywords": [
+        "Contaminate",
+        "Retain",
+        "Spore Proliferation"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Counterattack Preperation",
+      "nameKo": "반격 준비",
+      "apCost": 1,
+      "type": "Skill",
+      "rarity": null,
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "소멸"
+      ],
+      "effect": "Replace the Ego Skill slot with other Ego Skills.",
+      "effectKo": "에고 스킬 슬롯을 다른 에고 스킬들로 교체",
+      "effectKeywords": [],
+      "classRestriction": "Psionic, Controller only",
+      "classRestrictionKo": "사이오닉 직업 전용, 컨트롤러 직업 전용"
+    },
+    {
+      "nameEn": "Crimson Lumen",
+      "nameKo": "붉은 루멘",
+      "apCost": 3,
+      "type": "Attack",
+      "rarity": null,
+      "category": "Neutral",
+      "isSeason": true,
+      "tags": [
+        "Ignition",
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "점화",
+        "소멸"
+      ],
+      "effect": "300% Damage to all enemies.",
+      "effectKo": null,
+      "effectKeywords": [
+        "Damage"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Cultist Arbiter",
+      "nameKo": "컬티스트 아비터",
+      "apCost": 1,
+      "type": "Skill",
+      "rarity": "Monster",
+      "category": "Monster",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "140% Shield.\nAt the start of the turn, all enemies' Action Count +2.",
+      "effectKo": "실드 140%\n다음 턴 시작 시 모든 적 행동 카운트 2 증가",
+      "effectKeywords": [
+        "Action Count",
+        "Shield"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Cyborg Automaton",
+      "nameKo": "사이보그 오토마톤",
+      "apCost": 5,
+      "type": "Attack",
+      "rarity": "Monster",
+      "category": "Monster",
+      "isSeason": true,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "600% Defense-Based Damage.\n1 Incinerate: Activate this card.",
+      "effectKo": "방어 기반 피해 600%\n소각 : 이 카드 발동",
+      "effectKeywords": [
+        "DEF-based Damage",
+        "Damage",
+        "Incinerate"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Dark Grip",
+      "nameKo": "어둠 손아귀",
+      "apCost": 1,
+      "type": "Attack",
+      "rarity": "Monster",
+      "category": "Monster",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "120% x 2 Damage.\nDefeat: 120% x 2 Damage to random enemies.",
+      "effectKo": "피해 120% × 2\n처치 : 무작위 적들에게 약화 120% × 2",
+      "effectKeywords": [
+        "Damage",
+        "Defeat",
+        "Execution",
+        "Weaken"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Deadly Shot",
+      "nameKo": "필살의 사격",
+      "apCost": 2,
+      "type": "Attack",
+      "rarity": "Rare",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "350% Damage.\nAt the start of the next turn, Draw 1.",
+      "effectKo": "피해 350%\n다음 턴 시작 시 드로우 1",
+      "effectKeywords": [
+        "Damage",
+        "Draw"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Destruction",
+      "nameKo": "파멸",
+      "apCost": 1,
+      "type": "Attack",
+      "rarity": "Common",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "소멸"
+      ],
+      "effect": "300% Damage.\nDiscard 1.",
+      "effectKo": "피해 300%\n버리기 1",
+      "effectKeywords": [
+        "Damage",
+        "Discard"
+      ],
+      "classRestriction": "Ranger, Hunter only",
+      "classRestrictionKo": "레인저 직업 전용, 헌터 직업 전용"
+    },
+    {
+      "nameEn": "Determination",
+      "nameKo": "각오",
+      "apCost": 2,
+      "type": "Upgrade",
+      "rarity": "Common",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "At the start of the turn, +50% Damage to 1 random Attack card in hand for 1 turn.",
+      "effectKo": "턴 시작 시 핸드의 무작위 공격 카드 1장 1턴간 피해량 +50%",
+      "effectKeywords": [
+        "Damage"
+      ],
+      "classRestriction": "Ranger, Hunter only",
+      "classRestrictionKo": "레인저 직업 전용, 헌터 직업 전용"
+    },
+    {
+      "nameEn": "Devotion",
+      "nameKo": "혼신",
+      "apCost": 2,
+      "type": "Attack",
+      "rarity": "Common",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "100% Defense-based Damage x 2.\nFor each Resolve, +20% Damage",
+      "effectKo": "방어 기반 피해 100% x 2\n결의 수만큼 피해량 +20%",
+      "effectKeywords": [
+        "DEF-based Damage",
+        "Damage",
+        "Resolve"
+      ],
+      "classRestriction": "Striker, Vanguard only",
+      "classRestrictionKo": "스트라이커 직업 전용, 뱅가드 직업 전용"
+    },
+    {
+      "nameEn": "Dominion",
+      "nameKo": "도미니온",
+      "apCost": 2,
+      "type": "Upgrade",
+      "rarity": "Monster",
+      "category": "Monster",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "At the start of turn, gain 1 Morale.",
+      "effectKo": "턴 시작 시 사기 1",
+      "effectKeywords": [
+        "Morale"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Ebony Lumen",
+      "nameKo": "검은 루멘",
+      "apCost": 3,
+      "type": "Skill",
+      "rarity": null,
+      "category": "Neutral",
+      "isSeason": true,
+      "tags": [
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "소멸"
+      ],
+      "effect": "Incinerate: Draw 3, then create 1 Broken Ebony Lumen.",
+      "effectKo": null,
+      "effectKeywords": [
+        "Draw",
+        "Incinerate"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Elemental Phoenix",
+      "nameKo": "정령 피닉스",
+      "apCost": 1,
+      "type": "Skill",
+      "rarity": "Monster",
+      "category": "Monster",
+      "isSeason": false,
+      "tags": [
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "소멸"
+      ],
+      "effect": "2 Resolve.\nShield equal to the amount of lost HP.",
+      "effectKo": "결의 2\n감소한 체력만큼 실드 획득",
+      "effectKeywords": [
+        "Resolve",
+        "Shield"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Energy Barrier",
+      "nameKo": "에너지 보호막",
+      "apCost": 0,
+      "type": "Skill",
+      "rarity": "Rare",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "소멸"
+      ],
+      "effect": "100% Shield.\n1 AP.",
+      "effectKo": "실드 100%\n행동 포인트 1 획득",
+      "effectKeywords": [
+        "Action Point",
+        "Shield"
+      ],
+      "classRestriction": "Striker, Vanguard only",
+      "classRestrictionKo": "스트라이커 직업 전용, 뱅가드 직업 전용"
+    },
+    {
+      "nameEn": "Evil Spirit Dullahan",
+      "nameKo": "악령 듀라한",
+      "apCost": 1,
+      "type": "Upgrade",
+      "rarity": "Monster",
+      "category": "Monster",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "When using a targeting Attack Card, inflict 1 Agony.",
+      "effectKo": "타게팅 공격 카드 사용 시 대상에게 고통 1",
+      "effectKeywords": [
+        "Affliction"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Evil Spirit Salamander",
+      "nameKo": "악령 샐러맨더",
+      "apCost": 1,
+      "type": "Skill",
+      "rarity": "Monster",
+      "category": "Monster",
+      "isSeason": false,
+      "tags": [
+        "Exhaust 2"
+      ],
+      "tagsKo": [
+        "소멸 2"
+      ],
+      "effect": "Draw 4.",
+      "effectKo": "드로우 4",
+      "effectKeywords": [
+        "Draw"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Financial Therapy",
+      "nameKo": "금융 치료",
+      "apCost": 1,
+      "type": "Skill",
+      "rarity": "Common",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "소멸"
+      ],
+      "effect": "Heal 200%.\nIf HP is full, 30 Credits.",
+      "effectKo": "치유 200%\n체력이 가득 찬 상태라면 크레딧 30 획득",
+      "effectKeywords": [
+        "Heal"
+      ],
+      "classRestriction": "Psionic, Controller only",
+      "classRestrictionKo": "사이오닉 직업 전용, 컨트롤러 직업 전용"
+    },
+    {
+      "nameEn": "First Aid Kit",
+      "nameKo": "구급 키트",
+      "apCost": 2,
+      "type": "Skill",
+      "rarity": "Common",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Celestial",
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "천상",
+        "소멸"
+      ],
+      "effect": "Heal 250%.",
+      "effectKo": "치유 200%",
+      "effectKeywords": [
+        "Heal"
+      ],
+      "classRestriction": "Psionic, Controller only",
+      "classRestrictionKo": "사이오닉 직업 전용, 컨트롤러 직업 전용"
+    },
+    {
+      "nameEn": "Forbidden Algorithm",
+      "nameKo": "금지된 알고리즘",
+      "apCost": 3,
+      "type": "Skill",
+      "rarity": "Legendary",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Exhaust",
+        "Lead"
+      ],
+      "tagsKo": [
+        "소멸",
+        "주도"
+      ],
+      "effect": "Create 1 random Forbidden Card(s) in hand.",
+      "effectKo": "핸드에 무작위 금기 카드 1장 생성",
+      "effectKeywords": [],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Forbidden: Disposable Ego",
+      "nameKo": "금기 : 일회용 자아",
+      "apCost": 1,
+      "type": "Skill",
+      "rarity": "Forbidden",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Forbidden"
+      ],
+      "tagsKo": [
+        "금기"
+      ],
+      "effect": "Draw 1, Draw for each Cost of that card.",
+      "effectKo": "드로우 1, 그 카드 비용만큼 드로우",
+      "effectKeywords": [
+        "Draw"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Forbidden: Ecstasy of Violence",
+      "nameKo": "금기 : 폭력의 환희",
+      "apCost": 9,
+      "type": "Attack",
+      "rarity": "Forbidden",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Forbidden",
+        "Retain"
+      ],
+      "tagsKo": [
+        "금기",
+        "보존"
+      ],
+      "effect": "150% Damage x 4.\nWhen drawing by ability, Cost of this card -1.",
+      "effectKo": "피해 150% × 4\n능력으로 드로우 시 이 카드 비용 1 감소",
+      "effectKeywords": [
+        "Damage",
+        "Draw"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Forbidden: Engraved Malice",
+      "nameKo": "금기 : 새겨진 악의",
+      "apCost": 2,
+      "type": "Skill",
+      "rarity": "Forbidden",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Forbidden",
+        "Lead"
+      ],
+      "tagsKo": [
+        "금기",
+        "주도"
+      ],
+      "effect": "Draw 1.\nActivate 2 random card(s) from hand.",
+      "effectKo": "드로우 1\n핸드의 무작위 카드 발동 2",
+      "effectKeywords": [
+        "Draw"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Forbidden: Eternal Hunger",
+      "nameKo": "금기 : 영생의 허기",
+      "apCost": 0,
+      "type": "Skill",
+      "rarity": "Forbidden",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Forbidden",
+        "Retain",
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "금기",
+        "보존",
+        "소멸"
+      ],
+      "effect": "Response: Draw 1, +1 AP.",
+      "effectKo": "감응 : 드로우 1, 행동 포인트 1 획득",
+      "effectKeywords": [
+        "Action Point",
+        "Draw",
+        "Resonance"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Forbidden: Gesture of Freedom",
+      "nameKo": "금기 : 자유의 손짓",
+      "apCost": 0,
+      "type": "Skill",
+      "rarity": "Forbidden",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Forbidden",
+        "Exhaust",
+        "Initiation"
+      ],
+      "tagsKo": [
+        "금기",
+        "소멸",
+        "개전"
+      ],
+      "effect": "Decrease Cost of 1 random card in hand by 1.",
+      "effectKo": "핸드의 무작위 카드 1장 비용 1 감소",
+      "effectKeywords": [],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Forbidden: Guidance of Falling",
+      "nameKo": "금기 : 허무의 인도",
+      "apCost": 1,
+      "type": "Upgrade",
+      "rarity": "Forbidden",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Forbidden",
+        "Initiation"
+      ],
+      "tagsKo": [
+        "금기",
+        "개전"
+      ],
+      "effect": "When drawn by an ability, Heal 40% and -1 Stress of a random Combatant.",
+      "effectKo": "능력으로 드로우 시 치유 40%, 무작위 전투원 스트레스 1 감소",
+      "effectKeywords": [
+        "Draw",
+        "Heal"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Forbidden: Portrait of Fury",
+      "nameKo": "금기 : 분노의 초상",
+      "apCost": 1,
+      "type": "Attack",
+      "rarity": "Forbidden",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Forbidden"
+      ],
+      "tagsKo": [
+        "금기"
+      ],
+      "effect": "70% Damage.\nFor every 4 cards in hand, +1 Hit.\nDraw 1 for each Hit.",
+      "effectKo": "피해 70% × 1\n핸드의 카드 4 장당 타격 1회 추가\n타격횟수 만큼 드로우 1",
+      "effectKeywords": [
+        "Damage",
+        "Draw"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Forced Learning Apparatus",
+      "nameKo": "강제 학습 장치",
+      "apCost": 2,
+      "type": "Upgrade",
+      "rarity": "Rare",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Lead"
+      ],
+      "tagsKo": [
+        "주도"
+      ],
+      "effect": "Upon using 4 cards, Draw 1 (1 time for each turn).",
+      "effectKo": "카드 4장 사용 시 드로우 1 (턴 당 1회)",
+      "effectKeywords": [
+        "Draw"
+      ],
+      "classRestriction": "Psionic, Controller only",
+      "classRestrictionKo": "사이오닉 직업 전용, 컨트롤러 직업 전용"
+    },
+    {
+      "nameEn": "Forest's Hunger",
+      "nameKo": "숲의 굶주림",
+      "apCost": 2,
+      "type": "Attack",
+      "rarity": null,
+      "category": "Neutral",
+      "isSeason": true,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "300% Defense-Based Damage.\nExhaust all Exhaust cards in hand, then +25% Damage Amount for each.",
+      "effectKo": "방어 기반 피해 300%\n핸드의 소멸 카드 모두 소멸,\n그 수만큼 피해량 +25%",
+      "effectKeywords": [
+        "DEF-based Damage",
+        "Damage"
+      ],
+      "classRestriction": "Striker, Vanguard only",
+      "classRestrictionKo": "스트라이커 직업 전용, 뱅가드 직업 전용"
+    },
+    {
+      "nameEn": "Forgotten Grave",
+      "nameKo": "잊혀진 무덤",
+      "apCost": 6,
+      "type": "Skill",
+      "rarity": null,
+      "category": "Neutral",
+      "isSeason": true,
+      "tags": [
+        "Ignition",
+        "Retain",
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "점화",
+        "보존",
+        "소멸"
+      ],
+      "effect": "When Cost of this card is decreased, +10% Critical Chance to this unit for 1 turn.\nIncinerate: Create 1 Contaminated Spore.",
+      "effectKo": "이 카드 비용 감소 시 1턴간\n자신의 치명확률 + 10%\n소각 : 오염된 포자 1장 생성",
+      "effectKeywords": [
+        "Contaminate",
+        "Incinerate"
+      ],
+      "classRestriction": "Ranger, Hunter only",
+      "classRestrictionKo": "레인저 직업 전용, 헌터 직업 전용"
+    },
+    {
+      "nameEn": "Forgotten Sword",
+      "nameKo": "잊혀진 검",
+      "apCost": 0,
+      "type": "Skill",
+      "rarity": null,
+      "category": "Neutral",
+      "isSeason": true,
+      "tags": [
+        "Retain"
+      ],
+      "tagsKo": [
+        "보존"
+      ],
+      "effect": "When all types of Arena cards are created, swap this card into Judgment.",
+      "effectKo": "모든 종류의 투기장 카드\n생성 시 이 카드 심판으로\n교체",
+      "effectKeywords": [],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Fortitude",
+      "nameKo": "견고함",
+      "apCost": 1,
+      "type": "Skill",
+      "rarity": "Common",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "150% Shield.\nCombo: at the start of the next turn, 150% Shield.",
+      "effectKo": "실드 150%\n연속 : 다음 턴 시작 시 실드 150%",
+      "effectKeywords": [
+        "Consecutive",
+        "Shield"
+      ],
+      "classRestriction": "Striker, Vanguard only",
+      "classRestrictionKo": "스트라이커 직업 전용, 뱅가드 직업 전용"
+    },
+    {
+      "nameEn": "Fracturing Memories",
+      "nameKo": "파편화된 기억들",
+      "apCost": 1,
+      "type": "Curse",
+      "rarity": null,
+      "category": "Neutral",
+      "isSeason": true,
+      "tags": [
+        "Retain",
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "보존",
+        "소멸"
+      ],
+      "effect": "When there are 10 or more of this card in hand, change Cost of this card to 0.\nRetain: Create 3 Fracturing Memories.",
+      "effectKo": null,
+      "effectKeywords": [
+        "Retain"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Fragments of Ebony Lumen",
+      "nameKo": "검은 루멘의 파편",
+      "apCost": 1,
+      "type": "Skill",
+      "rarity": null,
+      "category": "Neutral",
+      "isSeason": true,
+      "tags": [
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "소멸"
+      ],
+      "effect": "Incinerate: Draw 1.",
+      "effectKo": null,
+      "effectKeywords": [
+        "Draw",
+        "Incinerate"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Gear Bag",
+      "nameKo": "장비 가방",
+      "apCost": 1,
+      "type": "Skill",
+      "rarity": "Legendary",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Exhaust",
+        "Combo"
+      ],
+      "tagsKo": [
+        "소멸",
+        "연계"
+      ],
+      "effect": "Draw 2.",
+      "effectKo": "드로우 2",
+      "effectKeywords": [
+        "Draw"
+      ],
+      "classRestriction": "Psionic, Controller only",
+      "classRestrictionKo": "사이오닉 직업 전용, 컨트롤러 직업 전용"
+    },
+    {
+      "nameEn": "Gloomy Godmother",
+      "nameKo": "음산한 대모",
+      "apCost": 1,
+      "type": "Upgrade",
+      "rarity": "Monster",
+      "category": "Monster",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "At the end of the turn, 200% Damage to random enemies.",
+      "effectKo": "턴 종료 시 무작위 적들에게 피해 200%",
+      "effectKeywords": [
+        "Damage"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Glorious Resistance",
+      "nameKo": "영광의 저항",
+      "apCost": 3,
+      "type": "Upgrade",
+      "rarity": "Common",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "At the start of the turn, each ally takes Fixed Damage equal to 10% of their max HP. 1 AP.",
+      "effectKo": "턴 시작 시 아군에게 최대 체력 10% 고정 피해\n행동 포인트 1 획득",
+      "effectKeywords": [
+        "Action Point",
+        "Damage"
+      ],
+      "classRestriction": "Psionic, Controller only",
+      "classRestrictionKo": "사이오닉 직업 전용, 컨트롤러 직업 전용"
+    },
+    {
+      "nameEn": "HA-00",
+      "nameKo": "HA-00",
+      "apCost": 2,
+      "type": "Attack",
+      "rarity": null,
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "100% x 4 Damage to random enemies.\nTo targets hit, 1 Vulnerable or 1 Weaken.",
+      "effectKo": "무작위 적들에게 피해 100% x 4\n타격한 대상에게 취약 1 또는 약화 1",
+      "effectKeywords": [
+        "Damage",
+        "Vulnerable",
+        "Weaken"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Hand-to-Hand Combat",
+      "nameKo": "육탄전",
+      "apCost": 1,
+      "type": "Attack",
+      "rarity": "Rare",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "소멸"
+      ],
+      "effect": "200% Defense-Based Damage.\n2 Crystallization.",
+      "effectKo": "방어 기반 피해 200%\n결정화 2",
+      "effectKeywords": [
+        "Crystallize",
+        "DEF-based Damage",
+        "Damage"
+      ],
+      "classRestriction": "Striker, Vanguard only",
+      "classRestrictionKo": "스트라이커 직업 전용, 뱅가드 직업 전용"
+    },
+    {
+      "nameEn": "Heavy Bash",
+      "nameKo": "무거운 강타",
+      "apCost": 2,
+      "type": "Attack",
+      "rarity": "Common",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "200% Damage, 2 Vulnerable, 2 Weaken",
+      "effectKo": "피해 200%\n취약 2, 약화 2",
+      "effectKeywords": [
+        "Damage",
+        "Vulnerable",
+        "Weaken"
+      ],
+      "classRestriction": "Striker, Vanguard only",
+      "classRestrictionKo": "스트라이커 직업 전용, 뱅가드 직업 전용"
+    },
+    {
+      "nameEn": "Heavy Blow",
+      "nameKo": "묵직한 타격",
+      "apCost": 0,
+      "type": "Attack",
+      "rarity": null,
+      "category": "Neutral",
+      "isSeason": true,
+      "tags": [
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "소멸"
+      ],
+      "effect": "200% Damage.\nDouble the effect of Vulnerable.",
+      "effectKo": "피해 200%\n취약 효과 2배",
+      "effectKeywords": [
+        "Damage",
+        "Vulnerable"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Hidden Bullet",
+      "nameKo": "비장의 한 발",
+      "apCost": 0,
+      "type": "Attack",
+      "rarity": "Common",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Retain",
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "보존",
+        "소멸"
+      ],
+      "effect": "100% Damage.\nRetain: +50% Damage.",
+      "effectKo": "피해 100%\n보존: 피해량 +50%",
+      "effectKeywords": [
+        "Damage",
+        "Retain"
+      ],
+      "classRestriction": "Ranger, Hunter only",
+      "classRestrictionKo": "레인저 직업 전용, 헌터 직업 전용"
+    },
+    {
+      "nameEn": "Hunger of Loss",
+      "nameKo": "상실의 굶주림",
+      "apCost": 1,
+      "type": "Skill",
+      "rarity": "Monster",
+      "category": "Monster",
+      "isSeason": false,
+      "tags": [
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "소멸"
+      ],
+      "effect": "Draw 1.\nIf there are no cards in hand, Draw 4 extra",
+      "effectKo": "드로우 1\n핸드의 카드가 없다면 드로우 4 추가",
+      "effectKeywords": [
+        "Draw"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Hunger of the Void",
+      "nameKo": "공허의 굶주림",
+      "apCost": 0,
+      "type": "Skill",
+      "rarity": "Monster",
+      "category": "Monster",
+      "isSeason": false,
+      "tags": [
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "소멸"
+      ],
+      "effect": "2 Morale.\n-2 Morale.",
+      "effectKo": "사기 2\n사기 2 감소",
+      "effectKeywords": [
+        "Morale"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Instinct Ignition",
+      "nameKo": "직감 점화",
+      "apCost": 1,
+      "type": "Upgrade",
+      "rarity": "Common",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "Upon card creation, grant random Epiphany (1 per turn).",
+      "effectKo": "카드 생성 시 무작위 번뜩임 부여\n(턴당 1회)",
+      "effectKeywords": [],
+      "classRestriction": "Psionic, Controller only",
+      "classRestrictionKo": "사이오닉 직업 전용, 컨트롤러 직업 전용"
+    },
+    {
+      "nameEn": "Iron Wall",
+      "nameKo": "철벽",
+      "apCost": 1,
+      "type": "Skill",
+      "rarity": "Rare",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Initiation"
+      ],
+      "tagsKo": [
+        "개전"
+      ],
+      "effect": "1 Resolve.\n1 Fortitude.",
+      "effectKo": "결의 1\n불굴 1",
+      "effectKeywords": [
+        "Fortitude",
+        "Resolve"
+      ],
+      "classRestriction": "Striker, Vanguard only",
+      "classRestrictionKo": "스트라이커 직업 전용, 뱅가드 직업 전용"
+    },
+    {
+      "nameEn": "Judgement",
+      "nameKo": "심판",
+      "apCost": 0,
+      "type": "Attack",
+      "rarity": null,
+      "category": "Neutral",
+      "isSeason": true,
+      "tags": [
+        "Retain",
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "보존",
+        "소멸"
+      ],
+      "effect": "Damage 1000%.\nTenacity Damage 10.",
+      "effectKo": "피해 1000%\n강인도 피해 10",
+      "effectKeywords": [
+        "Damage",
+        "Toughness Damage"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Knowledge of Darkness",
+      "nameKo": "어둠의 지식",
+      "apCost": 1,
+      "type": "Skill",
+      "rarity": "Rare",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Exhaust",
+        "Finale"
+      ],
+      "tagsKo": [
+        "소멸",
+        "종극"
+      ],
+      "effect": "Draw 1.\nActivate drawn card,",
+      "effectKo": "드로우 1\n그 카드 발동",
+      "effectKeywords": [
+        "Draw"
+      ],
+      "classRestriction": "Psionic, Controller only",
+      "classRestrictionKo": "사이오닉 직업 전용, 컨트롤러 직업 전용"
+    },
+    {
+      "nameEn": "Leap Attack",
+      "nameKo": "도약 공격",
+      "apCost": 1,
+      "type": "Attack",
+      "rarity": "Common",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "200% Damage.\nInspiration: -1 Cost, Draw 1.",
+      "effectKo": "피해 200%\n영감: 비용 1 감소, 드로우 1",
+      "effectKeywords": [
+        "Damage",
+        "Draw",
+        "Inspiration"
+      ],
+      "classRestriction": "Ranger, Hunter only",
+      "classRestrictionKo": "레인저 직업 전용, 헌터 직업 전용"
+    },
+    {
+      "nameEn": "Maneuvering Fire",
+      "nameKo": "기동 사격",
+      "apCost": 0,
+      "type": "Attack",
+      "rarity": "Rare",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Initiation",
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "개전",
+        "소멸"
+      ],
+      "effect": "200% Damage to all enemies.",
+      "effectKo": "모든 적 피해 200%",
+      "effectKeywords": [
+        "Damage"
+      ],
+      "classRestriction": "Ranger, Hunter only",
+      "classRestrictionKo": "레인저 직업 전용, 헌터 직업 전용"
+    },
+    {
+      "nameEn": "Muscle-Enhanced Evolver",
+      "nameKo": "근육 강화 진화체",
+      "apCost": 1,
+      "type": "Attack",
+      "rarity": "Rare",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "Attack 80% x 2 Damage.\nInspiration +2 hits.",
+      "effectKo": "피해 80% × 2\n영감 : 타격 2회 추가",
+      "effectKeywords": [
+        "Damage",
+        "Inspiration"
+      ],
+      "classRestriction": "Ranger, Hunter only",
+      "classRestrictionKo": "레인저 직업 전용, 헌터 직업 전용"
+    },
+    {
+      "nameEn": "Mushroom Ammo",
+      "nameKo": "버섯 탄환",
+      "apCost": 3,
+      "type": "Attack",
+      "rarity": null,
+      "category": "Neutral",
+      "isSeason": true,
+      "tags": [
+        "Bullet",
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "탄환",
+        "소멸"
+      ],
+      "effect": "450% Damage.\nDouble the effect of Spore Propagation.",
+      "effectKo": "피해 450%\n포자증식 효과 2배",
+      "effectKeywords": [
+        "Damage",
+        "Spore Proliferation"
+      ],
+      "classRestriction": "Ranger, Hunter only",
+      "classRestrictionKo": "레인저 직업 전용, 헌터 직업 전용"
+    },
+    {
+      "nameEn": "Nature's Gift",
+      "nameKo": "자연의 선물",
+      "apCost": 1,
+      "type": "Skill",
+      "rarity": null,
+      "category": "Neutral",
+      "isSeason": true,
+      "tags": [
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "소멸"
+      ],
+      "effect": "Heal 20% for each card in hand.\nHarmonization: Create 1 Contaminated Spore for each card in hand.",
+      "effectKo": "핸드의 카드 소멸 수만큼 치유\n20%\n조율 : 핸드읭 카드 수 만큼\n오염된 포자 1장 생성",
+      "effectKeywords": [
+        "Contaminate",
+        "Heal"
+      ],
+      "classRestriction": "Psionic, Controller only",
+      "classRestrictionKo": "사이오닉 직업 전용, 컨트롤러 직업 전용"
+    },
+    {
+      "nameEn": "Negotiate",
+      "nameKo": "협상",
+      "apCost": 1,
+      "type": "Skill",
+      "rarity": "Common",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Retain",
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "보존",
+        "소멸"
+      ],
+      "effect": "2 Morale.\n2 Morale to all enemies.",
+      "effectKo": "사기 2\n모든 적 사기 2",
+      "effectKeywords": [
+        "Morale"
+      ],
+      "classRestriction": "Ranger, Hunter only",
+      "classRestrictionKo": "레인저 직업 전용, 헌터 직업 전용"
+    },
+    {
+      "nameEn": "Nutrient Absorption",
+      "nameKo": "양분 흡수",
+      "apCost": 0,
+      "type": "Skill",
+      "rarity": null,
+      "category": "Neutral",
+      "isSeason": true,
+      "tags": [
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "소멸"
+      ],
+      "effect": "Select and Exhaust 1 card in hand.\nFor each Cost of that card, decrease Cost of 1 random card in hand by 1 for 1 turn.",
+      "effectKo": "핸드의 카드 1장 선택 소멸\n그 카드 비용만큼 핸드의\n무작위 카드 1장 1턴간 사용\n시까지 비용 1 감소",
+      "effectKeywords": [],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "One with All",
+      "nameKo": "물아일체",
+      "apCost": null,
+      "type": "Skill",
+      "rarity": null,
+      "category": "Neutral",
+      "isSeason": true,
+      "tags": [
+        "Finale",
+        "Exhaust",
+        "Unusable"
+      ],
+      "tagsKo": [
+        "종극",
+        "소멸",
+        "사용불가"
+      ],
+      "effect": "Select and Activate 1 card(s) in hand, Draw Pile, or Discard Pile.\nFor 1 turn, when each of Damage, Shield, and Heal has been activated through cards, remove Unusable.",
+      "effectKo": "핸드와 뽑을 카드와 버린\n카드에서 1장 선택 발동\n1턴간 카드로 피해, 실드,\n치유 모두 발동 시 사용불가\n제거",
+      "effectKeywords": [
+        "Damage",
+        "Discard",
+        "Draw",
+        "Heal",
+        "Shield"
+      ],
+      "classRestriction": "Psionic, Controller only",
+      "classRestrictionKo": "사이오닉 직업 전용, 컨트롤러 직업 전용"
+    },
+    {
+      "nameEn": "Overwhelm",
+      "nameKo": "압도",
+      "apCost": 0,
+      "type": "Attack",
+      "rarity": "Common",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "소멸"
+      ],
+      "effect": "100% Damage x 3 to all enemies.\nCreate 2 Overload card(s) in the Draw Pile.",
+      "effectKo": "모든 적 피해 100% × 3\n뽑을 카드에 과부하 2장 생성",
+      "effectKeywords": [
+        "Damage",
+        "Draw",
+        "Overload"
+      ],
+      "classRestriction": "Striker, Vanguard only",
+      "classRestrictionKo": "스트라이커 직업 전용, 뱅가드 직업 전용"
+    },
+    {
+      "nameEn": "Pierce",
+      "nameKo": "꿰뚫기",
+      "apCost": 0,
+      "type": "Attack",
+      "rarity": null,
+      "category": "Neutral",
+      "isSeason": true,
+      "tags": [
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "소멸"
+      ],
+      "effect": "200% Damage.\n1 Vulnerable.\n1 Weaken.\n1 Agony.",
+      "effectKo": "피해 200%\n취약 1\n약화 1\n고통 1",
+      "effectKeywords": [
+        "Affliction",
+        "Damage",
+        "Vulnerable",
+        "Weaken"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Precision Aim",
+      "nameKo": "정밀 조준",
+      "apCost": 0,
+      "type": "Attack",
+      "rarity": "Legendary",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "120% Damage.\nDraw 1.\nSelect 1 card(s) in hand, move them on top of the Draw Pile.",
+      "effectKo": "피해 120%\n드로우 1\n핸드의 카드 1장 선택, 그 카드 뽑을 카드 맨 위로 이동",
+      "effectKeywords": [
+        "Damage",
+        "Draw"
+      ],
+      "classRestriction": "Ranger, Hunter only",
+      "classRestrictionKo": "레인저 직업 전용, 헌터 직업 전용"
+    },
+    {
+      "nameEn": "Prepare for Battle",
+      "nameKo": "전투 준비",
+      "apCost": 1,
+      "type": "Skill",
+      "rarity": "Legendary",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "Create 1 random Dellang Shop Card(s).\nFor 1 turn, change that card's cost to 0.",
+      "effectKo": "무작위 델랑 상점 카드 1장 생성\n1턴간 그 카드의 비용 0으로 변경",
+      "effectKeywords": [],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Propagative Virus",
+      "nameKo": "증식형 바이러스",
+      "apCost": 2,
+      "type": "Attack",
+      "rarity": "Rare",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "Damage 120% x 1.\nResponse: +1 hit (Max 5 stacks).",
+      "effectKo": "피해 120% x 1\n감응 : 타격 1회 추가 (최대 5 중첩)",
+      "effectKeywords": [
+        "Damage",
+        "Resonance"
+      ],
+      "classRestriction": "Ranger, Hunter only",
+      "classRestrictionKo": "레인저 직업 전용, 헌터 직업 전용"
+    },
+    {
+      "nameEn": "Protective Shout",
+      "nameKo": "보호의 외침",
+      "apCost": 1,
+      "type": "Skill",
+      "rarity": "Common",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "Gain 130% Shield.\nIf there is no Shield, +100% Shield.",
+      "effectKo": "실드 130%\n실드가 없다면 실드 100% 증가",
+      "effectKeywords": [
+        "Shield"
+      ],
+      "classRestriction": "Striker, Vanguard only",
+      "classRestrictionKo": "스트라이커 직업 전용, 뱅가드 직업 전용"
+    },
+    {
+      "nameEn": "Pulverize",
+      "nameKo": "짓이기기",
+      "apCost": 2,
+      "type": "Attack",
+      "rarity": "Legendary",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Weakness Attack"
+      ],
+      "tagsKo": [
+        "약점 공격"
+      ],
+      "effect": "Damage 150% x 2.\nDraw 1.",
+      "effectKo": "피해 150% × 2\n드로우 1",
+      "effectKeywords": [
+        "Damage",
+        "Draw"
+      ],
+      "classRestriction": "Striker, Vanguard only",
+      "classRestrictionKo": "스트라이커 직업 전용, 뱅가드 직업 전용"
+    },
+    {
+      "nameEn": "Quick Shelling",
+      "nameKo": "빠른 연사",
+      "apCost": 0,
+      "type": "Attack",
+      "rarity": "Rare",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "80% Damage.\nDraw 1.",
+      "effectKo": "피해 80%\n드로우 1",
+      "effectKeywords": [
+        "Damage",
+        "Draw"
+      ],
+      "classRestriction": "Ranger, Hunter only",
+      "classRestrictionKo": "레인저 직업 전용, 헌터 직업 전용"
+    },
+    {
+      "nameEn": "Quickdraw",
+      "nameKo": "퀵드로우",
+      "apCost": 0,
+      "type": "Attack",
+      "rarity": "Common",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Initiation",
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "개전",
+        "소멸"
+      ],
+      "effect": "150% Damage.\nMark 1.",
+      "effectKo": "피해 150%\n표식 1",
+      "effectKeywords": [
+        "Damage",
+        "Mark"
+      ],
+      "classRestriction": "Ranger, Hunter only",
+      "classRestrictionKo": "레인저 직업 전용, 헌터 직업 전용"
+    },
+    {
+      "nameEn": "Rage",
+      "nameKo": "격분",
+      "apCost": 2,
+      "type": "Attack",
+      "rarity": "Common",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "300% Damage.\nIf there are no other Combatant cards in hand, -2 cost.",
+      "effectKo": "피해 300%\n핸드에 다른 전투원의 카드가 없다면 이 카드 비용 2 감소",
+      "effectKeywords": [
+        "Damage"
+      ],
+      "classRestriction": "Striker, Vanguard only",
+      "classRestrictionKo": "스트라이커 직업 전용, 뱅가드 직업 전용"
+    },
+    {
+      "nameEn": "Rally",
+      "nameKo": "집결",
+      "apCost": 0,
+      "type": "Skill",
+      "rarity": "Common",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Haste",
+        "Exhaust 2"
+      ],
+      "tagsKo": [
+        "신속",
+        "소멸 2"
+      ],
+      "effect": "Draw 1.\n+3 Action Count to all enemies.",
+      "effectKo": "드로우 1\n모든 적 행동 카운트 3 증가",
+      "effectKeywords": [
+        "Action Count",
+        "Draw"
+      ],
+      "classRestriction": "Psionic, Controller only",
+      "classRestrictionKo": "사이오닉 직업 전용, 컨트롤러 직업 전용"
+    },
+    {
+      "nameEn": "Recycling",
+      "nameKo": "재활용",
+      "apCost": 0,
+      "type": "Skill",
+      "rarity": "Rare",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "If Ego Points are 2 or more, +1 AP, -2 Ego Point(s).",
+      "effectKo": "에고 포인트 2 이상일 시 행동 포인트 1 획득, 에고 포인트 2 감소",
+      "effectKeywords": [
+        "Action Point",
+        "Ego Point"
+      ],
+      "classRestriction": "Psionic, Controller only",
+      "classRestrictionKo": "사이오닉 직업 전용, 컨트롤러 직업 전용"
+    },
+    {
+      "nameEn": "Relentless Endurance",
+      "nameKo": "집요한 인내",
+      "apCost": 2,
+      "type": "Skill",
+      "rarity": "Common",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Retain"
+      ],
+      "tagsKo": [
+        "보존"
+      ],
+      "effect": "350% Shield.",
+      "effectKo": "실드 350%",
+      "effectKeywords": [
+        "Shield"
+      ],
+      "classRestriction": "Striker, Vanguard only",
+      "classRestrictionKo": "스트라이커 직업 전용, 뱅가드 직업 전용"
+    },
+    {
+      "nameEn": "Reorganize",
+      "nameKo": "재정비",
+      "apCost": 1,
+      "type": "Skill",
+      "rarity": "Legendary",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "소멸"
+      ],
+      "effect": "Draw 3.",
+      "effectKo": "드로우 3",
+      "effectKeywords": [
+        "Draw"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Repent",
+      "nameKo": "참회",
+      "apCost": 1,
+      "type": "Skill",
+      "rarity": "Common",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "소멸"
+      ],
+      "effect": "-1 Morale.\n-1 Resolve.",
+      "effectKo": "사기 1 감소\n결의 1 감소",
+      "effectKeywords": [
+        "Morale",
+        "Resolve"
+      ],
+      "classRestriction": "Psionic, Controller only",
+      "classRestrictionKo": "사이오닉 직업 전용, 컨트롤러 직업 전용"
+    },
+    {
+      "nameEn": "Residual Herb",
+      "nameKo": "잔상초",
+      "apCost": 0,
+      "type": "Skill",
+      "rarity": null,
+      "category": "Neutral",
+      "isSeason": true,
+      "tags": [
+        "Retrieve 2",
+        "Exhaust 3"
+      ],
+      "tagsKo": [
+        "회수 2",
+        "소멸 3"
+      ],
+      "effect": "60% Shield.\nIncinerate: Create 1 Contaminated Spore.",
+      "effectKo": "실드 60%\n소각 : 오염된 포자 1장 생성",
+      "effectKeywords": [
+        "Contaminate",
+        "Incinerate",
+        "Shield"
+      ],
+      "classRestriction": "Striker, Vanguard only",
+      "classRestrictionKo": "스트라이커 직업 전용, 뱅가드 직업 전용"
+    },
+    {
+      "nameEn": "Rocket Punch",
+      "nameKo": "로켓 펀치",
+      "apCost": null,
+      "type": "Attack",
+      "rarity": null,
+      "category": "Neutral",
+      "isSeason": true,
+      "tags": [
+        "Retain",
+        "Exhaust",
+        "Unusable"
+      ],
+      "tagsKo": [
+        "보존",
+        "소멸",
+        "사용불가"
+      ],
+      "effect": "400% Damage.\nRetain: +25% activation chance, and has a 25% chance to activate this card.",
+      "effectKo": "피해 400%\n보존 : 발동 확률 +25%,\n25% 확률로 이 카드 발동",
+      "effectKeywords": [
+        "Damage",
+        "Retain"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Rotten Ripper",
+      "nameKo": "로튼 리퍼",
+      "apCost": 1,
+      "type": "Attack",
+      "rarity": "Monster",
+      "category": "Monster",
+      "isSeason": false,
+      "tags": [
+        "Haste"
+      ],
+      "tagsKo": [
+        "신속"
+      ],
+      "effect": "160% Damage.\n+1 Action Count.",
+      "effectKo": "피해 160%\n행동 카운트 1 증가",
+      "effectKeywords": [
+        "Action Count",
+        "Damage"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Sacred Strike",
+      "nameKo": "신성한 일격",
+      "apCost": 1,
+      "type": "Attack",
+      "rarity": "Rare",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "소멸"
+      ],
+      "effect": "200% Damage.\n2 Tenacity Damage.",
+      "effectKo": "피해 200%\n강인도 피해 2",
+      "effectKeywords": [
+        "Damage",
+        "Toughness Damage"
+      ],
+      "classRestriction": "Striker, Vanguard only",
+      "classRestrictionKo": "스트라이커 직업 전용, 뱅가드 직업 전용"
+    },
+    {
+      "nameEn": "Sadism",
+      "nameKo": "가학성",
+      "apCost": 1,
+      "type": "Skill",
+      "rarity": "Common",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Lead"
+      ],
+      "tagsKo": [
+        "주도"
+      ],
+      "effect": "1 Vulnerable to all enemies.\nCost of 1 random Attack Card(s) in hand -1 for 1 turn.",
+      "effectKo": "모든 적 취약 1\n핸드의 무작위 공격 카드 1장 1턴간 비용 1 감소",
+      "effectKeywords": [
+        "Vulnerable"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Self-Generating Experiment",
+      "nameKo": "자가 발전 실험",
+      "apCost": 2,
+      "type": "Upgrade",
+      "rarity": "Rare",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Lead"
+      ],
+      "tagsKo": [
+        "주도"
+      ],
+      "effect": "When 6 or more Cards are in hand, changes the Cost of 1 random Card in hand to 0 for 1 turn (1 time per turn).",
+      "effectKo": "핸드의 카드가 6장 이상일 시 핸드의 무작위 카드 1장 1턴간 비용 0으로 변경\n(턴당 1회)",
+      "effectKeywords": [],
+      "classRestriction": "Psionic, Controller only",
+      "classRestrictionKo": "사이오닉 직업 전용, 컨트롤러 직업 전용"
+    },
+    {
+      "nameEn": "Seraphim of Pain",
+      "nameKo": "고통의 치천사",
+      "apCost": 2,
+      "type": "Attack",
+      "rarity": "Monster",
+      "category": "Monster",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "250% Damage.\nIf this is the only card in hand, -2 cost.",
+      "effectKo": "피해 250%\n핸드에 이 카드만 있다면 비용 2 감소",
+      "effectKeywords": [
+        "Damage"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Seven Arms",
+      "nameKo": "세븐 암즈",
+      "apCost": 1,
+      "type": "Attack",
+      "rarity": "Monster",
+      "category": "Monster",
+      "isSeason": false,
+      "tags": [
+        "Haste"
+      ],
+      "tagsKo": [
+        "신속"
+      ],
+      "effect": "120% Damage.\nIf target's Action Count is 5 or more, 2 AP.",
+      "effectKo": "피해 120%\n대상의 행동 카운트 5 이상일 시 행동 포인트 2 획득",
+      "effectKeywords": [
+        "Action Count",
+        "Action Point",
+        "Damage"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Shell Bug",
+      "nameKo": "갑각충",
+      "apCost": 1,
+      "type": "Upgrade",
+      "rarity": "Monster",
+      "category": "Monster",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "5 Crystallize.",
+      "effectKo": "결정화 5",
+      "effectKeywords": [
+        "Crystallize"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Shell-Forming Cell",
+      "nameKo": "껍질 형성 세포",
+      "apCost": 0,
+      "type": "Skill",
+      "rarity": "Rare",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Retain"
+      ],
+      "tagsKo": [
+        "보존"
+      ],
+      "effect": "70% Shield.\nFor each card in hand, +25% Shield.",
+      "effectKo": "실드 70%\n핸드의 카드 수만큼 실드 +25%",
+      "effectKeywords": [
+        "Shield"
+      ],
+      "classRestriction": "Striker, Vanguard only",
+      "classRestrictionKo": "스트라이커 직업 전용, 뱅가드 직업 전용"
+    },
+    {
+      "nameEn": "Shield Blast",
+      "nameKo": "방패 폭발",
+      "apCost": 0,
+      "type": "Attack",
+      "rarity": null,
+      "category": "Neutral",
+      "isSeason": true,
+      "tags": [
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "소멸"
+      ],
+      "effect": "150% Defense-Based Damage to all enemies.",
+      "effectKo": "모든 적 방어 기반 피해\n150%",
+      "effectKeywords": [
+        "DEF-based Damage",
+        "Damage"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Shock",
+      "nameKo": "충격",
+      "apCost": 2,
+      "type": "Attack",
+      "rarity": "Common",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "200% Damage to all enemies.\n2 Vulnerable.",
+      "effectKo": "모든 적 피해 200%\n취약 2",
+      "effectKeywords": [
+        "Damage",
+        "Vulnerable"
+      ],
+      "classRestriction": "Ranger, Hunter only",
+      "classRestrictionKo": "레인저 직업 전용, 헌터 직업 전용"
+    },
+    {
+      "nameEn": "Shy Gardener",
+      "nameKo": "수줍은 정원사",
+      "apCost": 1,
+      "type": "Attack",
+      "rarity": "Monster",
+      "category": "Monster",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "50% x 4 Damage. 3 Mark.",
+      "effectKo": "피해 50% × 4\n표식 3",
+      "effectKeywords": [
+        "Damage",
+        "Mark"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Skull Bash",
+      "nameKo": "두개골 강타",
+      "apCost": 1,
+      "type": "Attack",
+      "rarity": "Common",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "200% Damage.\nWeakness Attack: +50% Damage.",
+      "effectKo": "피해 200%\n약점 공격: 피해량 +50%",
+      "effectKeywords": [
+        "Damage",
+        "Weakness Attack"
+      ],
+      "classRestriction": "Ranger, Hunter only",
+      "classRestrictionKo": "레인저 직업 전용, 헌터 직업 전용"
+    },
+    {
+      "nameEn": "Slaughter",
+      "nameKo": "슬로터",
+      "apCost": 2,
+      "type": "Skill",
+      "rarity": "Monster",
+      "category": "Monster",
+      "isSeason": false,
+      "tags": [
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "소멸"
+      ],
+      "effect": "200% Shield.\nDamage to all enemies equal to Shield gained.",
+      "effectKo": "실드 200%\n획득한 실드만큼 모든 적 피해",
+      "effectKeywords": [
+        "Damage",
+        "Shield"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Soldier Prime",
+      "nameKo": "솔저 프라임",
+      "apCost": 2,
+      "type": "Attack",
+      "rarity": "Monster",
+      "category": "Monster",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "300% Damage.\n+2AP.",
+      "effectKo": "피해 300%\n격파 시 행동 포인트 2 획득",
+      "effectKeywords": [
+        "Action Point",
+        "Damage",
+        "Defeat"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Somnolent Fruit",
+      "nameKo": "수면 열매",
+      "apCost": 1,
+      "type": "Skill",
+      "rarity": "Rare",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Finale",
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "종극",
+        "소멸"
+      ],
+      "effect": "-5 Stress to a random Combatant.",
+      "effectKo": "무작위 전투원 스트레스 5 감소",
+      "effectKeywords": [],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Sorrowful Godfather",
+      "nameKo": "음울한 대부",
+      "apCost": 1,
+      "type": "Attack",
+      "rarity": "Monster",
+      "category": "Monster",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "50% x 4 Damage. 6 Agony.",
+      "effectKo": "피해 50% x 4\n고통 6",
+      "effectKeywords": [
+        "Affliction",
+        "Damage"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Spiked Shield",
+      "nameKo": "가시 방패",
+      "apCost": 1,
+      "type": "Attack",
+      "rarity": "Common",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "100% Defense-based Damage to all enemies.\nDestroy: +1 additional hit(s).",
+      "effectKo": "모든 적 방어 기반 피해 100%\n파괴: 타격 1회 추가",
+      "effectKeywords": [
+        "DEF-based Damage",
+        "Damage",
+        "Shatter"
+      ],
+      "classRestriction": "Striker, Vanguard only",
+      "classRestrictionKo": "스트라이커 직업 전용, 뱅가드 직업 전용"
+    },
+    {
+      "nameEn": "Spirit Kefox",
+      "nameKo": "정령 캐폭스",
+      "apCost": 1,
+      "type": "Skill",
+      "rarity": "Monster",
+      "category": "Monster",
+      "isSeason": false,
+      "tags": [
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "소멸"
+      ],
+      "effect": "From the Draw Pile, choose 1 card to Draw, apply Retrieve to that card.",
+      "effectKo": "뽑을 카드에서 1장 선택 드로우, 그 카드에 회수 부여",
+      "effectKeywords": [
+        "Draw"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Spore Harvester",
+      "nameKo": "포자 채집기",
+      "apCost": 0,
+      "type": "Skill",
+      "rarity": null,
+      "category": "Neutral",
+      "isSeason": true,
+      "tags": [
+        "Retain",
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "보존",
+        "소멸"
+      ],
+      "effect": "Incinerate: Create 2 Contaminated Spore.\nRetain: Create 1 Contaminated Spore",
+      "effectKo": "소각 : 오염된 포자 2장 생성\n보존 : 오염된 포자 1장 생성",
+      "effectKeywords": [
+        "Contaminate",
+        "Incinerate",
+        "Retain"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Strategic Starting Point",
+      "nameKo": "전략의 시작점",
+      "apCost": 1,
+      "type": "Skill",
+      "rarity": "Rare",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "소멸"
+      ],
+      "effect": "2 Ego Points.",
+      "effectKo": "에고 포인트 2 획득",
+      "effectKeywords": [
+        "Ego Point"
+      ],
+      "classRestriction": "Psionic, Controller only",
+      "classRestrictionKo": "사이오닉 직업 전용, 컨트롤러 직업 전용"
+    },
+    {
+      "nameEn": "Tackle",
+      "nameKo": "태클",
+      "apCost": 3,
+      "type": "Attack",
+      "rarity": "Common",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Pulverize"
+      ],
+      "tagsKo": [
+        "분쇄"
+      ],
+      "effect": "400% Defense-Based Damage.\nIf HP is full, -1 cost to this card.",
+      "effectKo": "방어 기반 피해 400%\n체력이 가득 찬 상태라면 이 카드 비용 1 감소",
+      "effectKeywords": [
+        "DEF-based Damage",
+        "Damage"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Tactical Action",
+      "nameKo": "전술 대응",
+      "apCost": 1,
+      "type": "Upgrade",
+      "rarity": "Rare",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Initiation"
+      ],
+      "tagsKo": [
+        "개전"
+      ],
+      "effect": "Increase Damage Amount to targets granted Shield by 25% (max 1).",
+      "effectKo": "실드를 보유한 대상에게 피해량 25% 증가 (최대 1)",
+      "effectKeywords": [
+        "Damage",
+        "Shield"
+      ],
+      "classRestriction": "Ranger, Hunter only",
+      "classRestrictionKo": "레인저 직업 전용, 헌터 직업 전용"
+    },
+    {
+      "nameEn": "Tactical Reformation",
+      "nameKo": "전략의 재구성",
+      "apCost": 1,
+      "type": "Skill",
+      "rarity": "Common",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "소멸"
+      ],
+      "effect": "-1 Next Ego Skill used",
+      "effectKo": "다음 사용하는 에고 스킬의 비용 1 감소",
+      "effectKeywords": [],
+      "classRestriction": "Psionic, Controller only",
+      "classRestrictionKo": "사이오닉 직업 전용, 컨트롤러 직업 전용"
+    },
+    {
+      "nameEn": "Trapper",
+      "nameKo": "트래퍼",
+      "apCost": 1,
+      "type": "Skill",
+      "rarity": "Monster",
+      "category": "Monster",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "120% Shield, 1 Vulnerable.\nIf the target did not act, +120% Shield Gain, +1 Vulnerable.",
+      "effectKo": "실드 120%, 취약 1\n대상이 행동하지 않았다면 실드 획득량 +120%, 취약 1 추가",
+      "effectKeywords": [
+        "Shield",
+        "Vulnerable"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Vine Lord",
+      "nameKo": "바인 로드",
+      "apCost": 0,
+      "type": "Skill",
+      "rarity": "Monster",
+      "category": "Monster",
+      "isSeason": true,
+      "tags": [
+        "Exhaust 3"
+      ],
+      "tagsKo": [
+        "소멸 3"
+      ],
+      "effect": "Draw 2 Exhaust card(s) of this unit.",
+      "effectKo": "자신의 소멸 카드 드로우 2",
+      "effectKeywords": [
+        "Draw"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Wanderer of the Void",
+      "nameKo": "공허의 방랑자",
+      "apCost": 0,
+      "type": "Skill",
+      "rarity": "Rare",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [
+        "Exhaust"
+      ],
+      "tagsKo": [
+        "소멸"
+      ],
+      "effect": "For 1 turn, target's Action Count does not decrease.",
+      "effectKo": "1턴간 대상의 행동 카운트 감소하지 않음",
+      "effectKeywords": [
+        "Action Count"
+      ],
+      "classRestriction": "Psionic, Controller only",
+      "classRestrictionKo": "사이오닉 직업 전용, 컨트롤러 직업 전용"
+    },
+    {
+      "nameEn": "Wind of Relief",
+      "nameKo": "해소의 바람",
+      "apCost": 1,
+      "type": "Skill",
+      "rarity": "Common",
+      "category": "Neutral",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "2 Agony to all enemies.\nSelect and Exhaust up to 2 Status Ailment or Curse card(s) from hand.",
+      "effectKo": "모든 적 고통 2\n핸드의 상태이상, 저주 카드 2장 까지 선택 소멸",
+      "effectKeywords": [
+        "Affliction"
+      ],
+      "classRestriction": "Psionic, Controller only",
+      "classRestrictionKo": "사이오닉 직업 전용, 컨트롤러 직업 전용"
+    },
+    {
+      "nameEn": "Winged Humanoid Beast",
+      "nameKo": "날개 인면수",
+      "apCost": 1,
+      "type": "Attack",
+      "rarity": "Monster",
+      "category": "Monster",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "50% x 5 Damage to random enemies.",
+      "effectKo": "무작위 적들에게 피해 50% × 5",
+      "effectKeywords": [
+        "Damage"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    },
+    {
+      "nameEn": "Wolves Bane",
+      "nameKo": "울브즈 베인",
+      "apCost": 1,
+      "type": "Attack",
+      "rarity": "Monster",
+      "category": "Monster",
+      "isSeason": false,
+      "tags": [],
+      "tagsKo": [],
+      "effect": "120% Damage to all enemies.\n2 Weaken.\n2 Impair.",
+      "effectKo": "모든 적 피해 120%\n약화 2\n손상 2",
+      "effectKeywords": [
+        "Damage",
+        "Impair",
+        "Weaken"
+      ],
+      "classRestriction": null,
+      "classRestrictionKo": null
+    }
+  ]
+}

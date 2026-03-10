@@ -1,0 +1,407 @@
+{
+  "renoa": {
+    "cards": [
+      "https://www.prydwen.gg/static/a7490f3f448f7681a118194be3ab4449/f9911/ronoa_1.webp",
+      "https://www.prydwen.gg/static/74a6b1e3a80a6f37ffef0b5969abbe2c/f9911/ronoa_2.webp",
+      "https://www.prydwen.gg/static/17ef7155898e19fef8a1c53affe20e0b/f9911/ronoa_3.webp",
+      "https://www.prydwen.gg/static/1ead0d899fc756e60ebadae18d594918/f9911/ronoa_4.webp",
+      "https://www.prydwen.gg/static/762a86784c119b499b62d5982bba89d7/f9911/ronoa_5.webp",
+      "https://www.prydwen.gg/static/5b689a2be3b73c371d9cac3343611cd8/f9911/ronoa_6.webp",
+      "https://www.prydwen.gg/static/84ec542341ec0b9f3d9804b73c2fa382/f9911/ronoa_7.webp",
+      "https://www.prydwen.gg/static/585ff459dac80bc78f5171d534400e10/f9911/ronoa_8.webp"
+    ],
+    "ego": "https://www.prydwen.gg/static/20c9037c13ff46ae4442ab906604ae75/f9911/ronoa_ego.webp"
+  },
+  "nine": {
+    "cards": [
+      "https://www.prydwen.gg/static/9760e4ea09305b69b54a1dcb88e0f2db/f9911/nine_885.webp",
+      "https://www.prydwen.gg/static/6f1f3d9046d8a354da62d36fc807f6b3/f9911/nine_886.webp",
+      "https://www.prydwen.gg/static/317f57510185e42d503649f0c1f1b141/f9911/nine_887.webp",
+      "https://www.prydwen.gg/static/035ac88d1e2e814acfa2082252c3e5cc/f9911/nine_893.webp",
+      "https://www.prydwen.gg/static/79e143e2f420ef478ab972da5a627bcf/f9911/nine_899.webp",
+      "https://www.prydwen.gg/static/8232f8e42e397089e1af96a146ae325e/f9911/nine_905.webp",
+      "https://www.prydwen.gg/static/e3047c3f3c5a4d69b92d3e58361d547e/f9911/nine_911.webp",
+      "https://www.prydwen.gg/static/91d1030d0ed616599ebe682ff31062e8/f9911/nine_932.webp",
+      "https://www.prydwen.gg/static/c1c34d49dd8dbc1d9515bba2ee0ae077/f9911/nine_884.webp"
+    ],
+    "ego": null
+  },
+  "mika": {
+    "cards": [
+      "https://www.prydwen.gg/static/9356c9498e41c99def4655c57574f11c/f9911/mika_1.webp",
+      "https://www.prydwen.gg/static/24cd2d42dd7e9ca1dc5266301d3614fd/f9911/mika_2.webp",
+      "https://www.prydwen.gg/static/e65a85573f4fbef5f69d4fac2cd769e1/f9911/mika_3.webp",
+      "https://www.prydwen.gg/static/00b38cf427b1ef9ad1654fa24ca69965/f9911/mika_4.webp",
+      "https://www.prydwen.gg/static/31f9f6de31f0a864f2efb044f183d2c0/f9911/mika_5.webp",
+      "https://www.prydwen.gg/static/350d851aba5d9ca696664c2950911834/f9911/mika_6.webp",
+      "https://www.prydwen.gg/static/e19aac919e7e0bf0cc5b7e42253ca989/f9911/mika_7.webp",
+      "https://www.prydwen.gg/static/013ad719244d9fcf8642877247a55a68/f9911/mika_8.webp"
+    ],
+    "ego": null
+  },
+  "chizuru": {
+    "cards": [
+      "https://www.prydwen.gg/static/adb8207af28cbe11fe4a86c55eb9a648/f9911/chizuru_794.webp",
+      "https://www.prydwen.gg/static/75583759c1441c0b6f173d1169783f27/f9911/chizuru_795.webp",
+      "https://www.prydwen.gg/static/f801c6101b4e76104968010b07304d5e/f9911/chizuru_796.webp",
+      "https://www.prydwen.gg/static/1545fd5586323d456c44624a8e33f016/f9911/chizuru_802.webp",
+      "https://www.prydwen.gg/static/b4de877da10368642f48ceed260923c4/f9911/chizuru_808.webp",
+      "https://www.prydwen.gg/static/0f47fa9553017085009451d97149d0a1/f9911/chizuru_814.webp",
+      "https://www.prydwen.gg/static/ecbcc0f961b721eaaf8c2f0a501944bf/f9911/chizuru_820.webp",
+      "https://www.prydwen.gg/static/877e1193278e92918ef49376e980341a/f9911/chizuru_793.webp"
+    ],
+    "ego": null
+  },
+  "haru": {
+    "cards": [
+      "https://www.prydwen.gg/static/3d2bb548d55811b26d46edf0a721bf1d/f9911/haru_2.webp",
+      "https://www.prydwen.gg/static/1f0c096949c30ad33b5a4143a27a83e8/f9911/haru_3.webp",
+      "https://www.prydwen.gg/static/00439f9398022fc06fba2ec06b6ca546/f9911/haru_4.webp",
+      "https://www.prydwen.gg/static/3704202cb5f37da329fe43881847f4d3/f9911/haru_5.webp",
+      "https://www.prydwen.gg/static/67a6cdb5584f2c56d0446405c63aefd1/f9911/haru_6.webp",
+      "https://www.prydwen.gg/static/d43f3d7a580c6f4435f5812671636efe/f9911/haru_7.webp",
+      "https://www.prydwen.gg/static/b948aee26b79669b7d4c26f1f9752703/f9911/haru_8.webp",
+      "https://www.prydwen.gg/static/c01ed96fad0a9dc4c910dfa611ac3389/f9911/haru_9.webp",
+      "https://www.prydwen.gg/static/0ef2061efe3dd5fac95e283a36614b03/f9911/haru_1.webp"
+    ],
+    "ego": null
+  },
+  "hugo": {
+    "cards": [
+      "https://www.prydwen.gg/static/64e88b25786fac42fd6f3ce87a3d37cc/f9911/hugo_2.webp",
+      "https://www.prydwen.gg/static/5e2605c7628a08ddf3a563fdc8448321/f9911/hugo_3.webp",
+      "https://www.prydwen.gg/static/eba2e63cc87b3f964c5d1fbd8eeed9ee/f9911/hugo_4.webp",
+      "https://www.prydwen.gg/static/24be16e91e945e05b3d8a68d360d7ce7/f9911/hugo_5.webp",
+      "https://www.prydwen.gg/static/4af086a29870e20348a305de076e3b7d/f9911/hugo_6.webp",
+      "https://www.prydwen.gg/static/8f9b1d36e2e8eaa035111ca65095256e/f9911/hugo_7.webp",
+      "https://www.prydwen.gg/static/57fc0683e54d1f6563382e7bf9298aec/f9911/hugo_8.webp",
+      "https://www.prydwen.gg/static/f9bda69b78922a13d7d0a8eefcf0c5e1/f9911/hugo_1.webp"
+    ],
+    "ego": null
+  },
+  "kayron": {
+    "cards": [
+      "https://www.prydwen.gg/static/62c7b12194b6440ac9c272a68c000657/f9911/kayron_2.webp",
+      "https://www.prydwen.gg/static/486d99d42cf7d1f6660b18623f943fc2/f9911/kayron_3.webp",
+      "https://www.prydwen.gg/static/2797ecaddf50537bdd3e2c903bbf901c/f9911/kayron_4.webp",
+      "https://www.prydwen.gg/static/a19cd1e577c583b636e054309e76355e/f9911/kayron_5.webp",
+      "https://www.prydwen.gg/static/da5cdec078944412ee0d8cd5dcf431ac/f9911/kayron_6.webp",
+      "https://www.prydwen.gg/static/1a87c61c176ce4fa34e8f1167254c53d/f9911/kayron_7.webp",
+      "https://www.prydwen.gg/static/3821c025110a4b1694ce0f0efe72eb9d/f9911/kayron_8.webp",
+      "https://www.prydwen.gg/static/34aa3b7f2484768a69b1c6c9553cf927/f9911/kayron_9.webp",
+      "https://www.prydwen.gg/static/1fb671f9a6945d7b0cc220614419c60f/f9911/kayron_1.webp"
+    ],
+    "ego": null
+  },
+  "khalipe": {
+    "cards": [
+      "https://www.prydwen.gg/static/8dc49c61c77afdd4291bda2e864c4870/f9911/khalipe_2.webp",
+      "https://www.prydwen.gg/static/db1a99847e28bc62c10287b26a4a1bef/f9911/khalipe_3.webp",
+      "https://www.prydwen.gg/static/bf921c355afb54179f75e764c90df64b/f9911/khalipe_4.webp",
+      "https://www.prydwen.gg/static/4bc716d4195ad8c364381a831756769f/f9911/khalipe_5.webp",
+      "https://www.prydwen.gg/static/b3f7cf49e2de7dda4e1a5059f70b94af/f9911/khalipe_6.webp",
+      "https://www.prydwen.gg/static/5e4407bf68057a498fe4d1863d98d3c7/f9911/khalipe_7.webp",
+      "https://www.prydwen.gg/static/7b06228a5fb4fa187bdaf05bc6e3953e/f9911/khalipe_8.webp",
+      "https://www.prydwen.gg/static/319e552d5c6434810035434aec8982e5/f9911/khalipe_9.webp",
+      "https://www.prydwen.gg/static/bdd26f5dd630e4f3333eb2de54abf250/f9911/khalipe_1.webp"
+    ],
+    "ego": null
+  },
+  "luke": {
+    "cards": [
+      "https://www.prydwen.gg/static/7cf21b74134e691e320e5a2ccbfba6e6/f9911/luke_1.webp",
+      "https://www.prydwen.gg/static/f66c65d20855b91ede295d1b30f51e96/f9911/luke_2.webp",
+      "https://www.prydwen.gg/static/2bde01ca5175355febb2de7263f00610/f9911/luke_3.webp",
+      "https://www.prydwen.gg/static/2235dddc43e769ad00ffbe329f1bbc55/f9911/luke_4.webp",
+      "https://www.prydwen.gg/static/49397a9dd53f10e6d420d1d491a92c1b/f9911/luke_5.webp",
+      "https://www.prydwen.gg/static/34de1be0921e4790c8f6ffd8ed41ea2e/f9911/luke_6.webp",
+      "https://www.prydwen.gg/static/01fc0e9f103760b8d03184ccf34afcea/f9911/luke_7.webp",
+      "https://www.prydwen.gg/static/0ea3be9205e7363492095a6271d1ef73/f9911/luke_9.webp",
+      "https://www.prydwen.gg/static/465fa96c2d22a3071dce624532f68ecd/f9911/luke_10.webp",
+      "https://www.prydwen.gg/static/7fd367d104a54c32c4915ccd04330ea8/f9911/luke_11.webp",
+      "https://www.prydwen.gg/static/55c304ed2b55ded402f1be8d6fce2162/f9911/luke_12.webp",
+      "https://www.prydwen.gg/static/e7251ae4c6d061dcf45327e6c71e7665/f9911/luke_8.webp"
+    ],
+    "ego": null
+  },
+  "magna": {
+    "cards": [
+      "https://www.prydwen.gg/static/3e4cac76ab03a86a850881f929ab56f6/f9911/magna_2.webp",
+      "https://www.prydwen.gg/static/10e53df24adec3b285779dff21c6db80/f9911/magna_3.webp",
+      "https://www.prydwen.gg/static/406b5c3fe9de26ecf16d2392b7690461/f9911/magna_4.webp",
+      "https://www.prydwen.gg/static/5d653b96b4d7bae72a83aa8b0808bbb8/f9911/magna_5.webp",
+      "https://www.prydwen.gg/static/90dc6efeaff571ffd326848e1493ec84/f9911/magna_6.webp",
+      "https://www.prydwen.gg/static/6fcd07bd7d40ff77c95c8a750f1b4116/f9911/magna_7.webp",
+      "https://www.prydwen.gg/static/ef8d5a73f404e01201b58e98edf680de/f9911/magna_8.webp",
+      "https://www.prydwen.gg/static/94bc329929befa0e7a5a7df002a49ce8/f9911/magna_1.webp"
+    ],
+    "ego": null
+  },
+  "mei-lin": {
+    "cards": [
+      "https://www.prydwen.gg/static/31e93e78ffa1cb6f71b7e49ebccf9509/f9911/mei_2.webp",
+      "https://www.prydwen.gg/static/7c2cee4d6eb3ae1a7b4723f342856264/f9911/mei_3.webp",
+      "https://www.prydwen.gg/static/3ed5291cc610a6f774221ac62053695b/f9911/mei_4.webp",
+      "https://www.prydwen.gg/static/424cd2c431e607199d903ed0ffaef1c0/f9911/mei_5.webp",
+      "https://www.prydwen.gg/static/01312933d74fec62ebe0c977fd13c40c/f9911/mei_6.webp",
+      "https://www.prydwen.gg/static/3ca2728f5dffe9bd8a3151737ad1638a/f9911/mei_7.webp",
+      "https://www.prydwen.gg/static/979e6e12ef5e9a29706a1e3a026f5072/f9911/mei_8.webp",
+      "https://www.prydwen.gg/static/848ea33b61e669e1d9f7ad18210c291e/f9911/mei_1.webp"
+    ],
+    "ego": null
+  },
+  "narja": {
+    "cards": [
+      "https://www.prydwen.gg/static/81426ce95a8dc4f0dd810a3f71181c76/f9911/narja_853.webp",
+      "https://www.prydwen.gg/static/798125bb533c3168af6dddcacdd580e4/f9911/narja_854.webp",
+      "https://www.prydwen.gg/static/f72349bca4146f2cba2ba030e7d19246/f9911/narja_855.webp",
+      "https://www.prydwen.gg/static/7559f321f8e479cb64512b9d35643ada/f9911/narja_861.webp",
+      "https://www.prydwen.gg/static/1f14095b4984657ce65126e0c7895781/f9911/narja_867.webp",
+      "https://www.prydwen.gg/static/ca83155418942e8c1a862c777fd0c6f3/f9911/narja_873.webp",
+      "https://www.prydwen.gg/static/5ba7cee3fca03c86216fb21aeec22700/f9911/narja_879.webp",
+      "https://www.prydwen.gg/static/1765a1cd8678d4d596e24ee069614378/f9911/narja_852.webp"
+    ],
+    "ego": null
+  },
+  "orlea": {
+    "cards": [
+      "https://www.prydwen.gg/static/63b2d992351c7d0bd6433ed84e221ff8/f9911/orlea_2.webp",
+      "https://www.prydwen.gg/static/5d4163802aec9e8c2ad0bfcb08579631/f9911/orlea_3.webp",
+      "https://www.prydwen.gg/static/0caac3a7b173318b8769d8066e1b4ea3/f9911/orlea_4.webp",
+      "https://www.prydwen.gg/static/67457b6ba98f1279eb29855ae370dd5c/f9911/orlea_5.webp",
+      "https://www.prydwen.gg/static/e7e09550cfc821fef388a9eca49a8358/f9911/orlea_6.webp",
+      "https://www.prydwen.gg/static/d870c7f961b442ba6a4e7173325aafba/f9911/orlea_7.webp",
+      "https://www.prydwen.gg/static/5ff21bc4fc4f091eb8447e2080efb534/f9911/orlea_8.webp",
+      "https://www.prydwen.gg/static/abce72ec7b819f7e617ba6be6a53c85b/f9911/orlea_9.webp",
+      "https://www.prydwen.gg/static/2cc69156e25dbbbc632dbb10c4ee4792/f9911/orlea_10.webp",
+      "https://www.prydwen.gg/static/41b6e819aaedf60815cc4fea56346b64/f9911/orlea_11.webp",
+      "https://www.prydwen.gg/static/6281fa04516e74b675d4c129954cfc5f/f9911/orlea_12.webp",
+      "https://www.prydwen.gg/static/134c09dd7ef7bd196441aa0297bbac44/f9911/orlea_13.webp",
+      "https://www.prydwen.gg/static/54fedd5247b34a5c3ae9cc7f21419cd8/f9911/orlea_14.webp",
+      "https://www.prydwen.gg/static/93694b632704815616784b4cf4321254/f9911/orlea_15.webp",
+      "https://www.prydwen.gg/static/a253b9142a443ef40cc797a6d3d60988/f9911/orlea_16.webp",
+      "https://www.prydwen.gg/static/2db58a147282c49d72e9ffb535b08165/f9911/orlea_17.webp",
+      "https://www.prydwen.gg/static/c243cc1246ac9be55b87077291a8094b/f9911/orlea_1.webp"
+    ],
+    "ego": null
+  },
+  "rin": {
+    "cards": [
+      "https://www.prydwen.gg/static/b4693f861a675d2407ed457aad300d2c/f9911/rin_2.webp",
+      "https://www.prydwen.gg/static/556daed6fe9035a80a02f08d79052705/f9911/rin_3.webp",
+      "https://www.prydwen.gg/static/05cafd48094b694c29f9a1af0744eb77/f9911/rin_4.webp",
+      "https://www.prydwen.gg/static/1b055924da31a7734bdc910d70af54ff/f9911/rin_5.webp",
+      "https://www.prydwen.gg/static/d6aa792fbfa2d348ed38e013d03173bd/f9911/rin_6.webp",
+      "https://www.prydwen.gg/static/5eafd5de81ff07ad8d23a407eb3667d4/f9911/rin_7.webp",
+      "https://www.prydwen.gg/static/4ab0ccbce65d3eab31b3f2e618b3ebe3/f9911/rin_8.webp",
+      "https://www.prydwen.gg/static/cfc312d2fbc89e6ed7ebb937050f796f/f9911/rin_9.webp",
+      "https://www.prydwen.gg/static/57cad538d42ad525f6394ca2080ee478/f9911/rin_1.webp"
+    ],
+    "ego": null
+  },
+  "sereniel": {
+    "cards": [
+      "https://www.prydwen.gg/static/29ed5dac6d7d22c305ab6274fc4c6b8f/f9911/sereniel_824.webp",
+      "https://www.prydwen.gg/static/3589582b02c6437b3c7de8f693a0215a/f9911/sereniel_825.webp",
+      "https://www.prydwen.gg/static/948d97ae988f4b1cc91444f74f326335/f9911/sereniel_826.webp",
+      "https://www.prydwen.gg/static/7afb42b34a2cef0c88148e279928facc/f9911/sereniel_832.webp",
+      "https://www.prydwen.gg/static/39ab224ac4fb43c6d9a42dbbae549b7c/f9911/sereniel_838.webp",
+      "https://www.prydwen.gg/static/273eb873d152d6f02ac8d6d29c683f39/f9911/sereniel_844.webp",
+      "https://www.prydwen.gg/static/9963e37f6d3ebb911be44d18b7abec30/f9911/sereniel_850.webp",
+      "https://www.prydwen.gg/static/75a59a2c1d690cc8910e43c5a8f2d870/f9911/sereniel_823.webp"
+    ],
+    "ego": null
+  },
+  "tiphera": {
+    "cards": [
+      "https://www.prydwen.gg/static/5361c690ba28d9bfdf80b4d7c7e81e28/f9911/tiphera_958.webp",
+      "https://www.prydwen.gg/static/6d777247361e2bb3422e4f44a3103d4f/f9911/tiphera_959.webp",
+      "https://www.prydwen.gg/static/75bf5e01db27e77a798d77e44d981d4e/f9911/tiphera_960.webp",
+      "https://www.prydwen.gg/static/0f069d45f4f8cfa9396567eb3b4abd41/f9911/tiphera_966.webp",
+      "https://www.prydwen.gg/static/800ffe1274a6a950ede67fe83c908877/f9911/tiphera_972.webp",
+      "https://www.prydwen.gg/static/6f2b7589d73296da3ed63d3d4410a139/f9911/tiphera_978.webp",
+      "https://www.prydwen.gg/static/fa6ccfb50fb2f7db6db5f7bb7f76ceab/f9911/tiphera_984.webp",
+      "https://www.prydwen.gg/static/e350e867e8d321b3e20e31121a95bd8e/f9911/tiphera_985.webp",
+      "https://www.prydwen.gg/static/e73e22b98a1fc80404b1cae40d9cdf2d/f9911/tiphera_986.webp",
+      "https://www.prydwen.gg/static/ac1716b885d6032015d17c8d25c13ed4/f9911/tiphera_987.webp",
+      "https://www.prydwen.gg/static/6ce0d74be2d6df9bd68a07e80a1e1998/f9911/tiphera_989.webp"
+    ],
+    "ego": null
+  },
+  "veronica": {
+    "cards": [
+      "https://www.prydwen.gg/static/60c9ea48aa3c4ae1500a0c4c53784abc/f9911/veronica_2.webp",
+      "https://www.prydwen.gg/static/bde5e33c7d36daf09a574d1e034d4b8f/f9911/veronica_3.webp",
+      "https://www.prydwen.gg/static/f9756bcd2d66503540560f7d2f2c20f9/f9911/veronica_4.webp",
+      "https://www.prydwen.gg/static/c8caedf24581f887dcd6c9b6663f6ace/f9911/veronica_5.webp",
+      "https://www.prydwen.gg/static/2ba9737866c506b4ee7a951624c7d659/f9911/veronica_6.webp",
+      "https://www.prydwen.gg/static/b301e2c0973282215555c4601576dc7c/f9911/veronica_7.webp",
+      "https://www.prydwen.gg/static/55e536596ee590e19c14f38fee6573f3/f9911/veronica_8.webp",
+      "https://www.prydwen.gg/static/b9ba2b501b18c43f663300b05669a500/f9911/veronica_9.webp",
+      "https://www.prydwen.gg/static/d07c02d44739cc72fcf661ed172bce41/f9911/veronica_10.webp",
+      "https://www.prydwen.gg/static/b9ba2b501b18c43f663300b05669a500/f9911/veronica_11.webp",
+      "https://www.prydwen.gg/static/1575226ea2671feb5d437a5f98e667b2/f9911/veronica_12.webp",
+      "https://www.prydwen.gg/static/227dd7c9d49086fc1efd994a72d3a1e2/f9911/veronica_13.webp",
+      "https://www.prydwen.gg/static/a9c4c32a8ff768b7037e5ca9f04a64d4/f9911/veronica_14.webp",
+      "https://www.prydwen.gg/static/62fcaf45a9920525fc9451533766f225/f9911/veronica_1.webp"
+    ],
+    "ego": null
+  },
+  "yuki": {
+    "cards": [
+      "https://www.prydwen.gg/static/faae67aa803681b537c21778c90f5b27/f9911/yuki_746.webp",
+      "https://www.prydwen.gg/static/63ed7f08abcf6418199fcbc6aea99fee/f9911/yuki_747.webp",
+      "https://www.prydwen.gg/static/d53091042d9a28be57e286add418d054/f9911/yuki_748.webp",
+      "https://www.prydwen.gg/static/a13ca40b37d2491978bb7cb3e4fb70b9/f9911/yuki_750.webp",
+      "https://www.prydwen.gg/static/023eb6659dad2be91e54550dd79c233e/f9911/yuki_756.webp",
+      "https://www.prydwen.gg/static/3df1cc0af23f418e94ef5b6b77446459/f9911/yuki_762.webp",
+      "https://www.prydwen.gg/static/6c247e035480b89d90a9e03d1324c858/f9911/yuki_768.webp",
+      "https://www.prydwen.gg/static/4f2863163b658cc46f9df09fb3bc6f3c/f9911/yuki_774.webp",
+      "https://www.prydwen.gg/static/6d3f36a54bfd0cfdc0563a67b2ea7fb3/f9911/yuki_745.webp"
+    ],
+    "ego": null
+  },
+  "amir": {
+    "cards": [
+      "https://www.prydwen.gg/static/4e29ad01ae131e2932d3264f11d3a955/f9911/amir_2.webp",
+      "https://www.prydwen.gg/static/26cfce72bed0fe89eaafa70a6abace66/f9911/amir_3.webp",
+      "https://www.prydwen.gg/static/c3e96ee041fd522fc42326743ef7315c/f9911/amir_4.webp",
+      "https://www.prydwen.gg/static/aa80281ffd7250c2b6ac9b701bbe2213/f9911/amir_5.webp",
+      "https://www.prydwen.gg/static/97a679f5319124a4e6ffd20ec4c969a9/f9911/amir_6.webp",
+      "https://www.prydwen.gg/static/c32db90f09eb28440ea0a621c38599d4/f9911/amir_7.webp",
+      "https://www.prydwen.gg/static/5d48394c311f3e2057eeef62a0599f0c/f9911/amir_8.webp",
+      "https://www.prydwen.gg/static/4d886f464a587cd0abfd3d5b808af3f0/f9911/amir_1.webp"
+    ],
+    "ego": null
+  },
+  "beryl": {
+    "cards": [
+      "https://www.prydwen.gg/static/eab2a83b4490529eb5d3ccf9682bbc4d/f9911/beryl_2.webp",
+      "https://www.prydwen.gg/static/8c71344cb3c6a46320cf08ef83e8fa49/f9911/beryl_3.webp",
+      "https://www.prydwen.gg/static/8ed518509005f5dda8be4d51231ea9ff/f9911/beryl_4.webp",
+      "https://www.prydwen.gg/static/63872ba0decfbbfa0de19e6de131652c/f9911/beryl_5.webp",
+      "https://www.prydwen.gg/static/57bf8310469c0935e7d3d75cb4402822/f9911/beryl_6.webp",
+      "https://www.prydwen.gg/static/209cecfe9525ddce20773c75f437df5e/f9911/beryl_7.webp",
+      "https://www.prydwen.gg/static/982c5c6ea107b007a80592039c2b45a5/f9911/beryl_8.webp",
+      "https://www.prydwen.gg/static/ed4fbf3bf2c073cc093e06160a8b335a/f9911/beryl_9.webp",
+      "https://www.prydwen.gg/static/b4a5aa1dbf9a02f9fc97e3d978ecb379/f9911/beryl_1.webp"
+    ],
+    "ego": null
+  },
+  "cassius": {
+    "cards": [
+      "https://www.prydwen.gg/static/c2153c85902b092d418c19f6421a8da2/f9911/cassius_2.webp",
+      "https://www.prydwen.gg/static/bbebcb78d778da7ba630de765a60e019/f9911/cassius_13.webp",
+      "https://www.prydwen.gg/static/01fb6f1899864191e79d7eb1614c0b7c/f9911/cassius_3.webp",
+      "https://www.prydwen.gg/static/6c77d2b327311309dbec6ddf5523a4cd/f9911/cassius_4.webp",
+      "https://www.prydwen.gg/static/ec54bd3b66de7eac4fae4c6cdcf7a65b/f9911/cassius_5.webp",
+      "https://www.prydwen.gg/static/caf2650b4387a90af4ca77d9f4363c54/f9911/cassius_6.webp",
+      "https://www.prydwen.gg/static/870a6fbb2c677194c6f1f9ea56f586c8/f9911/cassius_7.webp",
+      "https://www.prydwen.gg/static/27aa2d259a4a7b60f5aa757c1c945933/f9911/cassius_8.webp",
+      "https://www.prydwen.gg/static/51a53d8ce341ec074e89fe9de4b5b47d/f9911/cassius_9.webp",
+      "https://www.prydwen.gg/static/31b4a5bd6317ac8f54c9cffb587f81ab/f9911/cassius_10.webp",
+      "https://www.prydwen.gg/static/8061a6e9ab233493519a194717145398/f9911/cassius_11.webp",
+      "https://www.prydwen.gg/static/6c2ccdc3bf8396c7bfe58836b832c347/f9911/cassius_12.webp",
+      "https://www.prydwen.gg/static/a19cde9edc219c54f99f30a234469353/f9911/cassius_1.webp"
+    ],
+    "ego": null
+  },
+  "lucas": {
+    "cards": [
+      "https://www.prydwen.gg/static/b6db5c0dee403ffa26dbaff7fe6f6d47/f9911/lucas_2.webp",
+      "https://www.prydwen.gg/static/3735a07addf296405d68da75eb710510/f9911/lucas_3.webp",
+      "https://www.prydwen.gg/static/3aec417452f560f2e403ce01226ca7fa/f9911/lucas_4.webp",
+      "https://www.prydwen.gg/static/05ab171803b6d29f4a2edc217711965c/f9911/lucas_5.webp",
+      "https://www.prydwen.gg/static/ef9aeca973838dc74ecc17e588c63489/f9911/lucas_6.webp",
+      "https://www.prydwen.gg/static/bec48db88cda07c92749747a68879b78/f9911/lucas_7.webp",
+      "https://www.prydwen.gg/static/f566ad25b4e4be17007397f8d39bb195/f9911/lucas_8.webp",
+      "https://www.prydwen.gg/static/f3ef0757897beb191dde9eac0c591d95/f9911/lucas_9.webp",
+      "https://www.prydwen.gg/static/bee2c7b9b46424c495d1e568fb830aec/f9911/lucas_10.webp",
+      "https://www.prydwen.gg/static/0f5bc2be23e3cd2e31f6a28a580536bb/f9911/lucas_11.webp",
+      "https://www.prydwen.gg/static/eb4ecc60d8a59c9dc242ca3f17279298/f9911/lucas_12.webp",
+      "https://www.prydwen.gg/static/c2f7de1047b4f90ce735e88ecc25114f/f9911/lucas_13.webp",
+      "https://www.prydwen.gg/static/68d4a7d6d3f84266fb7d48f18e2f984f/f9911/lucas_1.webp"
+    ],
+    "ego": null
+  },
+  "maribell": {
+    "cards": [
+      "https://www.prydwen.gg/static/c281fdfbd693b8849cc960a8352ce5e4/f9911/mari_2.webp",
+      "https://www.prydwen.gg/static/805ff6b6901f345e9623c63314383890/f9911/mari_3.webp",
+      "https://www.prydwen.gg/static/64e47a8f5538768e34b4a88b18320f04/f9911/mari_9.webp",
+      "https://www.prydwen.gg/static/001a66a5f7fd242bf1975f40f4c14df5/f9911/mari_4.webp",
+      "https://www.prydwen.gg/static/7d6bba629a0856e4e5340d18b231a182/f9911/mari_5.webp",
+      "https://www.prydwen.gg/static/f6e2fcf5254cfe482be0c7307101d22d/f9911/mari_6.webp",
+      "https://www.prydwen.gg/static/17fe81832a9f7e56c02078977db6315d/f9911/mari_7.webp",
+      "https://www.prydwen.gg/static/6849937e34916a0bca2ab5e97a902d06/f9911/mari_8.webp",
+      "https://www.prydwen.gg/static/16e6c34a0a790ea2f547bdc062128dc6/f9911/mari_1.webp"
+    ],
+    "ego": null
+  },
+  "nia": {
+    "cards": [
+      "https://www.prydwen.gg/static/0270185e0d8dcec2184ef10433fddb51/f9911/nia_2.webp",
+      "https://www.prydwen.gg/static/08b89db715348f5811a852433928e721/f9911/nia_3.webp",
+      "https://www.prydwen.gg/static/280c12710b078461acf378643a122f9d/f9911/nia_4.webp",
+      "https://www.prydwen.gg/static/520c52e430e7f21fa693668d1f878906/f9911/nia_5.webp",
+      "https://www.prydwen.gg/static/365d86b07b5f80adc9aadb5aabeb5dbe/f9911/nia_7.webp",
+      "https://www.prydwen.gg/static/74a2d677b8e10b9f9e16d19968f65d19/f9911/nia_8.webp",
+      "https://www.prydwen.gg/static/ebf2da4cb9bb8e70fa18dd9e59fa2cc3/f9911/nia_6.webp",
+      "https://www.prydwen.gg/static/1579efdfd252978f664d774a3ec79566/f9911/nia_1.webp"
+    ],
+    "ego": null
+  },
+  "owen": {
+    "cards": [
+      "https://www.prydwen.gg/static/383155f288e47eca9f2491584a6a6322/f9911/owen_2.webp",
+      "https://www.prydwen.gg/static/694e67f519aa529835c2e8c15ce576ff/f9911/owen_3.webp",
+      "https://www.prydwen.gg/static/ce9550e64fac832e200e9e5c7031fdc5/f9911/owen_4.webp",
+      "https://www.prydwen.gg/static/2331bd590248275cde42db529eadbee5/f9911/owen_5.webp",
+      "https://www.prydwen.gg/static/8c37bd897429a8d1257b5d1b092f5f48/f9911/owen_6.webp",
+      "https://www.prydwen.gg/static/91e5ab6b05aa0ca65679d62c49da473c/f9911/owen_7.webp",
+      "https://www.prydwen.gg/static/50549e77415914e009d504afb8e270f9/f9911/owen_8.webp",
+      "https://www.prydwen.gg/static/caf602e2659aa006c21180a02b541cde/f9911/owen_1.webp"
+    ],
+    "ego": null
+  },
+  "rei": {
+    "cards": [
+      "https://www.prydwen.gg/static/f43963019273b363439951940d53c0a2/f9911/rei_2.webp",
+      "https://www.prydwen.gg/static/d765917d9c3981f71f7ceda763b50909/f9911/rei_3.webp",
+      "https://www.prydwen.gg/static/3ea2ded0544874ebdb02238672fbb2bb/f9911/rei_4.webp",
+      "https://www.prydwen.gg/static/e45148a6c5f638f5c7ca39bccfa3e89e/f9911/rei_5.webp",
+      "https://www.prydwen.gg/static/f3af7f3a14370839f51bb2da2dbb6221/f9911/rei_6.webp",
+      "https://www.prydwen.gg/static/b8bc603338272c0bc97b7267869d3130/f9911/rei_7.webp",
+      "https://www.prydwen.gg/static/0ddec39533683b1ada108e47eb140ccd/f9911/rei_8.webp",
+      "https://www.prydwen.gg/static/007a70b788dbe6360852f9682103d637/f9911/rei_1.webp"
+    ],
+    "ego": null
+  },
+  "selena": {
+    "cards": [
+      "https://www.prydwen.gg/static/295703bda93e6b96a1b7d41da0a939ab/f9911/selena_2.webp",
+      "https://www.prydwen.gg/static/6293da15aebb90758d955bb8b6703086/f9911/selena_3.webp",
+      "https://www.prydwen.gg/static/802c2992fd0303c78138787743453f18/f9911/selena_4.webp",
+      "https://www.prydwen.gg/static/692196c886eeb62351840d928d76dce9/f9911/selena_5.webp",
+      "https://www.prydwen.gg/static/a235f1589f893beca9ce646126cb610c/f9911/selena_6.webp",
+      "https://www.prydwen.gg/static/58149abf61ac9f5ec6a144586198fc46/f9911/selena_7.webp",
+      "https://www.prydwen.gg/static/3841f2e16969d377d3864c4a4893f7fe/f9911/selena_8.webp",
+      "https://www.prydwen.gg/static/a48fe2b2e680bf2afa3e30d731918686/f9911/selena_1.webp"
+    ],
+    "ego": null
+  },
+  "tressa": {
+    "cards": [
+      "https://www.prydwen.gg/static/50a6248cec11c84f03416c5d33439f04/f9911/tressa_2.webp",
+      "https://www.prydwen.gg/static/6254d127e70de85e914e35819a7fed14/f9911/tressa_3.webp",
+      "https://www.prydwen.gg/static/7afd0e046d930da9684d06945e8ca016/f9911/tressa_4.webp",
+      "https://www.prydwen.gg/static/4633ad48d017a26cace0afc7947fb94d/f9911/tressa_5.webp",
+      "https://www.prydwen.gg/static/223cd3af927f5c4a742cdc820dc5a29e/f9911/tressa_6.webp",
+      "https://www.prydwen.gg/static/13bb7981351b8b5fae0d529c3c2bfddb/f9911/tressa_7.webp",
+      "https://www.prydwen.gg/static/c4fa4758b19b4f144687124df3c1633f/f9911/tressa_8.webp",
+      "https://www.prydwen.gg/static/202b785b66bf99103800909482ca4034/f9911/tressa_9.webp",
+      "https://www.prydwen.gg/static/af5489fd506ad7da5d2eda7b3d9aa54d/f9911/tressa_1.webp"
+    ],
+    "ego": null
+  }
+}

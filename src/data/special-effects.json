@@ -1,0 +1,8209 @@
+{
+  "summary": {
+    "totalCardsWithEffects": 121,
+    "categoryBreakdown": {
+      "resource": 294,
+      "buff": 109,
+      "combat": 93,
+      "character": 88,
+      "debuff": 46
+    },
+    "effectBreakdown": {
+      "resource.generate": 105,
+      "buff.damageUp": 102,
+      "resource.draw": 83,
+      "resource.destroy": 66,
+      "combat.counter": 35,
+      "resource.discard": 33,
+      "combat.break": 32,
+      "character.bullet": 22,
+      "debuff.vulnerable": 19,
+      "character.inspiration": 17,
+      "combat.targeting": 14,
+      "character.ballista": 13,
+      "character.decibel": 13,
+      "combat.extraAttack": 12,
+      "debuff.bind": 12,
+      "character.wave": 10,
+      "debuff.weaken": 8,
+      "resource.retrieve": 7,
+      "character.anchor": 7,
+      "debuff.steal": 7,
+      "character.blade": 5,
+      "buff.costDown": 4,
+      "buff.shieldUp": 3,
+      "character.incinerate": 1
+    },
+    "keywordFrequency": {
+      "생성": 105,
+      "피해량 +": 100,
+      "드로우": 83,
+      "소멸": 66,
+      "반격": 35,
+      "버리기": 30,
+      "진혼의 탄환": 22,
+      "격파": 19,
+      "취약": 19,
+      "영감": 17,
+      "표식": 14,
+      "강인도": 13,
+      "발리스타": 13,
+      "데시벨": 13,
+      "추가 공격": 12,
+      "물결": 10,
+      "약화": 8,
+      "회수": 7,
+      "앵커": 7,
+      "사기": 7,
+      "주박": 6,
+      "구속": 6,
+      "칼날": 5,
+      "비용 감소": 4,
+      "버리고": 3,
+      "실드 +": 3,
+      "피해량 증가": 2,
+      "소각": 1
+    },
+    "tagFrequency": {
+      "유일": 57,
+      "보존": 46,
+      "개전": 42,
+      "신속": 28,
+      "소멸": 24,
+      "주도": 17,
+      "분쇄": 14,
+      "증발": 5,
+      "회수": 4,
+      "소멸 2": 4,
+      "점화": 2,
+      "천상": 2,
+      "종극": 1,
+      "약점 공격": 1,
+      "탄환": 1,
+      "회수 4": 1
+    },
+    "characterProfiles": {
+      "renoa": {
+        "resource": [
+          "destroy",
+          "discard",
+          "draw",
+          "generate",
+          "retrieve"
+        ],
+        "character": [
+          "bullet"
+        ],
+        "buff": [
+          "damageUp"
+        ],
+        "combat": [
+          "extraAttack",
+          "targeting"
+        ]
+      },
+      "nine": {
+        "resource": [
+          "destroy",
+          "generate"
+        ],
+        "character": [
+          "blade",
+          "incinerate"
+        ],
+        "combat": [
+          "counter"
+        ],
+        "buff": [
+          "damageUp"
+        ]
+      },
+      "mika": {
+        "character": [
+          "wave"
+        ],
+        "resource": [
+          "destroy"
+        ],
+        "buff": [
+          "damageUp"
+        ]
+      },
+      "chizuru": {
+        "debuff": [
+          "bind"
+        ],
+        "resource": [
+          "destroy",
+          "generate"
+        ],
+        "buff": [
+          "damageUp"
+        ]
+      },
+      "haru": {
+        "buff": [
+          "damageUp"
+        ],
+        "resource": [
+          "discard",
+          "draw",
+          "generate",
+          "retrieve"
+        ],
+        "character": [
+          "anchor"
+        ],
+        "combat": [
+          "break"
+        ]
+      },
+      "hugo": {
+        "resource": [
+          "draw"
+        ],
+        "buff": [
+          "shieldUp"
+        ],
+        "combat": [
+          "extraAttack"
+        ]
+      },
+      "kayron": {
+        "resource": [
+          "destroy",
+          "draw",
+          "generate"
+        ],
+        "buff": [
+          "costDown",
+          "damageUp"
+        ]
+      },
+      "khalipe": {
+        "buff": [
+          "damageUp"
+        ],
+        "combat": [
+          "break"
+        ],
+        "debuff": [
+          "vulnerable",
+          "weaken"
+        ],
+        "resource": [
+          "draw"
+        ]
+      },
+      "luke": {
+        "resource": [
+          "destroy",
+          "draw",
+          "generate",
+          "retrieve"
+        ],
+        "buff": [
+          "damageUp"
+        ]
+      },
+      "magna": {
+        "combat": [
+          "counter"
+        ],
+        "debuff": [
+          "vulnerable"
+        ],
+        "resource": [
+          "destroy"
+        ],
+        "buff": [
+          "shieldUp"
+        ]
+      },
+      "mei-lin": {
+        "resource": [
+          "destroy",
+          "draw",
+          "generate"
+        ],
+        "combat": [
+          "break"
+        ],
+        "debuff": [
+          "steal"
+        ],
+        "buff": [
+          "damageUp"
+        ]
+      },
+      "narja": {
+        "buff": [
+          "damageUp"
+        ],
+        "debuff": [
+          "steal"
+        ],
+        "combat": [
+          "break"
+        ]
+      },
+      "orlea": {
+        "resource": [
+          "generate"
+        ],
+        "debuff": [
+          "vulnerable",
+          "weaken"
+        ],
+        "buff": [
+          "damageUp"
+        ]
+      },
+      "rin": {
+        "resource": [
+          "draw",
+          "generate"
+        ],
+        "buff": [
+          "damageUp"
+        ]
+      },
+      "sereniel": {
+        "combat": [
+          "break"
+        ],
+        "resource": [
+          "destroy",
+          "generate"
+        ],
+        "buff": [
+          "damageUp"
+        ]
+      },
+      "tiphera": {
+        "resource": [
+          "destroy",
+          "draw",
+          "generate"
+        ]
+      },
+      "veronica": {
+        "resource": [
+          "destroy",
+          "discard",
+          "draw",
+          "generate",
+          "retrieve"
+        ],
+        "character": [
+          "ballista"
+        ],
+        "buff": [
+          "damageUp"
+        ]
+      },
+      "yuki": {
+        "resource": [
+          "draw",
+          "retrieve"
+        ],
+        "character": [
+          "inspiration"
+        ],
+        "buff": [
+          "damageUp"
+        ]
+      },
+      "amir": {
+        "combat": [
+          "counter"
+        ],
+        "resource": [
+          "destroy"
+        ],
+        "debuff": [
+          "vulnerable",
+          "weaken"
+        ],
+        "buff": [
+          "damageUp"
+        ]
+      },
+      "beryl": {
+        "buff": [
+          "damageUp"
+        ],
+        "combat": [
+          "extraAttack"
+        ],
+        "resource": [
+          "destroy",
+          "draw",
+          "generate"
+        ],
+        "debuff": [
+          "steal"
+        ]
+      },
+      "cassius": {
+        "resource": [
+          "discard",
+          "draw",
+          "generate"
+        ],
+        "debuff": [
+          "steal"
+        ],
+        "buff": [
+          "costDown",
+          "damageUp"
+        ]
+      },
+      "lucas": {
+        "resource": [
+          "destroy",
+          "discard",
+          "draw",
+          "generate"
+        ],
+        "buff": [
+          "damageUp"
+        ],
+        "debuff": [
+          "weaken"
+        ],
+        "combat": [
+          "targeting"
+        ]
+      },
+      "maribell": {
+        "combat": [
+          "counter"
+        ],
+        "buff": [
+          "damageUp"
+        ],
+        "debuff": [
+          "weaken"
+        ]
+      },
+      "nia": {
+        "character": [
+          "decibel"
+        ],
+        "combat": [
+          "extraAttack"
+        ],
+        "resource": [
+          "destroy",
+          "discard",
+          "draw",
+          "generate"
+        ]
+      },
+      "owen": {
+        "resource": [
+          "destroy",
+          "retrieve"
+        ],
+        "combat": [
+          "break"
+        ],
+        "debuff": [
+          "vulnerable"
+        ]
+      },
+      "rei": {
+        "resource": [
+          "destroy",
+          "discard",
+          "draw"
+        ],
+        "buff": [
+          "damageUp"
+        ],
+        "debuff": [
+          "steal"
+        ]
+      },
+      "selena": {
+        "combat": [
+          "break",
+          "targeting"
+        ],
+        "buff": [
+          "damageUp"
+        ],
+        "resource": [
+          "draw"
+        ]
+      },
+      "tressa": {
+        "resource": [
+          "destroy",
+          "discard",
+          "generate"
+        ],
+        "buff": [
+          "damageUp"
+        ]
+      }
+    }
+  },
+  "cards": [
+    {
+      "cardId": "renoa-card-3",
+      "cardName": "비탄의 메아리",
+      "characterId": "renoa",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "generate",
+          "keyword": "생성"
+        },
+        {
+          "category": "character",
+          "effect": "bullet",
+          "keyword": "진혼의 탄환"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            },
+            {
+              "category": "character",
+              "effect": "bullet",
+              "keyword": "진혼의 탄환"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            },
+            {
+              "category": "character",
+              "effect": "bullet",
+              "keyword": "진혼의 탄환"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "discard",
+              "keyword": "버리기"
+            },
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            },
+            {
+              "category": "character",
+              "effect": "bullet",
+              "keyword": "진혼의 탄환"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            },
+            {
+              "category": "character",
+              "effect": "bullet",
+              "keyword": "진혼의 탄환"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            },
+            {
+              "category": "character",
+              "effect": "bullet",
+              "keyword": "진혼의 탄환"
+            }
+          ],
+          "tags": [
+            "개전"
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "renoa-card-4",
+      "cardName": "즉결 심판",
+      "characterId": "renoa",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "discard",
+          "keyword": "버리고"
+        },
+        {
+          "category": "buff",
+          "effect": "damageUp",
+          "keyword": "피해량 +"
+        },
+        {
+          "category": "character",
+          "effect": "bullet",
+          "keyword": "진혼의 탄환"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "discard",
+              "keyword": "버리고"
+            },
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            },
+            {
+              "category": "character",
+              "effect": "bullet",
+              "keyword": "진혼의 탄환"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "discard",
+              "keyword": "버리고"
+            },
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            },
+            {
+              "category": "character",
+              "effect": "bullet",
+              "keyword": "진혼의 탄환"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            },
+            {
+              "category": "character",
+              "effect": "bullet",
+              "keyword": "진혼의 탄환"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "extraAttack",
+              "keyword": "추가 공격"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "extraAttack",
+              "keyword": "추가 공격"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "renoa-card-5",
+      "cardName": "칠흑의 송시",
+      "characterId": "renoa",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "buff",
+          "effect": "damageUp",
+          "keyword": "피해량 +"
+        },
+        {
+          "category": "character",
+          "effect": "bullet",
+          "keyword": "진혼의 탄환"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            },
+            {
+              "category": "character",
+              "effect": "bullet",
+              "keyword": "진혼의 탄환"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "character",
+              "effect": "bullet",
+              "keyword": "진혼의 탄환"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "targeting",
+              "keyword": "표식"
+            },
+            {
+              "category": "character",
+              "effect": "bullet",
+              "keyword": "진혼의 탄환"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "extraAttack",
+              "keyword": "추가 공격"
+            },
+            {
+              "category": "character",
+              "effect": "bullet",
+              "keyword": "진혼의 탄환"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            },
+            {
+              "category": "character",
+              "effect": "bullet",
+              "keyword": "진혼의 탄환"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "renoa-card-6",
+      "cardName": "운명을 삼킨 꽃",
+      "characterId": "renoa",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "discard",
+          "keyword": "버리기"
+        },
+        {
+          "category": "resource",
+          "effect": "generate",
+          "keyword": "생성"
+        },
+        {
+          "category": "character",
+          "effect": "bullet",
+          "keyword": "진혼의 탄환"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "discard",
+              "keyword": "버리기"
+            },
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            },
+            {
+              "category": "character",
+              "effect": "bullet",
+              "keyword": "진혼의 탄환"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "discard",
+              "keyword": "버리기"
+            },
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            },
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            },
+            {
+              "category": "character",
+              "effect": "bullet",
+              "keyword": "진혼의 탄환"
+            }
+          ],
+          "tags": [
+            "소멸"
+          ]
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "discard",
+              "keyword": "버리기"
+            },
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            },
+            {
+              "category": "character",
+              "effect": "bullet",
+              "keyword": "진혼의 탄환"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "retrieve",
+              "keyword": "회수"
+            },
+            {
+              "category": "character",
+              "effect": "bullet",
+              "keyword": "진혼의 탄환"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "renoa-card-7",
+      "cardName": "결사의 일격",
+      "characterId": "renoa",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "discard",
+          "keyword": "버리기"
+        },
+        {
+          "category": "buff",
+          "effect": "damageUp",
+          "keyword": "피해량 +"
+        },
+        {
+          "category": "character",
+          "effect": "bullet",
+          "keyword": "진혼의 탄환"
+        }
+      ],
+      "variationEffects": null
+    },
+    {
+      "cardId": "nine-card-3",
+      "cardName": "파쇄",
+      "characterId": "nine",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "generate",
+          "keyword": "생성"
+        },
+        {
+          "category": "character",
+          "effect": "incinerate",
+          "keyword": "소각"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": [
+            "유일",
+            "개전",
+            "소멸",
+            "증발"
+          ]
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": [
+            "유일",
+            "개전",
+            "소멸",
+            "증발"
+          ]
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": [
+            "유일",
+            "개전",
+            "점화",
+            "소멸",
+            "보존"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": [
+            "유일",
+            "개전",
+            "소멸",
+            "증발"
+          ]
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            },
+            {
+              "category": "combat",
+              "effect": "counter",
+              "keyword": "반격"
+            }
+          ],
+          "tags": [
+            "유일",
+            "개전",
+            "소멸",
+            "보존"
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "nine-card-4",
+      "cardName": "노련한 일격",
+      "characterId": "nine",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "destroy",
+          "keyword": "소멸"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            },
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            },
+            {
+              "category": "combat",
+              "effect": "counter",
+              "keyword": "반격"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "nine-card-5",
+      "cardName": "치명적 일격",
+      "characterId": "nine",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "destroy",
+          "keyword": "소멸"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [],
+          "tags": [
+            "유일",
+            "점화",
+            "보존"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "counter",
+              "keyword": "반격"
+            }
+          ],
+          "tags": [
+            "보존"
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "nine-card-6",
+      "cardName": "역전의 칼날",
+      "characterId": "nine",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "character",
+          "effect": "blade",
+          "keyword": "칼날"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            },
+            {
+              "category": "character",
+              "effect": "blade",
+              "keyword": "칼날"
+            }
+          ],
+          "tags": [
+            "유일"
+          ]
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "character",
+              "effect": "blade",
+              "keyword": "칼날"
+            }
+          ],
+          "tags": [
+            "유일"
+          ]
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "character",
+              "effect": "blade",
+              "keyword": "칼날"
+            }
+          ],
+          "tags": [
+            "개전",
+            "유일"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "counter",
+              "keyword": "반격"
+            },
+            {
+              "category": "character",
+              "effect": "blade",
+              "keyword": "칼날"
+            }
+          ],
+          "tags": [
+            "유일"
+          ]
+        },
+        {
+          "number": 5,
+          "effects": [],
+          "tags": [
+            "유일"
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "nine-card-7",
+      "cardName": "투지",
+      "characterId": "nine",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "destroy",
+          "keyword": "소멸"
+        }
+      ],
+      "variationEffects": null
+    },
+    {
+      "cardId": "mika-card-3",
+      "cardName": "물의 근원",
+      "characterId": "mika",
+      "category": "Epiphany",
+      "baseEffects": [],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "character",
+              "effect": "wave",
+              "keyword": "물결"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [],
+          "tags": [
+            "보존"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": [
+            "소멸"
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "mika-card-4",
+      "cardName": "파도의 가호",
+      "characterId": "mika",
+      "category": "Epiphany",
+      "baseEffects": [],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [],
+          "tags": [
+            "보존"
+          ]
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "character",
+              "effect": "wave",
+              "keyword": "물결"
+            }
+          ],
+          "tags": [
+            "보존"
+          ]
+        },
+        {
+          "number": 3,
+          "effects": [],
+          "tags": [
+            "보존"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": [
+            "보존"
+          ]
+        },
+        {
+          "number": 5,
+          "effects": [],
+          "tags": [
+            "종극"
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "mika-card-5",
+      "cardName": "작전 분석",
+      "characterId": "mika",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "character",
+          "effect": "wave",
+          "keyword": "물결"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "character",
+              "effect": "wave",
+              "keyword": "물결"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "character",
+              "effect": "wave",
+              "keyword": "물결"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "character",
+              "effect": "wave",
+              "keyword": "물결"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "character",
+              "effect": "wave",
+              "keyword": "물결"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "character",
+              "effect": "wave",
+              "keyword": "물결"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "mika-card-6",
+      "cardName": "소용돌이",
+      "characterId": "mika",
+      "category": "Epiphany",
+      "baseEffects": [],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "character",
+              "effect": "wave",
+              "keyword": "물결"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 증가"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "mika-card-7",
+      "cardName": "범람",
+      "characterId": "mika",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "character",
+          "effect": "wave",
+          "keyword": "물결"
+        }
+      ],
+      "variationEffects": null
+    },
+    {
+      "cardId": "chizuru-card-3",
+      "cardName": "업화",
+      "characterId": "chizuru",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "debuff",
+          "effect": "bind",
+          "keyword": "주박"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "debuff",
+              "effect": "bind",
+              "keyword": "주박"
+            }
+          ],
+          "tags": [
+            "개전"
+          ]
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "debuff",
+              "effect": "bind",
+              "keyword": "주박"
+            }
+          ],
+          "tags": [
+            "개전"
+          ]
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "debuff",
+              "effect": "bind",
+              "keyword": "주박"
+            }
+          ],
+          "tags": [
+            "개전"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            },
+            {
+              "category": "debuff",
+              "effect": "bind",
+              "keyword": "주박"
+            }
+          ],
+          "tags": [
+            "개전"
+          ]
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            },
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            },
+            {
+              "category": "debuff",
+              "effect": "bind",
+              "keyword": "주박"
+            }
+          ],
+          "tags": [
+            "개전",
+            "소멸"
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "chizuru-card-4",
+      "cardName": "츠쿠요미",
+      "characterId": "chizuru",
+      "category": "Epiphany",
+      "baseEffects": [],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [],
+          "tags": [
+            "유일",
+            "주도"
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "chizuru-card-5",
+      "cardName": "황혼의 결속",
+      "characterId": "chizuru",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "debuff",
+          "effect": "bind",
+          "keyword": "구속"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "debuff",
+              "effect": "bind",
+              "keyword": "구속"
+            }
+          ],
+          "tags": [
+            "개전",
+            "유일"
+          ]
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "debuff",
+              "effect": "bind",
+              "keyword": "구속"
+            }
+          ],
+          "tags": [
+            "개전",
+            "유일"
+          ]
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "debuff",
+              "effect": "bind",
+              "keyword": "구속"
+            }
+          ],
+          "tags": [
+            "개전",
+            "유일"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "debuff",
+              "effect": "bind",
+              "keyword": "구속"
+            }
+          ],
+          "tags": [
+            "개전",
+            "유일"
+          ]
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "debuff",
+              "effect": "bind",
+              "keyword": "구속"
+            }
+          ],
+          "tags": [
+            "개전",
+            "유일"
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "chizuru-card-6",
+      "cardName": "도깨비 사냥",
+      "characterId": "chizuru",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "buff",
+          "effect": "damageUp",
+          "keyword": "피해량 +"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": [
+            "신속"
+          ]
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": [
+            "신속"
+          ]
+        },
+        {
+          "number": 3,
+          "effects": [],
+          "tags": [
+            "신속"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            },
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": [
+            "신속"
+          ]
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": [
+            "유일"
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "chizuru-card-7",
+      "cardName": "달그림자",
+      "characterId": "chizuru",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "buff",
+          "effect": "damageUp",
+          "keyword": "피해량 +"
+        }
+      ],
+      "variationEffects": null
+    },
+    {
+      "cardId": "haru-card-4",
+      "cardName": "앵커 슛",
+      "characterId": "haru",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "buff",
+          "effect": "damageUp",
+          "keyword": "피해량 +"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": [
+            "분쇄"
+          ]
+        },
+        {
+          "number": 2,
+          "effects": [],
+          "tags": [
+            "분쇄"
+          ]
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "discard",
+              "keyword": "버리기"
+            },
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": [
+            "분쇄"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            },
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": [
+            "분쇄"
+          ]
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": [
+            "분쇄"
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "haru-card-5",
+      "cardName": "앵커포인터",
+      "characterId": "haru",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "character",
+          "effect": "anchor",
+          "keyword": "앵커"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "retrieve",
+              "keyword": "회수"
+            },
+            {
+              "category": "character",
+              "effect": "anchor",
+              "keyword": "앵커"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "character",
+              "effect": "anchor",
+              "keyword": "앵커"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "retrieve",
+              "keyword": "회수"
+            },
+            {
+              "category": "character",
+              "effect": "anchor",
+              "keyword": "앵커"
+            }
+          ],
+          "tags": [
+            "회수"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "character",
+              "effect": "anchor",
+              "keyword": "앵커"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "character",
+              "effect": "anchor",
+              "keyword": "앵커"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "haru-card-6",
+      "cardName": "파워 차지",
+      "characterId": "haru",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "buff",
+          "effect": "damageUp",
+          "keyword": "피해량 +"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [],
+          "tags": [
+            "약점 공격"
+          ]
+        },
+        {
+          "number": 3,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "haru-card-7",
+      "cardName": "에너지 충전",
+      "characterId": "haru",
+      "category": "Epiphany",
+      "baseEffects": [],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [],
+          "tags": [
+            "보존"
+          ]
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "break",
+              "keyword": "강인도"
+            }
+          ],
+          "tags": [
+            "보존"
+          ]
+        },
+        {
+          "number": 3,
+          "effects": [],
+          "tags": [
+            "보존"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            }
+          ],
+          "tags": [
+            "보존"
+          ]
+        },
+        {
+          "number": 5,
+          "effects": [],
+          "tags": [
+            "유일"
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "haru-card-8",
+      "cardName": "끌어올리기",
+      "characterId": "haru",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "character",
+          "effect": "anchor",
+          "keyword": "앵커"
+        }
+      ],
+      "variationEffects": null
+    },
+    {
+      "cardId": "hugo-card-3",
+      "cardName": "사냥 본능",
+      "characterId": "hugo",
+      "category": "Epiphany",
+      "baseEffects": [],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [],
+          "tags": [
+            "개전"
+          ]
+        },
+        {
+          "number": 2,
+          "effects": [],
+          "tags": [
+            "개전"
+          ]
+        },
+        {
+          "number": 3,
+          "effects": [],
+          "tags": [
+            "개전"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [],
+          "tags": [
+            "개전"
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "hugo-card-4",
+      "cardName": "단검 방사",
+      "characterId": "hugo",
+      "category": "Epiphany",
+      "baseEffects": [],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [],
+          "tags": [
+            "신속"
+          ]
+        },
+        {
+          "number": 2,
+          "effects": [],
+          "tags": [
+            "신속"
+          ]
+        },
+        {
+          "number": 3,
+          "effects": [],
+          "tags": [
+            "신속"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": [
+            "신속"
+          ]
+        },
+        {
+          "number": 5,
+          "effects": [],
+          "tags": [
+            "유일"
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "hugo-card-5",
+      "cardName": "빠른 해결법",
+      "characterId": "hugo",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "draw",
+          "keyword": "드로우"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            }
+          ],
+          "tags": [
+            "신속"
+          ]
+        },
+        {
+          "number": 2,
+          "effects": [],
+          "tags": [
+            "신속"
+          ]
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            }
+          ],
+          "tags": [
+            "신속"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": [
+            "신속"
+          ]
+        },
+        {
+          "number": 5,
+          "effects": [],
+          "tags": [
+            "신속"
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "hugo-card-6",
+      "cardName": "딩고 하울링",
+      "characterId": "hugo",
+      "category": "Epiphany",
+      "baseEffects": [],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "shieldUp",
+              "keyword": "실드 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "hugo-card-7",
+      "cardName": "해결사의 방식",
+      "characterId": "hugo",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "combat",
+          "effect": "extraAttack",
+          "keyword": "추가 공격"
+        }
+      ],
+      "variationEffects": null
+    },
+    {
+      "cardId": "kayron-card-3",
+      "cardName": "허무의 잔상",
+      "characterId": "kayron",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "generate",
+          "keyword": "생성"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            },
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            },
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            },
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            },
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "kayron-card-4",
+      "cardName": "소멸의 낙인",
+      "characterId": "kayron",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "destroy",
+          "keyword": "소멸"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            },
+            {
+              "category": "buff",
+              "effect": "costDown",
+              "keyword": "비용 감소"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            },
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "kayron-card-5",
+      "cardName": "블랙홀",
+      "characterId": "kayron",
+      "category": "Epiphany",
+      "baseEffects": [],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            },
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "kayron-card-6",
+      "cardName": "허망의 서약",
+      "characterId": "kayron",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "generate",
+          "keyword": "생성"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            },
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "khalipe-card-4",
+      "cardName": "대검 아퀼라",
+      "characterId": "khalipe",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "buff",
+          "effect": "damageUp",
+          "keyword": "피해량 +"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "khalipe-card-5",
+      "cardName": "위압",
+      "characterId": "khalipe",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "combat",
+          "effect": "break",
+          "keyword": "격파"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "break",
+              "keyword": "격파"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "debuff",
+              "effect": "vulnerable",
+              "keyword": "취약"
+            },
+            {
+              "category": "debuff",
+              "effect": "weaken",
+              "keyword": "약화"
+            },
+            {
+              "category": "combat",
+              "effect": "break",
+              "keyword": "격파"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "break",
+              "keyword": "강인도"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "break",
+              "keyword": "강인도"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "break",
+              "keyword": "강인도"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "khalipe-card-6",
+      "cardName": "재집결",
+      "characterId": "khalipe",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "draw",
+          "keyword": "드로우"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "luke-card-3",
+      "cardName": "연속 격발",
+      "characterId": "luke",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "generate",
+          "keyword": "생성"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            },
+            {
+              "category": "resource",
+              "effect": "retrieve",
+              "keyword": "회수"
+            }
+          ],
+          "tags": [
+            "회수"
+          ]
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": [
+            "탄환"
+          ]
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "luke-card-4",
+      "cardName": "은밀한 장전",
+      "characterId": "luke",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "generate",
+          "keyword": "생성"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            },
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": [
+            "소멸"
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "luke-card-5",
+      "cardName": "기회 포착",
+      "characterId": "luke",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "buff",
+          "effect": "damageUp",
+          "keyword": "피해량 +"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": [
+            "주도"
+          ]
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": [
+            "주도"
+          ]
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": [
+            "주도"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": [
+            "주도"
+          ]
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": [
+            "주도"
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "luke-card-6",
+      "cardName": "마안의 난무",
+      "characterId": "luke",
+      "category": "Epiphany",
+      "baseEffects": [],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "magna-card-3",
+      "cardName": "얼음 파편",
+      "characterId": "magna",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "combat",
+          "effect": "counter",
+          "keyword": "반격"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "counter",
+              "keyword": "반격"
+            }
+          ],
+          "tags": [
+            "주도"
+          ]
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "counter",
+              "keyword": "반격"
+            }
+          ],
+          "tags": [
+            "주도"
+          ]
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "counter",
+              "keyword": "반격"
+            }
+          ],
+          "tags": [
+            "개전"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": [
+            "유일",
+            "주도"
+          ]
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "counter",
+              "keyword": "반격"
+            }
+          ],
+          "tags": [
+            "주도"
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "magna-card-4",
+      "cardName": "빙하의 철권",
+      "characterId": "magna",
+      "category": "Epiphany",
+      "baseEffects": [],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "debuff",
+              "effect": "vulnerable",
+              "keyword": "취약"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": [
+            "소멸 2"
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "magna-card-5",
+      "cardName": "빙벽",
+      "characterId": "magna",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "combat",
+          "effect": "counter",
+          "keyword": "반격"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "counter",
+              "keyword": "반격"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "counter",
+              "keyword": "반격"
+            },
+            {
+              "category": "buff",
+              "effect": "shieldUp",
+              "keyword": "실드 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "counter",
+              "keyword": "반격"
+            }
+          ],
+          "tags": [
+            "주도"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "counter",
+              "keyword": "반격"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "magna-card-6",
+      "cardName": "냉기 충전",
+      "characterId": "magna",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "debuff",
+          "effect": "vulnerable",
+          "keyword": "취약"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "debuff",
+              "effect": "vulnerable",
+              "keyword": "취약"
+            },
+            {
+              "category": "buff",
+              "effect": "shieldUp",
+              "keyword": "실드 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "debuff",
+              "effect": "vulnerable",
+              "keyword": "취약"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "debuff",
+              "effect": "vulnerable",
+              "keyword": "취약"
+            },
+            {
+              "category": "combat",
+              "effect": "counter",
+              "keyword": "반격"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "debuff",
+              "effect": "vulnerable",
+              "keyword": "취약"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "debuff",
+              "effect": "vulnerable",
+              "keyword": "취약"
+            },
+            {
+              "category": "combat",
+              "effect": "counter",
+              "keyword": "반격"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "magna-card-7",
+      "cardName": "혹한의 폭풍",
+      "characterId": "magna",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "combat",
+          "effect": "counter",
+          "keyword": "반격"
+        }
+      ],
+      "variationEffects": null
+    },
+    {
+      "cardId": "mei-lin-card-2",
+      "cardName": "화룡호신",
+      "characterId": "mei-lin",
+      "category": "Starting",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "draw",
+          "keyword": "드로우"
+        }
+      ],
+      "variationEffects": null
+    },
+    {
+      "cardId": "mei-lin-card-3",
+      "cardName": "화룡의 보석",
+      "characterId": "mei-lin",
+      "category": "Epiphany",
+      "baseEffects": [],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [],
+          "tags": [
+            "유일",
+            "개전"
+          ]
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "break",
+              "keyword": "강인도"
+            }
+          ],
+          "tags": [
+            "유일",
+            "개전"
+          ]
+        },
+        {
+          "number": 3,
+          "effects": [],
+          "tags": [
+            "유일",
+            "개전"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "break",
+              "keyword": "강인도"
+            }
+          ],
+          "tags": [
+            "유일",
+            "개전"
+          ]
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "break",
+              "keyword": "격파"
+            }
+          ],
+          "tags": [
+            "개전"
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "mei-lin-card-5",
+      "cardName": "공방일체",
+      "characterId": "mei-lin",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "draw",
+          "keyword": "드로우"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            },
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            },
+            {
+              "category": "debuff",
+              "effect": "steal",
+              "keyword": "사기"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [],
+          "tags": [
+            "유일"
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "mei-lin-card-6",
+      "cardName": "향족의 정신",
+      "characterId": "mei-lin",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "buff",
+          "effect": "damageUp",
+          "keyword": "피해량 +"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": [
+            "보존"
+          ]
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": [
+            "보존"
+          ]
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": [
+            "개전"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": [
+            "보존"
+          ]
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": [
+            "보존"
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "narja-card-4",
+      "cardName": "무한한 허기",
+      "characterId": "narja",
+      "category": "Epiphany",
+      "baseEffects": [],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "narja-card-5",
+      "cardName": "능동 제어",
+      "characterId": "narja",
+      "category": "Epiphany",
+      "baseEffects": [],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "debuff",
+              "effect": "steal",
+              "keyword": "사기"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "narja-card-6",
+      "cardName": "탐식의 영역",
+      "characterId": "narja",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "combat",
+          "effect": "break",
+          "keyword": "격파"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "break",
+              "keyword": "격파"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "orlea-card-3",
+      "cardName": "성스러운 향로",
+      "characterId": "orlea",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "generate",
+          "keyword": "생성"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "orlea-card-4",
+      "cardName": "성장 촉진",
+      "characterId": "orlea",
+      "category": "Epiphany",
+      "baseEffects": [],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "debuff",
+              "effect": "vulnerable",
+              "keyword": "취약"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "orlea-card-5",
+      "cardName": "귀찮아",
+      "characterId": "orlea",
+      "category": "Epiphany",
+      "baseEffects": [],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            },
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "orlea-card-6",
+      "cardName": "성장하는 피조물",
+      "characterId": "orlea",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "generate",
+          "keyword": "생성"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            },
+            {
+              "category": "debuff",
+              "effect": "vulnerable",
+              "keyword": "취약"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            },
+            {
+              "category": "debuff",
+              "effect": "weaken",
+              "keyword": "약화"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "rin-card-4",
+      "cardName": "발도",
+      "characterId": "rin",
+      "category": "Epiphany",
+      "baseEffects": [],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [],
+          "tags": [
+            "신속"
+          ]
+        },
+        {
+          "number": 2,
+          "effects": [],
+          "tags": [
+            "신속"
+          ]
+        },
+        {
+          "number": 3,
+          "effects": [],
+          "tags": [
+            "신속"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": [
+            "신속"
+          ]
+        },
+        {
+          "number": 5,
+          "effects": [],
+          "tags": [
+            "신속"
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "rin-card-5",
+      "cardName": "흑운 오의 : 잔",
+      "characterId": "rin",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "draw",
+          "keyword": "드로우"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "rin-card-6",
+      "cardName": "흑운 오의 : 멸",
+      "characterId": "rin",
+      "category": "Epiphany",
+      "baseEffects": [],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [],
+          "tags": [
+            "신속"
+          ]
+        },
+        {
+          "number": 2,
+          "effects": [],
+          "tags": [
+            "신속"
+          ]
+        },
+        {
+          "number": 3,
+          "effects": [],
+          "tags": [
+            "신속"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": [
+            "신속"
+          ]
+        },
+        {
+          "number": 5,
+          "effects": [],
+          "tags": [
+            "신속"
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "rin-card-7",
+      "cardName": "흑운 심법",
+      "characterId": "rin",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "buff",
+          "effect": "damageUp",
+          "keyword": "피해량 +"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "rin-card-9",
+      "cardName": "납도",
+      "characterId": "rin",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "buff",
+          "effect": "damageUp",
+          "keyword": "피해량 +"
+        }
+      ],
+      "variationEffects": null
+    },
+    {
+      "cardId": "sereniel-card-3",
+      "cardName": "호밍 레이저",
+      "characterId": "sereniel",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "combat",
+          "effect": "break",
+          "keyword": "격파"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "break",
+              "keyword": "격파"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "break",
+              "keyword": "격파"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "break",
+              "keyword": "격파"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "sereniel-card-4",
+      "cardName": "플라스마 미사일",
+      "characterId": "sereniel",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "combat",
+          "effect": "break",
+          "keyword": "격파"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "break",
+              "keyword": "격파"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "break",
+              "keyword": "강인도"
+            },
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "sereniel-card-5",
+      "cardName": "샤이닝 코어",
+      "characterId": "sereniel",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "generate",
+          "keyword": "생성"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            },
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            },
+            {
+              "category": "combat",
+              "effect": "break",
+              "keyword": "격파"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "sereniel-card-6",
+      "cardName": "코발트 라이트",
+      "characterId": "sereniel",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "combat",
+          "effect": "break",
+          "keyword": "격파"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "break",
+              "keyword": "격파"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "break",
+              "keyword": "강인도"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "break",
+              "keyword": "격파"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "tiphera-card-3",
+      "cardName": "퀀텀 시드",
+      "characterId": "tiphera",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "draw",
+          "keyword": "드로우"
+        },
+        {
+          "category": "resource",
+          "effect": "generate",
+          "keyword": "생성"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            },
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            },
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            },
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "tiphera-card-4",
+      "cardName": "형상 결집",
+      "characterId": "tiphera",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "draw",
+          "keyword": "드로우"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            },
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            },
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "tiphera-card-5",
+      "cardName": "창조와 파괴",
+      "characterId": "tiphera",
+      "category": "Epiphany",
+      "baseEffects": [],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            },
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "tiphera-card-6",
+      "cardName": "쌍생성",
+      "characterId": "tiphera",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "generate",
+          "keyword": "생성"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            },
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "veronica-card-3",
+      "cardName": "발사 준비",
+      "characterId": "veronica",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "generate",
+          "keyword": "생성"
+        },
+        {
+          "category": "character",
+          "effect": "ballista",
+          "keyword": "발리스타"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            },
+            {
+              "category": "character",
+              "effect": "ballista",
+              "keyword": "발리스타"
+            }
+          ],
+          "tags": [
+            "유일",
+            "개전"
+          ]
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            },
+            {
+              "category": "character",
+              "effect": "ballista",
+              "keyword": "발리스타"
+            }
+          ],
+          "tags": [
+            "유일",
+            "개전"
+          ]
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            },
+            {
+              "category": "character",
+              "effect": "ballista",
+              "keyword": "발리스타"
+            }
+          ],
+          "tags": [
+            "유일",
+            "개전"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            },
+            {
+              "category": "character",
+              "effect": "ballista",
+              "keyword": "발리스타"
+            }
+          ],
+          "tags": [
+            "유일",
+            "개전"
+          ]
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            },
+            {
+              "category": "character",
+              "effect": "ballista",
+              "keyword": "발리스타"
+            }
+          ],
+          "tags": [
+            "유일",
+            "개전"
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "veronica-card-4",
+      "cardName": "숨돌리기",
+      "characterId": "veronica",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "draw",
+          "keyword": "드로우"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "discard",
+              "keyword": "버리기"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "veronica-card-5",
+      "cardName": "결심의 팬던트",
+      "characterId": "veronica",
+      "category": "Epiphany",
+      "baseEffects": [],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            },
+            {
+              "category": "character",
+              "effect": "ballista",
+              "keyword": "발리스타"
+            }
+          ],
+          "tags": [
+            "유일"
+          ]
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": [
+            "소멸 2"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "retrieve",
+              "keyword": "회수"
+            }
+          ],
+          "tags": [
+            "보존",
+            "회수 4"
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "veronica-card-6",
+      "cardName": "코왈스키 경",
+      "characterId": "veronica",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "draw",
+          "keyword": "드로우"
+        },
+        {
+          "category": "buff",
+          "effect": "damageUp",
+          "keyword": "피해량 +"
+        },
+        {
+          "category": "character",
+          "effect": "ballista",
+          "keyword": "발리스타"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            },
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            },
+            {
+              "category": "character",
+              "effect": "ballista",
+              "keyword": "발리스타"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            },
+            {
+              "category": "character",
+              "effect": "ballista",
+              "keyword": "발리스타"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            },
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            },
+            {
+              "category": "character",
+              "effect": "ballista",
+              "keyword": "발리스타"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            },
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            },
+            {
+              "category": "character",
+              "effect": "ballista",
+              "keyword": "발리스타"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            },
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            },
+            {
+              "category": "character",
+              "effect": "ballista",
+              "keyword": "발리스타"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "yuki-card-4",
+      "cardName": "제압 준비",
+      "characterId": "yuki",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "draw",
+          "keyword": "드로우"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            }
+          ],
+          "tags": [
+            "보존"
+          ]
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            },
+            {
+              "category": "character",
+              "effect": "inspiration",
+              "keyword": "영감"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "yuki-card-5",
+      "cardName": "훔쳐베기",
+      "characterId": "yuki",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "character",
+          "effect": "inspiration",
+          "keyword": "영감"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "character",
+              "effect": "inspiration",
+              "keyword": "영감"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "character",
+              "effect": "inspiration",
+              "keyword": "영감"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "character",
+              "effect": "inspiration",
+              "keyword": "영감"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            },
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": [
+            "보존"
+          ]
+        },
+        {
+          "number": 5,
+          "effects": [],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "yuki-card-6",
+      "cardName": "눈속임 일격",
+      "characterId": "yuki",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "character",
+          "effect": "inspiration",
+          "keyword": "영감"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "character",
+              "effect": "inspiration",
+              "keyword": "영감"
+            }
+          ],
+          "tags": [
+            "보존"
+          ]
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "retrieve",
+              "keyword": "회수"
+            },
+            {
+              "category": "character",
+              "effect": "inspiration",
+              "keyword": "영감"
+            }
+          ],
+          "tags": [
+            "보존",
+            "회수"
+          ]
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "character",
+              "effect": "inspiration",
+              "keyword": "영감"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            },
+            {
+              "category": "character",
+              "effect": "inspiration",
+              "keyword": "영감"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "character",
+              "effect": "inspiration",
+              "keyword": "영감"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "yuki-card-7",
+      "cardName": "빙점 칼날",
+      "characterId": "yuki",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "character",
+          "effect": "inspiration",
+          "keyword": "영감"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "character",
+              "effect": "inspiration",
+              "keyword": "영감"
+            }
+          ],
+          "tags": [
+            "유일"
+          ]
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "character",
+              "effect": "inspiration",
+              "keyword": "영감"
+            }
+          ],
+          "tags": [
+            "유일",
+            "개전"
+          ]
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "character",
+              "effect": "inspiration",
+              "keyword": "영감"
+            }
+          ],
+          "tags": [
+            "유일"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": [
+            "유일"
+          ]
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "character",
+              "effect": "inspiration",
+              "keyword": "영감"
+            }
+          ],
+          "tags": [
+            "유일"
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "yuki-card-8",
+      "cardName": "빙산 가르기",
+      "characterId": "yuki",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "character",
+          "effect": "inspiration",
+          "keyword": "영감"
+        }
+      ],
+      "variationEffects": null
+    },
+    {
+      "cardId": "amir-card-3",
+      "cardName": "호버링 메탈",
+      "characterId": "amir",
+      "category": "Epiphany",
+      "baseEffects": [],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "counter",
+              "keyword": "반격"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [],
+          "tags": [
+            "천상"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": [
+            "소멸"
+          ]
+        },
+        {
+          "number": 5,
+          "effects": [],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "amir-card-4",
+      "cardName": "메탈 피어스",
+      "characterId": "amir",
+      "category": "Epiphany",
+      "baseEffects": [],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "debuff",
+              "effect": "vulnerable",
+              "keyword": "취약"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "debuff",
+              "effect": "vulnerable",
+              "keyword": "취약"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "debuff",
+              "effect": "vulnerable",
+              "keyword": "취약"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "debuff",
+              "effect": "vulnerable",
+              "keyword": "취약"
+            },
+            {
+              "category": "debuff",
+              "effect": "weaken",
+              "keyword": "약화"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "amir-card-5",
+      "cardName": "금속 추출",
+      "characterId": "amir",
+      "category": "Epiphany",
+      "baseEffects": [],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": [
+            "천상"
+          ]
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "amir-card-6",
+      "cardName": "풀 메탈 허리케인",
+      "characterId": "amir",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "buff",
+          "effect": "damageUp",
+          "keyword": "피해량 +"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "beryl-card-4",
+      "cardName": "빈틈 발견",
+      "characterId": "beryl",
+      "category": "Epiphany",
+      "baseEffects": [],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [],
+          "tags": [
+            "보존"
+          ]
+        },
+        {
+          "number": 2,
+          "effects": [],
+          "tags": [
+            "보존"
+          ]
+        },
+        {
+          "number": 3,
+          "effects": [],
+          "tags": [
+            "보존"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": [
+            "보존"
+          ]
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "extraAttack",
+              "keyword": "추가 공격"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "beryl-card-5",
+      "cardName": "충전탄",
+      "characterId": "beryl",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "buff",
+          "effect": "damageUp",
+          "keyword": "피해량 +"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": [
+            "보존"
+          ]
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": [
+            "보존"
+          ]
+        },
+        {
+          "number": 3,
+          "effects": [],
+          "tags": [
+            "보존"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": [
+            "보존"
+          ]
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": [
+            "보존"
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "beryl-card-6",
+      "cardName": "숨겨온 초코바",
+      "characterId": "beryl",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "draw",
+          "keyword": "드로우"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            },
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            },
+            {
+              "category": "debuff",
+              "effect": "steal",
+              "keyword": "사기"
+            }
+          ],
+          "tags": [
+            "소멸"
+          ]
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            },
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": [
+            "소멸"
+          ]
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            },
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": [
+            "소멸"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            },
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": [
+            "유일",
+            "소멸 2"
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "beryl-card-7",
+      "cardName": "무제한 화력",
+      "characterId": "beryl",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "buff",
+          "effect": "damageUp",
+          "keyword": "피해량 +"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "beryl-card-8",
+      "cardName": "중화기 전문가",
+      "characterId": "beryl",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "generate",
+          "keyword": "생성"
+        },
+        {
+          "category": "resource",
+          "effect": "destroy",
+          "keyword": "소멸"
+        }
+      ],
+      "variationEffects": null
+    },
+    {
+      "cardId": "cassius-card-3",
+      "cardName": "팝 아이드 파퍼",
+      "characterId": "cassius",
+      "category": "Epiphany",
+      "baseEffects": [],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "cassius-card-4",
+      "cardName": "데블 다이스",
+      "characterId": "cassius",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "generate",
+          "keyword": "생성"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            },
+            {
+              "category": "resource",
+              "effect": "discard",
+              "keyword": "버리기"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "cassius-card-5",
+      "cardName": "카드 섞기",
+      "characterId": "cassius",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "draw",
+          "keyword": "드로우"
+        },
+        {
+          "category": "resource",
+          "effect": "discard",
+          "keyword": "버리기"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            },
+            {
+              "category": "resource",
+              "effect": "discard",
+              "keyword": "버리기"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            },
+            {
+              "category": "resource",
+              "effect": "discard",
+              "keyword": "버리기"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            },
+            {
+              "category": "resource",
+              "effect": "discard",
+              "keyword": "버리기"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "cassius-card-6",
+      "cardName": "다이스 트릭",
+      "characterId": "cassius",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "debuff",
+          "effect": "steal",
+          "keyword": "사기"
+        },
+        {
+          "category": "buff",
+          "effect": "costDown",
+          "keyword": "비용 감소"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "debuff",
+              "effect": "steal",
+              "keyword": "사기"
+            },
+            {
+              "category": "buff",
+              "effect": "costDown",
+              "keyword": "비용 감소"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "debuff",
+              "effect": "steal",
+              "keyword": "사기"
+            },
+            {
+              "category": "buff",
+              "effect": "costDown",
+              "keyword": "비용 감소"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "lucas-card-3",
+      "cardName": "대용량 탄창",
+      "characterId": "lucas",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "generate",
+          "keyword": "생성"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": [
+            "개전"
+          ]
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": [
+            "주도"
+          ]
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": [
+            "주도"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            },
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": [
+            "주도"
+          ]
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            },
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": [
+            "소멸"
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "lucas-card-4",
+      "cardName": "S.S.S",
+      "characterId": "lucas",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "buff",
+          "effect": "damageUp",
+          "keyword": "피해량 +"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "lucas-card-5",
+      "cardName": "플라멘베르퍼",
+      "characterId": "lucas",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "draw",
+          "keyword": "드로우"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            },
+            {
+              "category": "resource",
+              "effect": "discard",
+              "keyword": "버리기"
+            },
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            },
+            {
+              "category": "resource",
+              "effect": "discard",
+              "keyword": "버리기"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "lucas-card-6",
+      "cardName": "섬광탄",
+      "characterId": "lucas",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "debuff",
+          "effect": "weaken",
+          "keyword": "약화"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "debuff",
+              "effect": "weaken",
+              "keyword": "약화"
+            },
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [],
+          "tags": [
+            "보존"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "targeting",
+              "keyword": "표식"
+            },
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "maribell-card-4",
+      "cardName": "의지의 돌진",
+      "characterId": "maribell",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "combat",
+          "effect": "counter",
+          "keyword": "반격"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "counter",
+              "keyword": "반격"
+            }
+          ],
+          "tags": [
+            "분쇄"
+          ]
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "counter",
+              "keyword": "반격"
+            }
+          ],
+          "tags": [
+            "분쇄"
+          ]
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "counter",
+              "keyword": "반격"
+            }
+          ],
+          "tags": [
+            "분쇄"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 증가"
+            }
+          ],
+          "tags": [
+            "분쇄"
+          ]
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "counter",
+              "keyword": "반격"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "maribell-card-5",
+      "cardName": "마리벨 셸터 MK.II",
+      "characterId": "maribell",
+      "category": "Epiphany",
+      "baseEffects": [],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [],
+          "tags": [
+            "분쇄"
+          ]
+        },
+        {
+          "number": 2,
+          "effects": [],
+          "tags": [
+            "분쇄"
+          ]
+        },
+        {
+          "number": 3,
+          "effects": [],
+          "tags": [
+            "분쇄"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "counter",
+              "keyword": "반격"
+            },
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": [
+            "분쇄"
+          ]
+        },
+        {
+          "number": 5,
+          "effects": [],
+          "tags": [
+            "분쇄"
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "maribell-card-6",
+      "cardName": "울브즈 돔",
+      "characterId": "maribell",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "combat",
+          "effect": "counter",
+          "keyword": "반격"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "counter",
+              "keyword": "반격"
+            }
+          ],
+          "tags": [
+            "개전"
+          ]
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "counter",
+              "keyword": "반격"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "counter",
+              "keyword": "반격"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "counter",
+              "keyword": "반격"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "counter",
+              "keyword": "반격"
+            },
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": [
+            "주도"
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "maribell-card-7",
+      "cardName": "아~ 그렇구나",
+      "characterId": "maribell",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "debuff",
+          "effect": "weaken",
+          "keyword": "약화"
+        },
+        {
+          "category": "combat",
+          "effect": "counter",
+          "keyword": "반격"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "debuff",
+              "effect": "weaken",
+              "keyword": "약화"
+            },
+            {
+              "category": "combat",
+              "effect": "counter",
+              "keyword": "반격"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "counter",
+              "keyword": "반격"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "debuff",
+              "effect": "weaken",
+              "keyword": "약화"
+            },
+            {
+              "category": "combat",
+              "effect": "counter",
+              "keyword": "반격"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "counter",
+              "keyword": "반격"
+            }
+          ],
+          "tags": [
+            "유일"
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "nia-card-3",
+      "cardName": "G코드",
+      "characterId": "nia",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "character",
+          "effect": "decibel",
+          "keyword": "데시벨"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "character",
+              "effect": "decibel",
+              "keyword": "데시벨"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "character",
+              "effect": "decibel",
+              "keyword": "데시벨"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "extraAttack",
+              "keyword": "추가 공격"
+            },
+            {
+              "category": "character",
+              "effect": "decibel",
+              "keyword": "데시벨"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "discard",
+              "keyword": "버리기"
+            },
+            {
+              "category": "character",
+              "effect": "decibel",
+              "keyword": "데시벨"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "character",
+              "effect": "decibel",
+              "keyword": "데시벨"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "nia-card-4",
+      "cardName": "악센트 뮤트",
+      "characterId": "nia",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "discard",
+          "keyword": "버리기"
+        },
+        {
+          "category": "combat",
+          "effect": "extraAttack",
+          "keyword": "추가 공격"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "discard",
+              "keyword": "버리기"
+            },
+            {
+              "category": "combat",
+              "effect": "extraAttack",
+              "keyword": "추가 공격"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "discard",
+              "keyword": "버리기"
+            },
+            {
+              "category": "combat",
+              "effect": "extraAttack",
+              "keyword": "추가 공격"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "discard",
+              "keyword": "버리기"
+            },
+            {
+              "category": "combat",
+              "effect": "extraAttack",
+              "keyword": "추가 공격"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "discard",
+              "keyword": "버리기"
+            },
+            {
+              "category": "combat",
+              "effect": "extraAttack",
+              "keyword": "추가 공격"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "nia-card-5",
+      "cardName": "소울리프",
+      "characterId": "nia",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "character",
+          "effect": "decibel",
+          "keyword": "데시벨"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "character",
+              "effect": "decibel",
+              "keyword": "데시벨"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "extraAttack",
+              "keyword": "추가 공격"
+            }
+          ],
+          "tags": [
+            "보존"
+          ]
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "character",
+              "effect": "decibel",
+              "keyword": "데시벨"
+            }
+          ],
+          "tags": [
+            "보존"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "character",
+              "effect": "decibel",
+              "keyword": "데시벨"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "character",
+              "effect": "decibel",
+              "keyword": "데시벨"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "nia-card-6",
+      "cardName": "아다지오",
+      "characterId": "nia",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "draw",
+          "keyword": "드로우"
+        },
+        {
+          "category": "resource",
+          "effect": "discard",
+          "keyword": "버리기"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            },
+            {
+              "category": "resource",
+              "effect": "discard",
+              "keyword": "버리기"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            },
+            {
+              "category": "resource",
+              "effect": "discard",
+              "keyword": "버리기"
+            },
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            },
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            },
+            {
+              "category": "resource",
+              "effect": "discard",
+              "keyword": "버리기"
+            },
+            {
+              "category": "character",
+              "effect": "decibel",
+              "keyword": "데시벨"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            },
+            {
+              "category": "resource",
+              "effect": "discard",
+              "keyword": "버리기"
+            },
+            {
+              "category": "character",
+              "effect": "decibel",
+              "keyword": "데시벨"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            },
+            {
+              "category": "resource",
+              "effect": "discard",
+              "keyword": "버리기"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "nia-card-7",
+      "cardName": "니아의 호기심",
+      "characterId": "nia",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "draw",
+          "keyword": "드로우"
+        },
+        {
+          "category": "resource",
+          "effect": "discard",
+          "keyword": "버리기"
+        }
+      ],
+      "variationEffects": null
+    },
+    {
+      "cardId": "owen-card-3",
+      "cardName": "바람 충전",
+      "characterId": "owen",
+      "category": "Epiphany",
+      "baseEffects": [],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "retrieve",
+              "keyword": "회수"
+            }
+          ],
+          "tags": [
+            "회수"
+          ]
+        },
+        {
+          "number": 2,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [],
+          "tags": [
+            "유일"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": [
+            "유일",
+            "소멸"
+          ]
+        },
+        {
+          "number": 5,
+          "effects": [],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "owen-card-4",
+      "cardName": "바람 베기",
+      "characterId": "owen",
+      "category": "Epiphany",
+      "baseEffects": [],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "break",
+              "keyword": "강인도"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "owen-card-5",
+      "cardName": "방어구 부수기",
+      "characterId": "owen",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "debuff",
+          "effect": "vulnerable",
+          "keyword": "취약"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "debuff",
+              "effect": "vulnerable",
+              "keyword": "취약"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "debuff",
+              "effect": "vulnerable",
+              "keyword": "취약"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "debuff",
+              "effect": "vulnerable",
+              "keyword": "취약"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "debuff",
+              "effect": "vulnerable",
+              "keyword": "취약"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "rei-card-3",
+      "cardName": "어둠의 참격",
+      "characterId": "rei",
+      "category": "Epiphany",
+      "baseEffects": [],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [],
+          "tags": [
+            "주도"
+          ]
+        },
+        {
+          "number": 2,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "discard",
+              "keyword": "버리기"
+            }
+          ],
+          "tags": [
+            "주도"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": [
+            "유일"
+          ]
+        },
+        {
+          "number": 5,
+          "effects": [],
+          "tags": [
+            "보존"
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "rei-card-4",
+      "cardName": "공명하는 어둠",
+      "characterId": "rei",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "buff",
+          "effect": "damageUp",
+          "keyword": "피해량 +"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": [
+            "유일"
+          ]
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": [
+            "유일"
+          ]
+        },
+        {
+          "number": 3,
+          "effects": [],
+          "tags": [
+            "유일"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": [
+            "유일"
+          ]
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "rei-card-5",
+      "cardName": "간식 시간",
+      "characterId": "rei",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "draw",
+          "keyword": "드로우"
+        },
+        {
+          "category": "resource",
+          "effect": "destroy",
+          "keyword": "소멸"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            },
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": [
+            "소멸 2"
+          ]
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            },
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": [
+            "보존",
+            "소멸"
+          ]
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            },
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": [
+            "소멸"
+          ]
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            },
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": [
+            "소멸"
+          ]
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            },
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": [
+            "소멸"
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "rei-card-6",
+      "cardName": "암흑 응집",
+      "characterId": "rei",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "buff",
+          "effect": "damageUp",
+          "keyword": "피해량 +"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "rei-card-7",
+      "cardName": "포식자의 칼날",
+      "characterId": "rei",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "debuff",
+          "effect": "steal",
+          "keyword": "사기"
+        }
+      ],
+      "variationEffects": null
+    },
+    {
+      "cardId": "selena-card-3",
+      "cardName": "고배율 조준경",
+      "characterId": "selena",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "combat",
+          "effect": "targeting",
+          "keyword": "표식"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "targeting",
+              "keyword": "표식"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "targeting",
+              "keyword": "표식"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "targeting",
+              "keyword": "표식"
+            },
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "targeting",
+              "keyword": "표식"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "selena-card-4",
+      "cardName": "목표 포착",
+      "characterId": "selena",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "combat",
+          "effect": "targeting",
+          "keyword": "표식"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "targeting",
+              "keyword": "표식"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "targeting",
+              "keyword": "표식"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "draw",
+              "keyword": "드로우"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "break",
+              "keyword": "격파"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "selena-card-5",
+      "cardName": "드론 폭격",
+      "characterId": "selena",
+      "category": "Epiphany",
+      "baseEffects": [],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "targeting",
+              "keyword": "표식"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "selena-card-6",
+      "cardName": "전술 기동",
+      "characterId": "selena",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "combat",
+          "effect": "break",
+          "keyword": "강인도"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "break",
+              "keyword": "강인도"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "break",
+              "keyword": "강인도"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "break",
+              "keyword": "격파"
+            },
+            {
+              "category": "combat",
+              "effect": "targeting",
+              "keyword": "표식"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "break",
+              "keyword": "격파"
+            }
+          ],
+          "tags": [
+            "보존"
+          ]
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "combat",
+              "effect": "break",
+              "keyword": "강인도"
+            },
+            {
+              "category": "combat",
+              "effect": "targeting",
+              "keyword": "표식"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "selena-card-7",
+      "cardName": "저격수의 영역",
+      "characterId": "selena",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "combat",
+          "effect": "targeting",
+          "keyword": "표식"
+        },
+        {
+          "category": "buff",
+          "effect": "damageUp",
+          "keyword": "피해량 +"
+        }
+      ],
+      "variationEffects": null
+    },
+    {
+      "cardId": "tressa-card-3",
+      "cardName": "단검 꺼내기",
+      "characterId": "tressa",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "generate",
+          "keyword": "생성"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "tressa-card-5",
+      "cardName": "그림자 장전",
+      "characterId": "tressa",
+      "category": "Epiphany",
+      "baseEffects": [
+        {
+          "category": "resource",
+          "effect": "destroy",
+          "keyword": "소멸"
+        }
+      ],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            },
+            {
+              "category": "resource",
+              "effect": "destroy",
+              "keyword": "소멸"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "resource",
+              "effect": "discard",
+              "keyword": "버리기"
+            },
+            {
+              "category": "resource",
+              "effect": "generate",
+              "keyword": "생성"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "cardId": "tressa-card-6",
+      "cardName": "급소 공격",
+      "characterId": "tressa",
+      "category": "Epiphany",
+      "baseEffects": [],
+      "variationEffects": [
+        {
+          "number": 1,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 2,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "number": 3,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 4,
+          "effects": [],
+          "tags": []
+        },
+        {
+          "number": 5,
+          "effects": [
+            {
+              "category": "buff",
+              "effect": "damageUp",
+              "keyword": "피해량 +"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    }
+  ]
+}
