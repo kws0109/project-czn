@@ -62,6 +62,10 @@ src/
 - Crit is not a character innate stat — comes from Potential nodes (+10% CC, +12% CD)
 - AP system: cards cost AP to play, budget per turn
 
+## Current Priority
+- **분석서 (전투 매커니즘 분석 문서)** — 지금 집중 작업 중
+- 덱 빌더/웹 툴 작업은 분석서 완료 후 진행
+
 ## Three Core Features
 1. **Deck Builder + Turn Simulator** — AP budget greedy simulation
 2. **Team Synergy Analysis** — attribute/class/faction bonuses
@@ -72,3 +76,33 @@ src/
 - Balance analysis uses z-score > 1.5 threshold for outlier detection
 - Simulation results must be deterministic (expected value, not RNG)
 - UI must be functional and informative — this is a portfolio piece for a QA professional
+
+## Progress Log
+
+### 진행중: 전투 매커니즘 분석 문서 (2026-03-02~)
+- **마지막 커밋**: `07a59cc` on `main` (19장 버전)
+- **현재 상태**: 37장으로 확장, uncommitted
+- **산출물**: `docs/analysis/combat-mechanics.md` — Marp 슬라이드
+- **관련 파일**:
+  - `docs/analysis/czn-dark.css` — Marp 다크 테마
+  - `docs/analysis/images/` — 스크린샷 자료
+  - `scripts/extract-tag-stats.mjs` — 태그 통계 추출 스크립트
+- **빌드 명령**: `npm run slides:pdf`, `npm run slides:pptx`
+- **용어 규칙**: Starting→기본, Epiphany→고유, Attack→공격, Skill→스킬, Upgrade→강화, Damage→피해, Shield→실드, Heal→치유
+- **추가된 내용 (Day 4-5)**:
+  - 스트레스/강인도/브레이크 시스템
+  - 합연산 vs 곱연산 표기 규칙
+  - 능력치 적용 파이프라인 (3단계)
+  - 카오스 세이브 + 카드 복제 제한
+  - T0 중립 카드 6종
+  - 핵심 발견 10항목, QA 테스트 영역 16항목
+
+### Completed: 번뜩임 바리에이션 데이터 (2026-03-04)
+- 28캐릭터 전원 바리에이션 완료 (560 variations, 112 cards)
+- `scripts/variation-data.json` — 28캐릭터 스크래핑 원본
+- `scripts/merge-new-variations.mjs` — 누락 8캐릭터 머지 스크립트
+- `scripts/build-namu-data.mjs` — 바리에이션 데이터 활용 플레이스홀더 카드 개선
+
+### 미완료: main 브랜치 uncommitted 변경사항
+- 분석서 보강 + 바리에이션 완성 + 웹 툴 변경사항이 모두 uncommitted 상태
+- 커밋 시점은 사용자 판단

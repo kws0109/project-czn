@@ -3,6 +3,7 @@
 import { useState, useMemo } from "react";
 import type { Character, Card, SynergyRule } from "@/lib/types";
 import { useTeamBuilder } from "@/hooks/useTeamBuilder";
+import { resolveCardVariation } from "@/lib/cardUtils";
 import { runBalanceAnalysis } from "@/lib/balance";
 import { simulateCombat } from "@/lib/simulator";
 import TeamSlot from "@/components/TeamSlot";
@@ -39,17 +40,27 @@ export default function Home() {
     []
   );
 
-  // 시뮬레이션
+  // 시뮬레이션 — 선택된 바리에이션 적용
+  const resolvedCards = useMemo(() => {
+    return cards.map((card) => {
+      for (const slot of team.slots) {
+        const varNum = slot.selectedVariations[card.id];
+        if (varNum) return resolveCardVariation(card, varNum);
+      }
+      return card;
+    });
+  }, [team.slots]);
+
   const simResult = useMemo(
     () =>
       simulateCombat({
         slots: team.slots,
         synergies: team.activeSynergies,
-        allCards: cards,
+        allCards: resolvedCards,
         turns: simTurns,
         apPerTurn: simAp,
       }),
-    [team.slots, team.activeSynergies, simTurns, simAp]
+    [team.slots, team.activeSynergies, resolvedCards, simTurns, simAp]
   );
 
   const handleSelectCharacter = (char: Character) => {
@@ -150,6 +161,10 @@ export default function Home() {
                     allCards={cards}
                     selectedCards={slot.selectedCards}
                     onCardsChange={(c) => team.setSelectedCards(i, c)}
+                    selectedVariations={slot.selectedVariations}
+                    onVariationChange={(cardId, varNum) =>
+                      team.setVariation(i, cardId, varNum)
+                    }
                   />
                 )
             )
@@ -203,7 +218,7 @@ export default function Home() {
           <StatPanel
             slots={team.slots}
             activeSynergies={team.activeSynergies}
-            allCards={cards}
+            allCards={resolvedCards}
           />
 
           {/* Simulation Results */}
