@@ -23,13 +23,22 @@ next-env.d.ts
 
 # scripts temp
 scripts/all-scraped-data.json
-namu-migration-result.png
 
 # analysis build outputs
 docs/analysis/*.html
 docs/analysis/*.pdf
 docs/analysis/*.pptx
 
+# working screenshots & snapshots (root)
+/*.png
+*.md.bak
+kayron-snapshot.md
+renoa-build-page.md
+renoa-page-snapshot.md
+namu-migration-result.png
+
 # tool logs
 .playwright-mcp/
 .claude/
+
+.vercel
